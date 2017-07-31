@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="408.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ninjadevs.controllers.AboutFileController">
+   <children>
+      <GridPane maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="157.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" maxWidth="147.0" minWidth="10.0" prefWidth="97.0" />
+          <ColumnConstraints fillWidth="false" halignment="LEFT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="224.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <Label text="Name:" />
+            <Label text="Type:" GridPane.rowIndex="1" />
+            <Label text="Local:" GridPane.rowIndex="2" />
+            <Label text="Size:" GridPane.rowIndex="3" />
+            <Label text="Last Modified:" GridPane.rowIndex="4" />
+            <Label text="Visibility:" GridPane.rowIndex="5" />
+            <Label text="Permissions:" GridPane.rowIndex="6" />
+            <Label fx:id="LabelName" text="Label" GridPane.columnIndex="1" />
+            <Label fx:id="LabelType" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="LabelLocal" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="LabelSize" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="LabelModified" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="LabelVisibility" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="LabelPermission" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+   </children>
+</VBox>

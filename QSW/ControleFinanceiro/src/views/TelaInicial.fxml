@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TelaInicialController">
+   <children>
+      <Label layoutX="163.0" layoutY="41.0" text="Controle Financeiro">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrarOperacao" layoutX="68.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleBtnRegistrarOperacao" prefHeight="75.0" prefWidth="465.0" text="Registrar Operação">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConsultaHistoricoMovimentacao" layoutX="68.0" layoutY="111.0" mnemonicParsing="false" onAction="#handleBtnConsultarHistoricoMovimentacao" prefHeight="75.0" prefWidth="465.0" text="Consultar Histórico de Movimentação">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConsultarSaldo" layoutX="68.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleBtnConsultarSaldoTotal" prefHeight="75.0" prefWidth="465.0" text="Consultar Saldo Total">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSair" layoutX="69.0" layoutY="377.0" mnemonicParsing="false" onAction="#handleBtnSair" prefHeight="75.0" prefWidth="465.0" text="Sair">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

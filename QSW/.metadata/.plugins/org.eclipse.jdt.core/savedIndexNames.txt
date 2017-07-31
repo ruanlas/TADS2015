@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+C:\Users\Ruan\Desktop\TADS2015 (GitHub)\QSW\.metadata\.plugins\org.eclipse.jdt.core
+2393511106.index
+3846264215.index
+3765429905.index
+4051775017.index
+3591317044.index

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<GridPane fx:id="GridPaneCell" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="40.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ninjadevs.controllers.FileCellController">
+   <columnConstraints>
+      <ColumnConstraints halignment="LEFT" minWidth="10.0" />
+      <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <HBox alignment="CENTER_LEFT" focusTraversable="true" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0">
+         <children>
+            <ImageView fx:id="ImageViewIcon" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="LabelFileName" alignment="CENTER" text="FolderName" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <VBox alignment="CENTER_RIGHT" prefHeight="40.0" GridPane.columnIndex="2">
+         <children>
+            <Label fx:id="LabelType" text="Label" />
+            <Label fx:id="LabelParent" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</GridPane>
