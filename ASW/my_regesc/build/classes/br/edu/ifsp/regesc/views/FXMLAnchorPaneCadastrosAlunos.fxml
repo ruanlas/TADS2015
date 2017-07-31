@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="579.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.regesc.controllers.FXMLAnchorPaneCadastrosAlunosController">
+   <children>
+      <SplitPane dividerPositions="0.4273182957393484" layoutX="186.0" layoutY="140.0" prefHeight="579.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="577.0" prefWidth="302.0">
+               <children>
+                  <TableView fx:id="tableViewAlunos" prefHeight="577.0" prefWidth="339.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnId" editable="false" maxWidth="46.0" prefWidth="46.0" text="id" />
+                      <TableColumn fx:id="tableColumnNome" editable="false" prefWidth="289.0" text="Nome" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="577.0" prefWidth="372.0">
+               <children>
+                  <Label alignment="TOP_CENTER" layoutX="118.0" layoutY="14.0" text="Detalhes do Aluno" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <GridPane layoutX="14.0" layoutY="173.0" prefHeight="90.0" prefWidth="427.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="160.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="174.0" minWidth="10.0" prefWidth="52.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.0" minWidth="10.0" prefWidth="311.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="ID:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Nome:" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="47.0" text="Idade:" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelId" text="Label" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelNome" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelIdade" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <Group layoutX="58.0" layoutY="511.0" AnchorPane.bottomAnchor="20.0">
+                     <children>
+                        <Button fx:id="buttonCadastrar" mnemonicParsing="false" prefWidth="90.0" text="Cadastrar" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonAlterar" layoutX="124.0" mnemonicParsing="false" prefWidth="90.0" text="Alterar" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonRemover" layoutX="247.0" mnemonicParsing="false" prefWidth="90.0" text="Remover" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Group>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

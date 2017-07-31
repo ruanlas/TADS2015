@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlers.ControlerPainelInicial">
+   <children>
+      <Label layoutX="85.0" layoutY="43.0" text="Interruptor Sincronizado">
+         <font>
+            <Font name="Cooper Black" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="99.0" text="Status do Led: ">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStatusLed" layoutX="299.0" layoutY="99.0" prefHeight="27.0" prefWidth="0.0">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="210.0" prefHeight="27.0" prefWidth="328.0" text="Tempo que o LED ficará">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="237.0" text="acesso (em segundos): ">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txFieldTime" layoutX="417.0" layoutY="229.0">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </TextField>
+      <Button layoutX="61.0" layoutY="304.0" mnemonicParsing="false" onAction="#btnLigarLed" text="Ligar LED">
+         <font>
+            <Font name="Courier New Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="85.0" layoutY="142.0" text="Timer: ">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTimer" layoutX="178.0" layoutY="142.0">
+         <font>
+            <Font name="Courier New" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="314.0" layoutY="304.0" mnemonicParsing="false" onAction="#btnAtualizarPorta" text="Atualizar Porta">
+         <font>
+            <Font name="Courier New Bold" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
