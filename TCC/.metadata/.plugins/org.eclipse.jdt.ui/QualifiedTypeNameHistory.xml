@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="javax.microedition.io.StreamConnection"/>
 <fullyQualifiedTypeName name="javax.microedition.io.Connector"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="javax.microedition.io.StreamConnection"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.bluetooth.LocalDevice"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryAgent"/>
+<fullyQualifiedTypeName name="javax.bluetooth.RemoteDevice"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="javax.bluetooth.UUID"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="bluetooth_connect.ConnectionBluetoothFactory"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

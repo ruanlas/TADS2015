@@ -85,48 +85,26 @@ public class DiscoveryDevices implements DiscoveryListener {
 
 	@Override
 	public void deviceDiscovered(RemoteDevice arg0, DeviceClass arg1) {
-		if (!remoteDevices.contains(arg0)) {
-			remoteDevices.addElement(arg0);
-		}
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void inquiryCompleted(int arg0) {
-		synchronized (lock) {
-			lock.notify();
-		}
-		switch (arg0) {
-		case DiscoveryListener.INQUIRY_COMPLETED:
-			System.out.println("Inquiry Completed");
-			break;
-			
-		case DiscoveryListener.INQUIRY_TERMINATED:
-			System.out.println("Inquiry Terminated");
-			break;
-			
-		case DiscoveryListener.INQUIRY_ERROR:
-			System.out.println("Inquiry Error");
-			break;
-			
-		default:
-			System.out.println("Unknown Response Code");
-			break;
-		}
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void serviceSearchCompleted(int arg0, int arg1) {
-		synchronized (lock) {
-			lock.notify();
-		}
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void servicesDiscovered(int arg0, ServiceRecord[] arg1) {
-		if (!(arg1==null) && arg1.length > 0) {
-			connectionUrl = arg1[0].getConnectionURL(0, false);
-		}
+		// TODO Auto-generated method stub
+		
 	}
 
 }
