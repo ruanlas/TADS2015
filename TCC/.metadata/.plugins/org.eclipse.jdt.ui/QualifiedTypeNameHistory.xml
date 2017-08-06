@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.microedition.io.Connector"/>
-<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="javax.microedition.io.StreamConnection"/>
@@ -16,4 +15,5 @@
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="bluetooth_connect.ConnectionBluetoothFactory"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
 </qualifiedTypeNameHistroy>
