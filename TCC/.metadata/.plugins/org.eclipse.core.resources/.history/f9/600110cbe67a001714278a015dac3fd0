@@ -1,0 +1,13 @@
+package utils;
+
+import java.util.ArrayList;
+
+public class LabelStatusConnect implements CarregarElementoVisual{
+
+	@Override
+	public void carregarElemento(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

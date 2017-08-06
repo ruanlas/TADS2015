@@ -1,0 +1,11 @@
+package utils;
+
+public class LabelMedicao implements CarregarElementoVisual{
+
+	@Override
+	public void carregarElemento(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -16,11 +16,21 @@ import javax.bluetooth.ServiceRecord;
 import javax.bluetooth.UUID;
 import javax.microedition.io.StreamConnection;
 
+import com.github.pires.obd.commands.SpeedCommand;
+import com.github.pires.obd.commands.engine.RPMCommand;
+import com.github.pires.obd.commands.pressure.FuelPressureCommand;
+import com.github.pires.obd.commands.protocol.EchoOffCommand;
+import com.github.pires.obd.commands.protocol.HeadersOffCommand;
+import com.github.pires.obd.commands.protocol.ObdResetCommand;
+import com.github.pires.obd.commands.protocol.SelectProtocolCommand;
+import com.github.pires.obd.enums.ObdProtocols;
+
 import bluetooth_connect.ConnectionBluetoothFactory;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import utils.CarregarElementoVisual;
 
 public class DiscoveryDevices implements DiscoveryListener {
 	
@@ -32,16 +42,18 @@ public class DiscoveryDevices implements DiscoveryListener {
 	private OutputStream outStream;
 	private InputStream inStream;
 	private String connectionUrl;
-	//@FXML
-	private ComboBox cBoxDeviceSelect;
-	//@FXML
-	private Label lblMedicao, lblStConnect;
+//	//@FXML
+//	private ComboBox cBoxDeviceSelect;
+//	//@FXML
+//	private Label lblMedicao, lblStConnect;
+	private CarregarElementoVisual deviceSelect, medicao, statusConnect;
 	
 	
-	public void carregarComponentes(ComboBox cBoxDeviceSelect, Label lblMedicao, Label lblStConnect) {
-		this.cBoxDeviceSelect = cBoxDeviceSelect;
-		this.lblMedicao = lblMedicao;
-		this.lblStConnect = lblStConnect;
+	public void carregarComponentes(CarregarElementoVisual deviceSelect, 
+			CarregarElementoVisual medicao, CarregarElementoVisual statusConnect) {
+		this.deviceSelect = deviceSelect;
+		this.medicao = medicao;
+		this.statusConnect = statusConnect;
 	}
 	
 	public void run() throws BluetoothStateException, IOException {
@@ -65,15 +77,19 @@ public class DiscoveryDevices implements DiscoveryListener {
 		
 		if (remoteDevices.size() <= 0) {
 			System.out.println("No Devices found");
+			statusConnect.carregarElemento("No Devices found");
 		}else {
 			ArrayList<String> list = new ArrayList();
+			
 			for (int i = 0; i < remoteDevices.size(); i++) {
 				
 				RemoteDevice remote_device = (RemoteDevice)remoteDevices.elementAt(i);
 				System.out.println((i+1) + ".)" + remote_device.getFriendlyName(true)+ " " + remote_device.getBluetoothAddress());
 				list.add((i+1) + ".)" + remote_device.getFriendlyName(true)+ " " + remote_device.getBluetoothAddress());
 			}
-			cBoxDeviceSelect.setItems(FXCollections.observableArrayList(list));
+			if(!list.isEmpty()){
+				deviceSelect.carregarElemento(list);
+			}
 		}
 	}
 	
@@ -93,8 +109,10 @@ public class DiscoveryDevices implements DiscoveryListener {
 		
 		if (connectionUrl == null) {
 			System.out.println("Device does not support SPP.");
+			statusConnect.carregarElemento("Device does not support SPP.");
 		}else {
 			System.out.println("Device supports SPP.");
+			statusConnect.carregarElemento("Device supports SPP.");
 			objectConnection = ConnectionBluetoothFactory.getConnectionBluetooth(connectionUrl);
 			outStream = objectConnection.openOutputStream();
 			inStream = objectConnection.openInputStream();
@@ -116,18 +134,22 @@ public class DiscoveryDevices implements DiscoveryListener {
 		switch (arg0) {
 		case DiscoveryListener.INQUIRY_COMPLETED:
 			System.out.println("Inquiry Completed");
+			statusConnect.carregarElemento("Inquiry Completed");
 			break;
 			
 		case DiscoveryListener.INQUIRY_TERMINATED:
 			System.out.println("Inquiry Terminated");
+			statusConnect.carregarElemento("Inquiry Terminated");
 			break;
 			
 		case DiscoveryListener.INQUIRY_ERROR:
 			System.out.println("Inquiry Error");
+			statusConnect.carregarElemento("Inquiry Error");
 			break;
 			
 		default:
 			System.out.println("Unknown Response Code");
+			statusConnect.carregarElemento("Device supports SPP.");
 			break;
 		}
 		
@@ -146,5 +168,29 @@ public class DiscoveryDevices implements DiscoveryListener {
 			connectionUrl = arg1[0].getConnectionURL(0, false);
 		}
 	}
-
+	
+	public void executeRpm() throws IOException, InterruptedException {
+		RPMCommand object = new RPMCommand();
+		object.run(inStream, outStream);
+		medicao.carregarElemento(object.getFormattedResult());
+	}
+	
+	public void executeSpeed() throws IOException, InterruptedException {
+		SpeedCommand object = new SpeedCommand();
+		object.run(inStream, outStream);
+		medicao.carregarElemento(object.getFormattedResult());
+	}
+	
+	public void executeFuelPressure() throws IOException, InterruptedException {
+		new ObdResetCommand().run(inStream, outStream);
+		new EchoOffCommand().run(inStream, outStream);
+		new HeadersOffCommand().run(inStream, outStream);
+//		new SpacesOffCommand().run(inStream, outStream);
+		new SelectProtocolCommand(ObdProtocols.AUTO).run(inStream, outStream);
+		
+		
+		FuelPressureCommand object = new FuelPressureCommand();
+		object.run(inStream, outStream);
+		medicao.carregarElemento(object.getFormattedResult());
+	}
 }

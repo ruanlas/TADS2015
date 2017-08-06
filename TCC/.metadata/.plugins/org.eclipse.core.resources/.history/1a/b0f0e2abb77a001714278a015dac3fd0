@@ -1,0 +1,23 @@
+package utils;
+
+import java.util.ArrayList;
+
+import javafx.collections.FXCollections;
+import javafx.scene.control.ComboBox;
+
+public class CBoxDevices implements CarregarElementoVisual{
+	private ComboBox cBoxDeviceSelect;
+	
+	public CBoxDevices(ComboBox cBoxDeviceSelect) {
+		cBoxDeviceSelect = cBoxDeviceSelect;
+	}
+
+	@Override
+	public void carregarElemento(Object object) {
+
+	}
+	public void carregarElemento(ArrayList<String> list) {
+		cBoxDeviceSelect.setItems(FXCollections.observableArrayList(list));
+	}
+
+}

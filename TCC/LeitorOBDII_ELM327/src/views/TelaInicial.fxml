@@ -15,8 +15,8 @@
          </font>
       </Label>
       <ComboBox fx:id="cBoxDeviceSelect" layoutX="23.0" layoutY="52.0" prefHeight="25.0" prefWidth="197.0" promptText="Selecione o Dispositivo" />
-      <Button fx:id="btnConnect" layoutX="242.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Conectar" />
-      <Button fx:id="btnRefresh" layoutX="341.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Atualizar" />
+      <Button fx:id="btnConnect" layoutX="242.0" layoutY="52.0" mnemonicParsing="false" onAction="#handleBtnConnectar" prefHeight="25.0" prefWidth="90.0" text="Conectar" />
+      <Button fx:id="btnRefresh" layoutX="341.0" layoutY="52.0" mnemonicParsing="false" onAction="#handleBtnAtualizar" prefHeight="25.0" prefWidth="97.0" text="Atualizar" />
       <Label layoutX="23.0" layoutY="87.0" text="Status da Conexão: " />
       <Label layoutX="193.0" layoutY="104.0" text="Medições">
          <font>
@@ -28,9 +28,9 @@
             <Font name="System Bold" size="39.0" />
          </font>
       </Label>
-      <Button fx:id="btnRpm" layoutX="11.0" layoutY="145.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="RPM" />
-      <Button fx:id="btnPressaoMotor" layoutX="94.0" layoutY="145.0" mnemonicParsing="false" text="Pressão Motor" />
-      <Button fx:id="btnVelocidade" layoutX="196.0" layoutY="145.0" mnemonicParsing="false" text="Velocidade" />
+      <Button fx:id="btnRpm" layoutX="11.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnRpm" prefHeight="25.0" prefWidth="75.0" text="RPM" />
+      <Button fx:id="btnPressaoMotor" layoutX="94.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnPressaoMotor" text="Pressão Motor" />
+      <Button fx:id="btnVelocidade" layoutX="196.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnVelocidade" text="Velocidade" />
       <Label fx:id="lblStConnect" layoutX="128.0" layoutY="87.0" />
    </children>
 </AnchorPane>
