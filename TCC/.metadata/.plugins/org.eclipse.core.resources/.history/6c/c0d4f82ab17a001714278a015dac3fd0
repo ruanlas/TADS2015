@@ -1,6 +1,5 @@
 package controllers;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -27,12 +26,7 @@ public class TelaInicialController implements Initializable{
 		// TODO Auto-generated method stub
 		discovery = new DiscoveryDevices();
 		discovery.carregarComponentes(cBoxDeviceSelect, lblMedicao, lblStConnect);
-		try {
-			discovery.run();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		discovery.run();
 		
 	}
 	

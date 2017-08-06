@@ -32,9 +32,9 @@ public class DiscoveryDevices implements DiscoveryListener {
 	private OutputStream outStream;
 	private InputStream inStream;
 	private String connectionUrl;
-	//@FXML
+	@FXML
 	private ComboBox cBoxDeviceSelect;
-	//@FXML
+	@FXML
 	private Label lblMedicao, lblStConnect;
 	
 	

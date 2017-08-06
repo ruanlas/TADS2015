@@ -3,7 +3,6 @@ package device;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
 import java.util.Vector;
 
 import javax.bluetooth.BluetoothStateException;
@@ -17,7 +16,6 @@ import javax.bluetooth.UUID;
 import javax.microedition.io.StreamConnection;
 
 import bluetooth_connect.ConnectionBluetoothFactory;
-import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
@@ -66,14 +64,12 @@ public class DiscoveryDevices implements DiscoveryListener {
 		if (remoteDevices.size() <= 0) {
 			System.out.println("No Devices found");
 		}else {
-			ArrayList<String> list = new ArrayList();
 			for (int i = 0; i < remoteDevices.size(); i++) {
 				
 				RemoteDevice remote_device = (RemoteDevice)remoteDevices.elementAt(i);
 				System.out.println((i+1) + ".)" + remote_device.getFriendlyName(true)+ " " + remote_device.getBluetoothAddress());
-				list.add((i+1) + ".)" + remote_device.getFriendlyName(true)+ " " + remote_device.getBluetoothAddress());
+				
 			}
-			cBoxDeviceSelect.setItems(FXCollections.observableArrayList(list));
 		}
 	}
 	
