@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TelaInicialController">
    <children>
       <Label layoutX="167.0" layoutY="14.0" text="Comunicação OBDII">
@@ -23,9 +22,9 @@
             <Font size="23.0" />
          </font>
       </Label>
-      <Label fx:id="lblMedicao" layoutX="309.0" layoutY="170.0" prefHeight="56.0" prefWidth="161.0" textOverrun="CLIP" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="309.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="170.0">
+      <Label fx:id="lblMedicao" layoutX="294.0" layoutY="170.0" prefHeight="56.0" prefWidth="176.0" textOverrun="CLIP" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="294.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="170.0">
          <font>
-            <Font name="System Bold" size="39.0" />
+            <Font name="System Bold" size="36.0" />
          </font>
       </Label>
       <Button fx:id="btnRpm" layoutX="11.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnRpm" prefHeight="25.0" prefWidth="75.0" text="RPM" />
