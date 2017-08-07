@@ -1,0 +1,29 @@
+body{
+	background-color: orange;
+}
+.midia{
+	width: 100%;
+    height: auto;
+}
+
+.col1{
+	padding: 10px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+select, option{
+	width: 100%;
+}
+th, td{
+	width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+thead{
+	background-color: gray;
+}
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript - exemplo 2</title>
+</head>
+
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+  <script>
+  // A API DOM permite consultar e modificar o conteúdo do DOM, ou seja,
+  // dos elementos HTML presentes na página.
+  // Por exemplo, para acessar o elemento head, usa-se "document.head".
+  // Para acessar os filhos de head, usa-se "document.head.children".
+  // Para obtermos o primeiro filho de head, podemos indexar children
+  // como se fosse um vetor: "document.head.children[0]",
+  // "document.head.children[1]".
+  document.write('<p>Elemento title: ' + document.head.children[1] + '</p>');
+  // Usa-se ".textContent" para obter o texto contido dentro de um elemento.
+  document.write('<p>Conteúdo do elemento title: ' +
+  document.head.children[1].textContent + '</p>');
+  var ul = document.getElementsByTagName('ul');
+  document.write('<p>Elemento title: ' + ul[0].children.length + '</p>');
+  </script>
+</body>
+
+</html>

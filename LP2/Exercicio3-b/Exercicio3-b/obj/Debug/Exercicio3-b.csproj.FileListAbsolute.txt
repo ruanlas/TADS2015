@@ -1,0 +1,12 @@
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.exe.config
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.exe
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.pdb
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.csprojResolveAssemblyReference.cache
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.exe
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\bin\Debug\Exercicio3-b.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\#3 - Exercícios\#3 - Exercício 3\Exercicio3-b\Exercicio3-b\obj\Debug\Exercicio3-b.csprojResolveAssemblyReference.cache

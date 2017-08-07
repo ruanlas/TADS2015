@@ -1,0 +1,50 @@
+section{
+  padding: 30px;
+  text-align: center;
+  margin: 65px;
+}
+h1.categoria1{
+  border-collapse: collapse;
+  border-color: black;
+  border-style: solid;
+}
+h1.categoria2{
+  border-collapse: collapse;
+  border-color: red;
+  border-style: dotted;
+}
+h1.categoria3{
+  border-collapse: collapse;
+  border-color: orange;
+  border-style: groove;
+}
+article#esporte{
+  color: blue;
+}
+article#tecnologia{
+  color: green;
+}
+article#educacao{
+  color: purple;
+}
+h1{
+  background-color: yellow;
+}
+p#date{
+  text-align: right;
+}
+figcaption.cat1{
+  color: black;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: blue;
+}
+a:link{
+  color: green;
+}
+a:visited{
+  color: yellow;
+}

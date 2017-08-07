@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".introducao").hide();
+    $(".caracteristicadossons").hide();
+    $(".instrumentosmusicais").hide();
+});
+$(document).ready(function(){
+    $("#introducao").click(function(){
+        $(".introducao").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#caracteristicadossons").click(function(){
+        $(".caracteristicadossons").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#instrumentosmusicais").click(function(){
+        $(".instrumentosmusicais").toggle();
+    });
+});

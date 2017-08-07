@@ -1,0 +1,9 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\bin\Debug\Operadores.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\bin\Debug\Operadores.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\bin\Debug\Operadores.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Operadores\obj\Debug\Operadores.pdb

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>Formulario</title>
+			
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<form>
+			<p>Nome: <input type="text" name="nome"/>
+			</p>
+			<p>Sexo: <input type="radio" name="sex" value="masculino"/>Masculino
+					<input type="radio" name="sex" value="feminino"/>Feminino
+			</p>
+			<p>Profissão: <select name="profissao">
+							<option value="estudante">Estudante</option>
+							<option value="professor">Professor</option>
+							<option value="engenheiro">Engenheiro</option>
+							<option value="economista">Economista</option>
+							<option value="medico">Médico</option>
+						</select>
+			</p>
+			<p>Comentários: <textarea rows="5" cols="50" name="observacoes">Digite aqui suas observacoes</textarea>
+			</p>
+			<p> <input type="submit" value="Envia"/>
+				<input type="reset" value="Limpa"/>
+			</p>
+		</form>
+	</body>
+</html>

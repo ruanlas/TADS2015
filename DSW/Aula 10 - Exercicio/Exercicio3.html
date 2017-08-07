@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>Exercício 3</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			table { border: 1px black solid; }
+			td, th { border: 1px red dotted; }
+			th {background: #555; color: white;}
+			<!-- -->
+			tr:hover { background-color: #dfefef; }
+			tr.ativa { background-color: #abcdef; }
+			tr.inativa { background-color: #eeeeee; }
+
+		</style>
+		<script>
+			function btn(){
+				var corpoTabela = document.getElementsByTagName('tbody');
+				corpoTabela[0].children[1].children[0].textContent = prompt("Digite uma palavra");
+				//children[1] => corresponde a segunda linha / children[0] => corresponde a primeira coluna				
+			}
+			function selecionarLinha(event, rowSelect){
+				var idBtn = event.button;
+				var indexRow = rowSelect.rowIndex;
+				//alert(idBtn);
+				//alert(rowSelect.rowIndex);
+				
+				if(idBtn==0){ //quando o idBtn = 0, significa que foi precionado o botão direito
+					var rows = document.getElementsByTagName('tr');
+					rows[indexRow].className="ativo";
+					alert(indexRow);
+				}else{
+					var rows = document.getElementsByTagName('tr');
+					rows[indexRow].className="inativo";
+					alert(indexRow);
+				}
+			}
+			function listnerSelect(){
+				var rows = document.getElementsByTagName('tr'); //atribui a um vetor todos os elementos tr (tablerow)
+				for(i=0; i < rows.length; i++){
+					rows[i].onclick = function(){selecionarLinha(event,this);} //a cada elemento tr, é atribuído o evento onclick
+				}
+			}
+		</script>
+	</head>
+	<body onload="listnerSelect()">
+		<input type="button" value="Alterar texto" onclick="btn()"/>
+		</br>
+		</br>
+		<table>
+			<thead>
+				<tr>
+					<th>País</th>
+					<th>Idioma</th>
+					<th>Continente</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Brasil</td>
+					<td>Português</td>
+					<td rowspan="2">Americano</td>
+				</tr>
+				<tr>
+					<td>Argentina</td>
+					<td>Espanhol</td>
+				</tr>			
+				<tr>
+					<td>França</td>
+					<td>Francês</td>
+					<td rowspan="2">Europeu</td>
+				</tr>
+				<tr>
+					<td>Inglaterra</td>
+					<td>Inglês</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

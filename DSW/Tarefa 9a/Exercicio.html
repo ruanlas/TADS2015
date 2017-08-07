@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>QUIZ</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<script type="text/javascript" src="resultadoquiz.js"></script>
+	</head>
+	<body>
+		<h1 class="cabecalho">Quiz</h1>
+		<h2 class="cabecalho">Questões de desenvolvimento WEB</h2>
+		<form name="questionario">
+			<ol class="tabela">
+				<li class="linha">
+					<fieldset>
+						<label class="ask">O que significa a sigla HTML?</label>
+						<select class="asw" name="quest1">
+							<option value="a">Hyper Text Markup Language</option>
+							<option value="b">Hyper Text Made	Language</option>
+							<option value="c">Hyper Text Markup Link</option>
+							<option value="d">High Text Markup Language</option>
+							<option value="e">High Text Markup Link</option>
+						</select>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">Através de que recursos podemos estilizar uma página Web?</label>
+						<select class="asw" name="quest2">
+							<option value="a">Cascading Sheets Style</option>
+							<option value="b">Cascading Style Sheets</option>
+							<option value="c">Color Style Sheets</option>
+							<option value="d">Command Style Sheets</option>
+						</select>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">Criamos um site utilizando a linguagem CSS.</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest3" value="true" required/>Verdadeiro
+							</li>
+							<li>
+								<input type="radio" name="quest3" value="false"/>Falso
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">HTML é uma linguagem de marcação, que permite definir a estrutura de exibição de uma página web.</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest4" value="true" required/>Verdadeiro
+							</li>
+							<li>
+								<input type="radio" name="quest4" value="false"/>Falso
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">Para utilizar recursos especiais utilizamos o recurso CSS.</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest5" value="true" required/>Verdadeiro
+							</li>
+							<li>
+								<input type="radio" name="quest5" value="false"/>Falso
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">O que é uma tag?</label>
+						<select class="asw" name="quest6">
+							<option value="a">Marcador de páginas dinâmicas</option>
+							<option value="b">Rótulo de um elemento visual</option>
+							<option value="c">Marcador que indica inicio ou fim de um elemento</option>
+							<option value="d">Chave de acesso ao atributo de um elemento da página</option>
+						</select>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">Como é composto um elemento?</label>
+						<select class="asw" name="quest7">
+							<option value="a">É composto por duas tags de abertura e uma de fechamento</option>
+							<option value="b">É composto por uma tag de abertura e uma de fechamento</option>
+							<option value="c">É composto por uma tag de abertura, conteúdo, e uma tag de fechamento</option>
+							<option value="d">É composto por duas tags, não sendo especificado se é de abertura ou fechamento</option>
+						</select>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">O que é um seletor em CSS?</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest8" value="a" required/>Determina que partes da página será modificada
+							</li>
+							<li>
+								<input type="radio" name="quest8" value="b"/>Determina o comportamento que cada página terá
+							</li>
+							<li>
+								<input type="radio" name="quest8" value="c"/>Permite a portabilidade de código de HTML para CSS
+							</li>
+							<li>
+								<input type="radio" name="quest8" value="d"/>Determina as operações de BackEnd que a página terá
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">O ...... serve para identificar unicamente cada elemento da página web.</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest9" value="a" required/>seletor
+							</li>
+							<li>
+								<input type="radio" name="quest9" value="b"/>classe
+							</li>
+							<li>
+								<input type="radio" name="quest9" value="c"/>id
+							</li>
+							<li>
+								<input type="radio" name="quest9" value="d"/>tag
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li class="linha">
+					<fieldset>
+						<label class="ask">A ...... serve para agrupar elementos com características em comum.</label>
+						<ul class="asw">
+							<li>
+								<input type="radio" name="quest10" value="a" required/>seletor
+							</li>
+							<li>
+								<input type="radio" name="quest10" value="b"/>classe
+							</li>
+							<li>
+								<input type="radio" name="quest10" value="c"/>id
+							</li>
+							<li>
+								<input type="radio" name="quest10" value="d"/>tag
+							</li>
+						</ul>
+					</fieldset>
+				</li>
+			</ol>
+			<label class="ask">Nome do participante: </label>
+			<input class="asw" type="text" name="nomeparticipante" required/>
+			<input type="submit" value="Finalizar" onclick="calculoquiz()"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+Ruan Luiz Alves da Silva  150051-1
+
+Questões - Respostas:
+
+1) 
+	a) tag, tag, fechamento
+	b) <!doctype html>
+	c) id, class
+	d) <li>, <ol>, ordenada, <ul>, ordenada
+
+2)
+	V;
+	F;
+	F;
+
+3)
+	Alternativa b)
+
+4)
+	Alternativa c)
+
+5)
+	Alternativa a)
+
+6)
+	Resposta: Além de garantir a sintaxe do código, é comum alguns erros
+	como esquecer de fechar as tags dos elementos, escrever o nome do 
+	elemento errado, esquecer o preâmbulo, entre outros.
+
+7)
+	Resposta: Deverá ser criado um elemento dentro de <body> que será o 
+	<h1>. O título 'Mercearia do Mané' deverá ser colocado dentro deste
+	último elemento.
+

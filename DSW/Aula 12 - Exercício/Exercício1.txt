@@ -1,0 +1,18 @@
+i. 
+	Resposta: Através do comando $("head")
+
+ii.
+	Resposta: Através do comando $("body")
+
+iii.
+	Resposta: Através do comando $("body").append("novo conteúdo")
+
+iv.
+	Resposta: Através do comando $("seletor").children.length;
+
+v.
+	Resposta: Através do comando $("#idElemento").text("Conteudo")
+
+vi.
+	Resposta: Através do comando: $("#idElemento").append($('<li>NovoElemento</li>'));
+

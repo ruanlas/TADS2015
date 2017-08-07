@@ -1,0 +1,9 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\bin\Debug\Calculadora.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\bin\Debug\Calculadora.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\bin\Debug\Calculadora.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Calculadora\obj\Debug\Calculadora.pdb

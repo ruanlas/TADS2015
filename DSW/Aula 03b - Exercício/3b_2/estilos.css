@@ -1,0 +1,11 @@
+h1{
+  background-color: green;
+  color: yellow;
+}
+article{
+  background-color: blue;
+  margin: 65px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}

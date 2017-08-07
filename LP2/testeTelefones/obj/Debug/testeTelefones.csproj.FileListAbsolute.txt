@@ -1,0 +1,10 @@
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\bin\Debug\testeTelefones.exe.config
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\bin\Debug\testeTelefones.exe
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\bin\Debug\testeTelefones.pdb
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.csprojResolveAssemblyReference.cache
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.Form1.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.Form2.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.Properties.Resources.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.csproj.GenerateResource.Cache
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.exe
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\testeTelefones\obj\Debug\testeTelefones.pdb

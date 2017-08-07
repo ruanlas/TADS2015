@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Generos mais ouvidos" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Generos mais ouvidos</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	</head>
+	<body>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/comandos.js" type="text/javascript"></script>
+		<nav>
+			<div class="navbar">
+			  	<div class="navbar-inner">
+			    	<a class="brand " href="index.html">Home</a>
+			    	<ul class="nav">
+			      		<li class="active"><a href="generosmaisouvidos.html">Estatísticas dos generos mais ouvidos</a></li>
+			    	</ul>
+			 	</div>
+			</div>
+		</nav>
+		<section class="container-fluid">
+			<h1>Música</h1>
+			<article>
+				<div class="page-header">
+					<h2>Generos Mais Ouvidos</h2>
+				</div>
+				
+				<div class="row-fluid">
+					<div class="span4">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Gênero</th>
+									<th>Porcentagem</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sertanejo</td>
+									<td>58%</td>
+								</tr>
+								<tr>
+									<td>Música Popular Brasileira (MPB)</td>
+									<td>47%</td>
+								</tr>
+								<tr>
+									<td>Samba (ou pagode)</td>
+									<td>44%</td>
+								</tr>
+								<tr>
+									<td>Forró</td>
+									<td>31%</td>
+								</tr>
+								<tr>
+									<td>Rock</td>
+									<td>31%</td>
+								</tr>
+								<tr>
+									<td>Música eletrônica</td>
+									<td>29%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="span8">
+						Selecione um gênero musical abaixo:
+						<select id="genero" onChange="escolhaGenero()">
+  							<option value="sertanejo">Sertanejo</option>
+  							<option value="mpb">Musica Popular Brasileira (MPB)</option>
+  							<option value="samba">Samba</option>
+  							<option value="forro">Forró</option>
+  							<option value="rock">Rock</option>
+  							<option value="eletronica">Música Eletrônica</option>
+						</select>
+						
+						Porcentagem de ouvintes
+						<div class="progress">
+  							<div id="porcentagemEstatistica" class="bar" style="width: 58%;">58%</div>
+						</div>
+					</div>
+				</div>
+
+			</article>
+		</section>
+	</body>
+</html>

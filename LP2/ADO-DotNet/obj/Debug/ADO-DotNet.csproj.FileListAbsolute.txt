@@ -1,0 +1,10 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\bin\Debug\ADO-DotNet.exe.config
+E:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\bin\Debug\ADO-DotNet.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\bin\Debug\ADO-DotNet.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\bin\Debug\ADO-DotNet.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO-DotNet.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO_DotNet.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO_DotNet.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO-DotNet.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO-DotNet.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\ADO-DotNet\obj\Debug\ADO-DotNet.pdb

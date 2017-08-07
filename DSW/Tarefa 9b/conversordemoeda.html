@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>Conversor de moedas</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<script type="text/javascript" src="conversor.js"></script>
+	</head>
+	<body>
+		<form name="conversor">
+			<h1>Conversor de moedas</h1>
+			<fieldset>
+				<legend>Informações de entrada</legend>
+				<label>Selecione a moeda de entrada: </label>
+				<select onChange="validacaomesmamoeda()" name="inputselect">
+					<option value="" selected ></option>
+					<option value="real">Real</option>
+					<option value="dolar">Dólar</option>
+					<option value="euro">Euro</option>
+				</select>
+				</br>
+				<label>Valor de entrada: </label>
+				<input type="text" name="valueinput" required/>
+			</fieldset>
+			</br>
+			<fieldset>
+				<legend>Informações de saída</legend>
+				<label>Selecione a moeda de saída: </label>
+				<select onChange="validacaomesmamoeda()" name="outputselect">
+					<option value="" selected ></option>
+					<option value="real">Real</option>
+					<option value="dolar">Dólar</option>
+					<option value="euro">Euro</option>
+				</select>
+				</br>
+				<label id="mensagem">Valor de saída: </label>
+				<input type="text" name="valueoutput" disabled />
+			</fieldset>
+			</br>
+			<fieldset>
+				<input class="btn" type="button" value="Converter" onclick="converter()"/>
+			</fieldset>
+		</form>
+	</body>
+</html>

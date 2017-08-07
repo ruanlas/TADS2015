@@ -1,0 +1,15 @@
+.tabela{
+  display: table;
+}
+.ask{
+  font-size: 18px;
+}
+.asw{
+  color: blue;
+}
+.cabecalho{
+  text-align: center;
+}
+.asw:hover{
+  color: green;
+}

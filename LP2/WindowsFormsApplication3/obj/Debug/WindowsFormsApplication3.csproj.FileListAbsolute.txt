@@ -1,0 +1,9 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb

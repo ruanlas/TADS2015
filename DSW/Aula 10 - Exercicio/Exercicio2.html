@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercicio 2</title>
+</head>
+
+<body>
+	<ul id="lista">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+		<input type="button" value="Alterar texto do primeiro item" onclick="btn1()"/>
+		<input type="button" value="Alterar texto do ultimo item" onclick="btn2()"/>
+		<input type="button" value="Acrescentar um novo item" onclick="btn3()"/>
+	<script>
+		function btn1(){
+			var texto = prompt("informe um texto para ocupar o primeiro elemento");
+			var elemento = document.getElementsByTagName('li');
+			elemento[0].textContent = texto;
+		}
+		function btn2(){
+			var texto = prompt("informe um texto para ocupar o primeiro elemento");
+			var elemento = document.getElementsByTagName('li');
+			var ultimo = elemento.length - 1; //pega a quantidade total de elementos -1
+			elemento[ultimo].textContent = texto;
+		}
+		function btn3(){
+			var novoElemento = document.createElement('li');
+			var elemento = document.getElementsByTagName('li');
+			novoElemento.textContent = elemento[0].textContent; //Pega o texto do primeiro item e atribui ao elemento criado
+			document.getElementById('lista').appendChild(novoElemento);
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>Formulario</title>
+		<style type="text/css">
+			.tabela{
+				display: table;
+			}
+			.linha{
+				display: table-row;
+			}
+			.celula{
+				display: table-cell;
+			}
+		
+		</style>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<form>
+			<ul class="tabela">
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+						<li class="linha">
+							<label class="celula">Nome: </label>
+							<input type="text" name="nome"/>
+						</li>
+						<li class="linha">
+							<label class="celula">Sexo: </label>
+							<input type="radio" name="sex" value="masculino"/>Masculino
+							<input type="radio" name="sex" value="feminino"/>Feminino
+						</li>
+				</fieldset>
+				<fieldset>
+					<legend>Dados Profissionais</legend>
+						<li class="linha">
+							<label class="celula">Profissao: </label>
+							<select name="profissao">
+								<option value="estudante">Estudante</option>
+								<option value="professor">Professor</option>
+								<option value="engenheiro">Engenheiro</option>
+								<option value="economista">Economista</option>
+								<option value="medico">Médico</option>
+							</select>
+					</li>
+				</fieldset>
+				<fieldset>
+					<legend>Observações</legend>
+						<li class="linha">
+							<label class="celula">Comentarios: </label>
+							<textarea rows="5" cols="50" name="observacoes">Digite aqui suas observacoes</textarea>
+						</li>
+				</fieldset>
+				<li class="linha">
+					<input type="submit" value="Envia"/>
+					<input type="reset" value="Limpa"/>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Exercicio 2</title>
+</head>
+
+<body>
+	<ul id="lista">
+		<li id="1">1</li>
+		<li id="2">2</li>
+		<li id="3">3</li>
+		<li id="4">4</li>
+		<li id="5">5</li>
+	</ul>
+		<input id="btn1" type="button" value="Alterar texto do primeiro item" onclick="btn1()"/>
+		<input id="btn2" type="button" value="Alterar texto do ultimo item" onclick="btn2()"/>
+		<input id="btn3" type="button" value="Acrescentar um novo item" onclick="btn3()"/>
+	<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				//$("#1").text("IFSP");
+				var texto = prompt("informe um texto para ocupar o primeiro elemento");
+				$("li:first").text(texto);
+				//$("li").eq(0).text("Alterado");
+				//$("#idElemento:eq(0)").text("Conteudo") //Olhar a propiedade first
+			});
+			$("#btn2").click(function(){
+				var texto = prompt("informe um texto para ocupar o ultimo elemento");
+				$("li:last").text(texto);
+			});
+			$("#btn3").click(function(){
+				var texto = prompt("informe um texto para ocupar o novo elemento");
+				 $("ul").append($('<li>'+texto+'</li>'));
+			});
+		});
+	</script>
+</body>
+
+</html>

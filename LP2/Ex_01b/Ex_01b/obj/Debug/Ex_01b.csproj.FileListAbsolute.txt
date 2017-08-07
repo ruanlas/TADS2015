@@ -1,0 +1,6 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\bin\Debug\Ex_01b.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\obj\Debug\Ex_01b.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\bin\Debug\Ex_01b.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\bin\Debug\Ex_01b.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\obj\Debug\Ex_01b.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Exercícios\01b\Ex_01b\Ex_01b\obj\Debug\Ex_01b.pdb

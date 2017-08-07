@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR" >
+	<head>
+		<title>Formulario</title>
+			
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<form>
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Nome: </td>
+						<td>
+							<input type="text" name="nome"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Sexo: </td>
+						<td>
+							<input type="radio" name="sex" value="masculino"/>Masculino
+							<input type="radio" name="sex" value="feminino"/>Feminino
+						</td>
+					</tr>
+					<tr>
+						<td>Profissão: </td>
+						<td>
+							<select name="profissao">
+								<option value="estudante">Estudante</option>
+								<option value="professor">Professor</option>
+								<option value="engenheiro">Engenheiro</option>
+								<option value="economista">Economista</option>
+								<option value="medico">Médico</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Comentários: </td>
+						<td>
+							<textarea rows="5" cols="50" name="observacoes">Digite aqui suas observacoes</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Envia"/>
+						</td>
+						<td>
+							<input type="reset" value="Limpa"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

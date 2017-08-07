@@ -1,0 +1,47 @@
+body{
+
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+table, td, th {
+    border: 1px solid black;
+}
+#secaoContato{
+    text-align: center;
+}
+form{
+      margin-left: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 40%;
+
+}
+th {
+    height: 40px;
+}
+.button{
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+h3{
+    border: 1px;
+    border-style: solid;
+    background-color: lightgreen;
+}
+h4{
+  background-color: lightyellow;
+}
+figure{
+  display: inline-block;
+}
+nav{
+  font-size: 17px;
+  text-align: right;
+}

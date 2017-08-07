@@ -1,0 +1,16 @@
+img, video{
+	width: 100%;
+	height: auto; 
+}
+.titulo{
+	padding-left: 15px;
+}
+body{
+	background-color: orange;
+}
+select{
+	width: 100%;
+}
+thead{
+	background-color: gray;
+}

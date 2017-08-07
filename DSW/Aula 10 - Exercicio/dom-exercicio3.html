@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lista DOM - Exercicio 2</title>
+  <style>
+	tr:hover   {background-color: #dfefef;}
+	tr.ativa   {background-color:green;}
+	tr.inativa {background-color: silver;}
+  </style>
+</head>
+
+<body>
+ <table id="tabela">
+        <tr  onmousedown="alternarEstadoAtivo(this)">
+            <td>Honda Fit</td>
+            <td>60k</td>
+            <td>80k</td>
+
+        </tr>
+        <tr  onmousedown="alternarEstadoAtivo(this)">
+            <td>Honda CRV</td>
+            <td>100k</td>
+            <td>120K</td>
+
+        </tr>
+        <tr  onmousedown="alternarEstadoAtivo(this)">
+            <td>Honda HRV</td>
+            <td>80K</td>
+            <td>100K</td>
+        </tr>
+    </table>
+    <input type="button" id="botao" value="alterar" onclick="alterar()" />
+  <script>
+	function alterar(){
+		//altera conteudo da primeira celula da segunda linha
+		document.getElementById("tabela").rows[1].cells[0].innerHTML = "Celula alterada";
+	}
+	function alternarEstadoAtivo(tr) {
+    if (event.which === 1) tr.className = 'ativa';
+    else if (event.which === 3) tr.className = 'inativa';
+  }	
+  </script>
+</body>
+
+</html>
