@@ -17,9 +17,7 @@ import javax.bluetooth.UUID;
 import javax.microedition.io.StreamConnection;
 
 import com.github.pires.obd.commands.SpeedCommand;
-import com.github.pires.obd.commands.engine.OilTempCommand;
 import com.github.pires.obd.commands.engine.RPMCommand;
-import com.github.pires.obd.commands.fuel.FindFuelTypeCommand;
 import com.github.pires.obd.commands.pressure.FuelPressureCommand;
 import com.github.pires.obd.commands.protocol.EchoOffCommand;
 import com.github.pires.obd.commands.protocol.HeadersOffCommand;
@@ -192,20 +190,6 @@ public class DiscoveryDevices implements DiscoveryListener {
 		
 		
 		FuelPressureCommand object = new FuelPressureCommand();
-		object.run(inStream, outStream);
-		medicao.carregarElemento(object.getFormattedResult());
-	}
-	
-	///Novo daqui para baixo
-	
-	public void executeOilTemp() throws IOException, InterruptedException {
-		OilTempCommand object = new OilTempCommand();
-		object.run(inStream, outStream);
-		medicao.carregarElemento(object.getFormattedResult());
-	}
-	
-	public void executeFindFuelType() throws IOException, InterruptedException {
-		FindFuelTypeCommand  object = new FindFuelTypeCommand();
 		object.run(inStream, outStream);
 		medicao.carregarElemento(object.getFormattedResult());
 	}
