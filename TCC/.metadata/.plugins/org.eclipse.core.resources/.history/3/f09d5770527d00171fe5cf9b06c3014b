@@ -20,7 +20,6 @@ import com.github.pires.obd.commands.SpeedCommand;
 import com.github.pires.obd.commands.engine.OilTempCommand;
 import com.github.pires.obd.commands.engine.RPMCommand;
 import com.github.pires.obd.commands.fuel.FindFuelTypeCommand;
-import com.github.pires.obd.commands.fuel.FuelLevelCommand;
 import com.github.pires.obd.commands.pressure.FuelPressureCommand;
 import com.github.pires.obd.commands.protocol.EchoOffCommand;
 import com.github.pires.obd.commands.protocol.HeadersOffCommand;
@@ -200,37 +199,13 @@ public class DiscoveryDevices implements DiscoveryListener {
 	///Novo daqui para baixo
 	
 	public void executeOilTemp() throws IOException, InterruptedException {
-		new ObdResetCommand().run(inStream, outStream);
-		new EchoOffCommand().run(inStream, outStream);
-		new HeadersOffCommand().run(inStream, outStream);
-//		new SpacesOffCommand().run(inStream, outStream);
-		new SelectProtocolCommand(ObdProtocols.AUTO).run(inStream, outStream);
-		
 		OilTempCommand object = new OilTempCommand();
 		object.run(inStream, outStream);
 		medicao.carregarElemento(object.getFormattedResult());
 	}
 	
 	public void executeFindFuelType() throws IOException, InterruptedException {
-		new ObdResetCommand().run(inStream, outStream);
-		new EchoOffCommand().run(inStream, outStream);
-		new HeadersOffCommand().run(inStream, outStream);
-//		new SpacesOffCommand().run(inStream, outStream);
-		new SelectProtocolCommand(ObdProtocols.AUTO).run(inStream, outStream);
-		
 		FindFuelTypeCommand  object = new FindFuelTypeCommand();
-		object.run(inStream, outStream);
-		medicao.carregarElemento(object.getFormattedResult());
-	}
-	
-	public void executeFuelLevel() throws IOException, InterruptedException {
-		new ObdResetCommand().run(inStream, outStream);
-		new EchoOffCommand().run(inStream, outStream);
-		new HeadersOffCommand().run(inStream, outStream);
-//		new SpacesOffCommand().run(inStream, outStream);
-		new SelectProtocolCommand(ObdProtocols.AUTO).run(inStream, outStream);
-		
-		FuelLevelCommand object = new FuelLevelCommand();
 		object.run(inStream, outStream);
 		medicao.carregarElemento(object.getFormattedResult());
 	}

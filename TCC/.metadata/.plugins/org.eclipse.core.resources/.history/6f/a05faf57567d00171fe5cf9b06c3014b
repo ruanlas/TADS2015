@@ -18,7 +18,7 @@ import utils.LabelStatusConnect;
 public class TelaInicialController implements Initializable{
 	
 	@FXML
-	private Button btnConnect, btnRefresh, btnRpm, btnPressaoMotor, btnVelocidade, btnTIpoComb, btnTempOleo, btnNivelComb;
+	private Button btnConnect, btnRefresh, btnRpm, btnPressaoMotor, btnVelocidade;
 	@FXML
 	private Label lblMedicao, lblStConnect;
 	@FXML
@@ -85,33 +85,6 @@ public class TelaInicialController implements Initializable{
 	public void handleBtnVelocidade() {
 		try {
 			discovery.executeSpeed();
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	@FXML
-	public void habdleBtnOilTemp() {
-		try {
-			discovery.executeOilTemp();
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	@FXML
-	public void handleBtnFindFuelType() {
-		try {
-			discovery.executeFindFuelType();
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	@FXML
-	public void handleBtnFuelLevel() {
-		try {
-			discovery.executeFuelLevel();
 		} catch (IOException | InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

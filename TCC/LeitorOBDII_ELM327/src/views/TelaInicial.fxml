@@ -31,5 +31,8 @@
       <Button fx:id="btnPressaoMotor" layoutX="94.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnPressaoMotor" text="Pressão Motor" />
       <Button fx:id="btnVelocidade" layoutX="196.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleBtnVelocidade" text="Velocidade" />
       <Label fx:id="lblStConnect" layoutX="128.0" layoutY="87.0" />
+      <Button fx:id="btnTempOleo" layoutX="118.0" layoutY="184.0" mnemonicParsing="false" onAction="#habdleBtnOilTemp" prefHeight="34.0" prefWidth="81.0" text="Temp. Oleo" />
+      <Button fx:id="btnTIpoComb" layoutX="11.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleBtnFindFuelType" prefHeight="46.0" prefWidth="98.0" text="Encontrar Tipo Combustivel" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" />
+      <Button fx:id="btnNivelComb" layoutX="122.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleBtnFuelLevel" prefHeight="46.0" prefWidth="90.0" text="Nível Combustível" textAlignment="CENTER" wrapText="true" />
    </children>
 </AnchorPane>

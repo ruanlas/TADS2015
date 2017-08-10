@@ -101,21 +101,11 @@ public class TelaInicialController implements Initializable{
 	}
 	@FXML
 	public void handleBtnFindFuelType() {
-		try {
-			discovery.executeFindFuelType();
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 	@FXML
 	public void handleBtnFuelLevel() {
-		try {
-			discovery.executeFuelLevel();
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 
 }
