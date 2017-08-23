@@ -1,7 +1,0 @@
-package utils;
-
-import java.util.ArrayList;
-
-public interface CarregarElementoVisual {
-	void carregarElemento(Object string);
-}
