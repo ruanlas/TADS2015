@@ -1,0 +1,9 @@
+
+public interface Financiamento {
+
+	public void inserirValorEntrada(double valorEntrada);
+	
+	public void inserirValorBem(double valorBem);
+	
+	
+}

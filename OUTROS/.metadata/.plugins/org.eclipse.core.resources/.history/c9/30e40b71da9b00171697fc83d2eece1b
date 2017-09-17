@@ -1,0 +1,9 @@
+
+public abstract class Financiamento {
+	protected double valorBem;
+	protected double valorEntrada;
+	protected int quantidadeParcelas;
+	protected double rendaLiquidaMensal;
+	
+	
+}

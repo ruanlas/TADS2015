@@ -1,0 +1,83 @@
+
+public class FinanciamentoCarro implements Financiamento {
+	private boolean novo;
+	private double taxaEmplacamento;
+	private double taxaIpva;
+	private double valorVeiculo;
+	private double valorEntrada;
+	private int quantidadeParcelas;
+	private double rendaLiquidaMensal;
+	private double valorFinal, valorParcela;
+	
+	public FinanciamentoCarro() {
+		this.novo = false;
+		this.valorFinal = 0;
+		this.valorParcela = 0;
+	}
+	
+	public void setVeiculoNovo() {
+		this.novo = true;
+	}
+
+	@Override
+	public void inserirValorEntrada(double valorEntrada) {
+		//deve ser no mínimo de 5% (validar)
+		this.valorEntrada = valorEntrada;
+		
+	}
+
+	@Override
+	public void inserirValorDoBem(double valorBem) {
+		this.valorVeiculo = valorBem;
+		
+	}
+
+	@Override
+	public void inserirQuantidadeDeParcelas(int quantidadeParcelas) {
+		this.quantidadeParcelas = quantidadeParcelas;
+		
+	}
+
+	@Override
+	public void inserirRendaLiquidaMensal(double rendaLiquidaMensal) {
+		this.rendaLiquidaMensal = rendaLiquidaMensal;
+		
+	}
+
+	@Override
+	public void calcular() {
+		if (novo) {
+			//taxa de 1% para o emplacamento e 4% para o IPVA (calculado a partir do valor do automóvel)
+			this.taxaEmplacamento = valorVeiculo * 0.01;
+			this.taxaIpva = valorVeiculo * 0.04;
+		}else {
+			this.taxaEmplacamento = 0;
+			this.taxaIpva = 0;
+		}
+		double valorRestante = this.valorVeiculo - this.valorEntrada;
+		double valorParcelaParcial = (valorRestante + this.taxaIpva + this.taxaEmplacamento) / this.quantidadeParcelas;
+		
+		if (this.rendaLiquidaMensal <= 3500) {
+			//Juros de 0,06
+			this.valorParcela = (valorParcelaParcial * 0.06) + valorParcelaParcial;
+		}else if (this.rendaLiquidaMensal > 3500 && this.rendaLiquidaMensal <= 5000) {
+			//Juros de 0,05
+			this.valorParcela = (valorParcelaParcial * 0.05) + valorParcelaParcial;
+		}else {
+			//Maior de 5000 juros de 0,04
+			this.valorParcela = (valorParcelaParcial * 0.04) + valorParcelaParcial;
+		}
+		this.valorFinal = this.valorParcela * this.quantidadeParcelas;
+	}
+
+	@Override
+	public double valorFinalBem() {
+		return valorFinal;
+	}
+
+	@Override
+	public double valorFinalCadaParcela() {
+		return valorParcela;
+	}
+	
+}

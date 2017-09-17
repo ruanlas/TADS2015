@@ -1,0 +1,62 @@
+
+public class FinanciamentoCarro implements Financiamento {
+	private boolean novo;
+	private double taxaEmplacamento;
+	private double taxaIpva;
+	private double valorVeiculo;
+	private double valorEntrada;
+	private int quantidadeParcelas;
+	private double rendaLiquidaMensal;
+	
+	public FinanciamentoCarro() {
+		this.novo = false;
+		
+	}
+	
+	public void setVeiculoNovo() {
+		this.novo = true;
+	}
+
+	@Override
+	public void inserirValorEntrada(double valorEntrada) {
+		this.valorEntrada = valorEntrada;
+		
+	}
+
+	@Override
+	public void inserirValorDoBem(double valorBem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void inserirQuantidadeDeParcelas(int quantidadeParcelas) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void inserirRendaLiquidaMensal(double rendaLiquidaMensal) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calcular() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double valorFinalBem() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double valorFinalCadaParcela() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

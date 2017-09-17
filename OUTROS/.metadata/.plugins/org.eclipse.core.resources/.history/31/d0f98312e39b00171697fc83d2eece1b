@@ -1,0 +1,17 @@
+
+public interface Financiamento {
+
+	public void inserirValorEntrada(double valorEntrada);
+	
+	public void inserirValorBem(double valorBem);
+	
+	public void inserirQuantidadeDeParcelas(int quantidadeParcelas);
+	
+	public void inserirRendaLiquidaMensal(double rendaLiquidaMensal);
+	
+	public void calcular();
+	
+	public double valorFinalBem();
+	
+	public double valorFinalCadaParcela();
+}
