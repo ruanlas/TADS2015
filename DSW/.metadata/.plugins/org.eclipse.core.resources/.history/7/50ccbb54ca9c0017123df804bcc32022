@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/form"  method="get">
+		<label>Nome: </label><input type="text" name="nome"><br>
+		<label>Sobrenome: </label><input type="text" name="sobenome"><br>
+		<label>Correio Eletrônico: </label><input type="text" name="correio_eletronico">
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
