@@ -1,0 +1,10 @@
+Comando para rodar o projeto:
+
+	No Linux:
+		./gradlew clean appRun
+	
+	No Windows:
+		gradlew clean appRun
+
+Abrir o seguinte endereco:
+	http://localhost:8080/projeto-web-gradle/teste-servlet

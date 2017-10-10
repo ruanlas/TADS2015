@@ -19,7 +19,11 @@ public class Exercicio03 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		//request.setAttribute("mensagem", "Ola mundo");
+		String parametro = request.getParameter("page");
+		request.getRequestDispatcher("Exec3/"+parametro+".html").forward(request, response);
+		//response.sendRedirect("Exec3/"+parametro +".html");
 	}
 
 }

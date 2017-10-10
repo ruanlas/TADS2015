@@ -5,4 +5,14 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.resolver.helpers.PublicId"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Pagador"/>
+<fullyQualifiedTypeName name="DataBase"/>
+<fullyQualifiedTypeName name="org.hsqldb.jdbc.JDBCDriver"/>
+<fullyQualifiedTypeName name="org.hsqldb.jdbcDriver"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
