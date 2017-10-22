@@ -1,10 +1,7 @@
 INDEX VERSION 1.4+C:\Users\Ruan\Desktop\TADS2015 (GitHub)\DSW\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-79151094.index
-735705145.index
-881442204.index
-561081191.index
-3440236865.index
-52728867.index
-3989837679.index
 2755043341.index
-1237125308.index
+735705145.index
+97789153.index
+1654318638.index
+881442204.index
+79151094.index

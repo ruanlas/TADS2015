@@ -12,14 +12,17 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\Ruan\Desktop\TADS2015 (GitHub)\TCC" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="TelaLeituraOBD2 - TesteBluetooth3" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\Ruan\Desktop\comSwt.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="TelaLeituraOBD2 (1) - LeitorOBDII_ELM327_Swing" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="D:\_\appX86Swt.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
-		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
+		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="D:\_\appX86Swt.jar"/>
+			<item value="C:\Users\Ruan\Desktop\appX86Swt.jar"/>
 			<item value="C:\Users\Ruan\Desktop\comSwt.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\Ruan\Desktop\TADS2015 (GitHub)\TCC.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
@@ -36,11 +39,12 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+		<item value="false" key="RunnableJar.export.ipwarning"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="3" key="pageIndex"/>
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
@@ -48,5 +52,8 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="JavaElementSearchActions">
+	</section>
+	<section name="WorkingSetModelAwareSelectionDialog">
+		<item value="true" key="ShowVisibleOnly"/>
 	</section>
 </section>

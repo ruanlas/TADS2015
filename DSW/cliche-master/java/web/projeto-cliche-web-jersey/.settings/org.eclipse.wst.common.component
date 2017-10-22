@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+  <wb-module deploy-name="projeto-cliche-web-jersey">
+    <property name="context-root" value="projeto-cliche-web-jersey"/>
+    <wb-resource deploy-path="/" source-path="src/main/webapp"/>
+    <property name="java-output-path" value="/target/classes"/>
+    <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/jstl/jstl/1.2/jstl-1.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jersey-bundle-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-bundle/1.19/jersey-bundle-1.19.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jersey-server-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-server/1.19/jersey-server-1.19.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jersey-core-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-jaxrs-json-provider-2.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.6.1/jackson-jaxrs-json-provider-2.6.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-jaxrs-base-2.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.6.1/jackson-jaxrs-base-2.6.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-core-2.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-core/2.6.1/jackson-core-2.6.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-databind-2.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.6.1/jackson-databind-2.6.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-annotations-2.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="jackson-module-jaxb-annotations-2.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.1/jackson-module-jaxb-annotations-2.6.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+  </wb-module>
+</project-modules>

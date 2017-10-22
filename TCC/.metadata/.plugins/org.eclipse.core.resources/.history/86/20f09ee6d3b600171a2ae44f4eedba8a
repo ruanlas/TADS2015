@@ -1,0 +1,36 @@
+package scanner;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import com.github.pires.obd.commands.pressure.FuelPressureCommand;
+import com.github.pires.obd.commands.protocol.EchoOffCommand;
+import com.github.pires.obd.commands.protocol.HeadersOffCommand;
+import com.github.pires.obd.commands.protocol.ObdResetCommand;
+import com.github.pires.obd.commands.protocol.SelectProtocolCommand;
+import com.github.pires.obd.enums.ObdProtocols;
+
+public class ELM327 {
+	private OutputStream outStream;
+	private InputStream inStream;
+	
+	public ELM327(InputStream inStream, OutputStream outStream) {
+		this.outStream = outStream;
+		this.inStream = inStream;
+	}
+	
+	public void executeFuelPressure() throws IOException, InterruptedException {
+		new ObdResetCommand().run(inStream, outStream);
+		new EchoOffCommand().run(inStream, outStream);
+		new HeadersOffCommand().run(inStream, outStream);
+//		new SpacesOffCommand().run(inStream, outStream);
+		new SelectProtocolCommand(ObdProtocols.AUTO).run(inStream, outStream);
+		
+		
+		FuelPressureCommand object = new FuelPressureCommand();
+		object.run(inStream, outStream);
+//		labelMedicao.carregarElemento(object.getFormattedResult());
+		
+	}
+}

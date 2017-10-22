@@ -1,0 +1,5 @@
+Para construir e rodar o projeto, execute na linha de comando:
+	mvn tomcat7:run
+
+Para ver rodando:
+	http://localhost:8081/meuprojeto/minhaEntidade/ola

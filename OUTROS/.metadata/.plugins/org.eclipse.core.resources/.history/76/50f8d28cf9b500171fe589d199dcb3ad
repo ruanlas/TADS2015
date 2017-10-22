@@ -1,0 +1,8 @@
+import com.mongodb.MongoClient;
+
+public class ConexaoMongo2 {
+	public static void main(String[] args) {
+		MongoClient connect = new MongoClient("18.231.62.135", 27017);
+		
+	}
+}

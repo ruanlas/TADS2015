@@ -1,0 +1,60 @@
+package bluetooth;
+
+import java.util.Vector;
+
+import javax.bluetooth.DeviceClass;
+import javax.bluetooth.DiscoveryListener;
+import javax.bluetooth.RemoteDevice;
+import javax.bluetooth.ServiceRecord;
+
+public class DiscoveryDevices implements DiscoveryListener{
+	private Object lock=new Object();
+	private Vector remoteDevices=new Vector();
+	private String connectionUrl;
+
+	@Override
+	public void deviceDiscovered(RemoteDevice device, DeviceClass dClass) {
+		if(!remoteDevices.contains(device))
+        {
+			remoteDevices.addElement(device);
+        }
+	}
+
+	@Override
+	public void inquiryCompleted(int discType) {
+		synchronized(lock)
+	    {
+	        lock.notify();
+	    }
+	    switch(discType)
+	    {
+	    case DiscoveryListener.INQUIRY_COMPLETED:
+	        System.out.println("Inquiry Completed");
+	        break;
+
+	    case DiscoveryListener.INQUIRY_TERMINATED:
+	        System.out.println("Inquiry Terminated");
+	        break;
+
+	    case DiscoveryListener.INQUIRY_ERROR:
+	        System.out.println("Inquiry Error");
+	        break;
+
+	    default:
+	        System.out.println("Unknown Response Code");
+	    }
+	}
+
+	@Override
+	public void serviceSearchCompleted(int arg0, int arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void servicesDiscovered(int arg0, ServiceRecord[] arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

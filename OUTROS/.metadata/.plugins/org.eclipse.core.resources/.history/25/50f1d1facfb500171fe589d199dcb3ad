@@ -1,0 +1,13 @@
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+
+public class ConexaoMongo {
+	public static void main(String[] args) {
+		MongoClient mongo = new MongoClient("18.231.62.135", 27017);
+		
+		MongoDatabase database = mongo.getDatabase("admin");
+		
+		MongoCollection<Document> document = database.getCollection("usuarios");
+	}
+}

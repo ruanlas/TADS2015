@@ -5,4 +5,14 @@
 <fullyQualifiedTypeName name="Financiamento"/>
 <fullyQualifiedTypeName name="FinanciamentoCarro"/>
 <fullyQualifiedTypeName name="FinanciamentoImovel"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="com.mongodb.DB"/>
+<fullyQualifiedTypeName name="com.mongodb.Mongo"/>
+<fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
+<fullyQualifiedTypeName name="com.mongodb.DBCursor"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
+<fullyQualifiedTypeName name="com.mongodb.client.FindIterable"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
 </qualifiedTypeNameHistroy>
