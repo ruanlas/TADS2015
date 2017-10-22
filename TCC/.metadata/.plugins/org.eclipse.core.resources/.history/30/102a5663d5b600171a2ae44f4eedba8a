@@ -22,9 +22,9 @@ public class DiscoveryDevices implements DiscoveryListener{
 	private DiscoveryAgent discoveryAgent;
 	
 	public DiscoveryDevices() {
-		this.lock = new Object();
-		this.remoteDevices = new Vector();
-		this.namesRemoteDevices = new ArrayList<String>();
+		lock = new Object();
+		remoteDevices = new Vector();
+		namesRemoteDevices = new ArrayList<String>();
 	}
 	
 	public void discovery() throws BluetoothStateException, IOException {

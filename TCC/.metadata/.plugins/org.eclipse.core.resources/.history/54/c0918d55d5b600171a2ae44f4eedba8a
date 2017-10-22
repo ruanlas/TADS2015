@@ -21,11 +21,11 @@ public class ConnectToDevice {
 	private String connectionUrl;
 	
 	public ConnectToDevice() {
-		this.discoveryDevices = new DiscoveryDevices();
-		this.discoveryAgent = discoveryDevices.getDiscoveryAgent();
-		this.remoteDevices = discoveryDevices.getRemoteDevices();
-		this.lock = discoveryDevices.getLock();
-		this.connectionUrl = discoveryDevices.getConnectionUrl();
+		discoveryDevices = new DiscoveryDevices();
+		discoveryAgent = discoveryDevices.getDiscoveryAgent();
+		remoteDevices = discoveryDevices.getRemoteDevices();
+		lock = discoveryDevices.getLock();
+		connectionUrl = discoveryDevices.getConnectionUrl();
 	}
 	
 	public ELM327 connectToDevice(int index) throws IOException {
