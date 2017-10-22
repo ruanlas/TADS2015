@@ -26,7 +26,7 @@ public class ConexaoMongo2 {
 	////////////////////////////////////////////////////////////////	
 		Document bson = new Document();
 		
-		bson.append("name", "Joaquim").append("password", "23112").append("ed", "fsdfs"); //cria um bson
+		bson.append("name", "Joaquim").append("password", "23112").append("ed", "fsdfs"); //cria um bson ("chave", "valor")
 		
 		collection.insertOne(bson);
 		

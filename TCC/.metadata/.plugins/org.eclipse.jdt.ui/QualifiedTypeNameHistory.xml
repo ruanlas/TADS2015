@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.microedition.io.Connector"/>
-<fullyQualifiedTypeName name="javax.microedition.io.StreamConnection"/>
-<fullyQualifiedTypeName name="java.io.OutputStream"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="javax.bluetooth.LocalDevice"/>
-<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryAgent"/>
 <fullyQualifiedTypeName name="javax.bluetooth.RemoteDevice"/>
 <fullyQualifiedTypeName name="java.util.UUID"/>
 <fullyQualifiedTypeName name="javax.bluetooth.UUID"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="bluetooth_connect.ConnectionBluetoothFactory"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
 <fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
@@ -23,17 +15,13 @@
 <fullyQualifiedTypeName name="javafx.scene.control.ChoiceBox"/>
 <fullyQualifiedTypeName name="device.DiscoveryDevices"/>
 <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="javafx.scene.control.ComboBox"/>
 <fullyQualifiedTypeName name="javafx.collections.FXCollections"/>
 <fullyQualifiedTypeName name="utils.CBoxDevices"/>
 <fullyQualifiedTypeName name="utils.CarregarElementoVisual"/>
 <fullyQualifiedTypeName name="utils.LabelStatusConnect"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="utils.LabelMedicao"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.engine.RPMCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.SpeedCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.protocol.ObdResetCommand"/>
@@ -46,4 +34,30 @@
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FindFuelTypeCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FuelLevelCommand"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryAgent"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="bluetooth.BluetoothConnection"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.ObdCommand"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="scanner.ELM327"/>
+<fullyQualifiedTypeName name="bluetooth.DiscoveryDevices"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="controller.ScreenMonitorController"/>
+<fullyQualifiedTypeName name="scanner.ConnectToDevice"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
+<fullyQualifiedTypeName name="database.DBConnection"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="models.ELM327ReadSensors"/>
 </qualifiedTypeNameHistroy>

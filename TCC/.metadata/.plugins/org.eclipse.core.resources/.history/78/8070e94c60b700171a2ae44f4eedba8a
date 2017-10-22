@@ -1,0 +1,19 @@
+package dao;
+
+import org.bson.Document;
+
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+
+import database.DBConnection;
+
+public class ELM327ReadSensorsDAO {
+	private MongoCollection<Document> collection;
+	
+	public ELM327ReadSensorsDAO() {
+		MongoDatabase database = DBConnection.getConnection();
+		MongoCollection<Document> collection = database.getCollection("reading_sensors");
+	}
+	
+	
+}
