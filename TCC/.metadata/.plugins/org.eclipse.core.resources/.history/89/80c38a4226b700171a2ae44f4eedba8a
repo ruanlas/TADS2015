@@ -1,0 +1,55 @@
+package view;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import java.awt.Font;
+
+public class ScreenMonitor {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ScreenMonitor window = new ScreenMonitor();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public ScreenMonitor() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 308, 221);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblScannerObdii = new JLabel("Scanner OBDII");
+		lblScannerObdii.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		lblScannerObdii.setBounds(101, 0, 85, 20);
+		frame.getContentPane().add(lblScannerObdii);
+		
+		JLabel lblSelecionarDispositivo = new JLabel("Selecionar Dispositivo");
+		lblSelecionarDispositivo.setFont(new Font("Tahoma", Font.PLAIN, 11));
+		lblSelecionarDispositivo.setBounds(10, 21, 118, 14);
+		frame.getContentPane().add(lblSelecionarDispositivo);
+	}
+}

@@ -20,8 +20,8 @@ public class ConnectToDevice {
 	private Object lock;
 	private String connectionUrl;
 	
-	public ConnectToDevice() {
-		this.discoveryDevices = new DiscoveryDevices();
+	public ConnectToDevice(DiscoveryDevices discoveryDevices) {
+		this.discoveryDevices = discoveryDevices;
 		this.discoveryAgent = discoveryDevices.getDiscoveryAgent();
 		this.remoteDevices = discoveryDevices.getRemoteDevices();
 		this.lock = discoveryDevices.getLock();

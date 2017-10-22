@@ -56,7 +56,7 @@ public class DiscoveryDevices implements DiscoveryListener{
 	        {
 	            RemoteDevice remote_device = (RemoteDevice)remoteDevices.elementAt(i);
 	            System.out.println((i+1)+".)"+remote_device.getFriendlyName(true)+" "+remote_device.getBluetoothAddress());
-	            //Adicionar os elementos no List
+	            //Adiciona os elementos na List
 	            namesRemoteDevices.add((i+1)+".)"+remote_device.getFriendlyName(true)+" "+remote_device.getBluetoothAddress());
 	        }
 
