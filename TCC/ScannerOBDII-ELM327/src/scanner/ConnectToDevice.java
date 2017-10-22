@@ -19,6 +19,7 @@ public class ConnectToDevice {
 	private Vector remoteDevices;
 	private Object lock;
 	private String connectionUrl;
+	private String status;
 	
 	public ConnectToDevice(DiscoveryDevices discoveryDevices) {
 		this.discoveryDevices = discoveryDevices;
@@ -49,16 +50,22 @@ public class ConnectToDevice {
 
         if(connectionUrl == null)
         {
-            System.out.println("Device does not support SPP.");
+        	status = "Status: Device does not support SPP.";
+            System.out.println(status);
         }
         else
         {
-            System.out.println("Device supports SPP.");
+        	status = "Status: Device supports SPP.";
+            System.out.println(status);
             StreamConnection objectConnection = BluetoothConnection.getConnectionBluetooth(connectionUrl);
             OutputStream outStream = objectConnection.openOutputStream();
     		InputStream inStream = objectConnection.openInputStream();
     		scanner = new ELM327(inStream, outStream);
         }
 		return scanner;
+	}
+	
+	public String getStatus() {
+		return status;
 	}
 }

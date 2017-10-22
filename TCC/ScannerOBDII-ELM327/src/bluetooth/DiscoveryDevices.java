@@ -20,6 +20,7 @@ public class DiscoveryDevices implements DiscoveryListener{
 	private String connectionUrl;
 	private LocalDevice localDevice;
 	private DiscoveryAgent discoveryAgent;
+	private String status;
 	
 	public DiscoveryDevices() {
 		this.lock = new Object();
@@ -46,8 +47,8 @@ public class DiscoveryDevices implements DiscoveryListener{
 
 	    if(remoteDevices.size()<=0)
 	    {
-	        System.out.println("No devices found");
-
+	    	status = "Status: No devices found";
+	        System.out.println(status);
 	    }
 	    else
 	    {
@@ -81,19 +82,23 @@ public class DiscoveryDevices implements DiscoveryListener{
 	    switch(discType)
 	    {
 	    case DiscoveryListener.INQUIRY_COMPLETED:
-	        System.out.println("Inquiry Completed");
+	    	status = "Status: Inquiry Completed";
+	        System.out.println(status);
 	        break;
 
 	    case DiscoveryListener.INQUIRY_TERMINATED:
-	        System.out.println("Inquiry Terminated");
+	    	status = "Status: Inquiry Terminated";
+	        System.out.println(status);
 	        break;
 
 	    case DiscoveryListener.INQUIRY_ERROR:
-	        System.out.println("Inquiry Error");
+	    	status = "Status: Inquiry Error";
+	        System.out.println(status);
 	        break;
 
 	    default:
-	        System.out.println("Unknown Response Code");
+	    	status = "Status: Unknown Response Code";
+	        System.out.println(status);
 	    }
 	}
 
@@ -117,7 +122,7 @@ public class DiscoveryDevices implements DiscoveryListener{
 		return remoteDevices;
 	}
 	
-	public List<String> namesRemoteDevices() {
+	public List<String> getNamesRemoteDevices() {
 		return namesRemoteDevices;
 	}
 	
@@ -131,5 +136,8 @@ public class DiscoveryDevices implements DiscoveryListener{
 	public String getConnectionUrl() {
 		return connectionUrl;
 	}
-
+	public String getStatus() {
+		return status;
+	}
+	
 }
