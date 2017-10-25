@@ -8,7 +8,7 @@ $(function(){
         $.get("http://localhost:5000/collection",function(dataReceived){
             
             $(dataReceived).each(function(){
-                tbody.append(criaTr(this.rpm, this.pressao_motor, this.tipo_combustivel));
+                tbody.append(criaTr(this.rpm, this.tipo_combustivel, this.pressao_motor));
     
             });
         });
