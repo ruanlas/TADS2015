@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+    <body>
+        <h1>Monitoramento veicular</h1>
+        <form name="pesquisa">
+            <label>Informe o chassi do veículo: <input type="text" name="chassi"></label>
+            <button id="btn-monitorar">Monitorar</button>
+        </form>
+        <h2>Dados do veiculo: <span id="span-chassi"></span></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>RPM</th>
+                    <th>Tipo de Combustivel</th>
+                    <th>Pressão do Motor</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-monitoramento">
+
+            </tbody>
+        </table>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

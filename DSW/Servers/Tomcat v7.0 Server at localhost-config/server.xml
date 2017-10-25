@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="Teste" path="/Teste" reloadable="true" source="org.eclipse.jst.jee.server:Teste"/><Context docBase="Aula06" path="/Aula06" reloadable="true" source="org.eclipse.jst.jee.server:Aula06"/><Context docBase="Aula09" path="/Aula09" reloadable="true" source="org.eclipse.jst.jee.server:Aula09"/><Context docBase="BancoDados" path="/BancoDados" reloadable="true" source="org.eclipse.jst.jee.server:BancoDados"/></Host>
+      <Context docBase="Teste" path="/Teste" reloadable="true" source="org.eclipse.jst.jee.server:Teste"/><Context docBase="Aula06" path="/Aula06" reloadable="true" source="org.eclipse.jst.jee.server:Aula06"/><Context docBase="Aula09" path="/Aula09" reloadable="true" source="org.eclipse.jst.jee.server:Aula09"/><Context docBase="BancoDados" path="/BancoDados" reloadable="true" source="org.eclipse.jst.jee.server:BancoDados"/><Context docBase="gradle-vraptor4-tomcat" path="/gradle-vraptor4-tomcat" reloadable="true" source="org.eclipse.jst.j2ee.server:gradle-vraptor4-tomcat"/></Host>
     </Engine>
   </Service>
 </Server>
