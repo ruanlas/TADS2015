@@ -11,6 +11,7 @@ import java.awt.Font;
 import java.io.IOException;
 
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.bluetooth.BluetoothStateException;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -143,6 +144,7 @@ public class ScreenMonitor implements ActionListener{
 	}
 	
 	private void connectar() {
+		
 		int index = cbListDevices.getSelectedIndex();
 		try {
 			controller.btnConnectar(index, lblStatus);

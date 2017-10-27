@@ -20,7 +20,6 @@ import com.github.pires.obd.enums.ObdProtocols;
 public class ELM327 {
 	private OutputStream outStream;
 	private InputStream inStream;
-	private ObdCommand commands;
 	
 	public ELM327(InputStream inStream, OutputStream outStream) {
 		this.outStream = outStream;
@@ -33,14 +32,14 @@ public class ELM327 {
 	}
 	public String readRpm() throws IOException, InterruptedException {
 		
-		commands = new RPMCommand();
+		RPMCommand commands = new RPMCommand();
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(object.getFormattedResult());
 		return commands.getFormattedResult();
 	}
 	
 	public String readSpeed() throws IOException, InterruptedException {
-		commands = new SpeedCommand();
+		SpeedCommand commands = new SpeedCommand();
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(object.getFormattedResult());
 		return commands.getFormattedResult();
@@ -49,7 +48,7 @@ public class ELM327 {
 	public String readFuelPressure() throws IOException, InterruptedException {
 		this.clearBuffer();
 		
-		commands = new FuelPressureCommand();
+		FuelPressureCommand commands = new FuelPressureCommand();
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(commands.getFormattedResult());
 		return commands.getFormattedResult();
@@ -60,7 +59,7 @@ public class ELM327 {
 	public String readOilTemp() throws IOException, InterruptedException {
 		this.clearBuffer();
 		
-		commands = new OilTempCommand(); //??????
+		OilTempCommand commands = new OilTempCommand(); //??????
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(commands.getFormattedResult());
 		return commands.getFormattedResult();
@@ -69,7 +68,7 @@ public class ELM327 {
 	public String readFindFuelType() throws IOException, InterruptedException {
 		this.clearBuffer();
 		
-		commands = new FindFuelTypeCommand();
+		FindFuelTypeCommand commands = new FindFuelTypeCommand();
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(commands.getFormattedResult());
 		return commands.getFormattedResult();
@@ -78,7 +77,7 @@ public class ELM327 {
 	public String readFuelLevel() throws IOException, InterruptedException {
 		this.clearBuffer();
 		
-		commands = new FuelLevelCommand(); ///????
+		FuelLevelCommand commands = new FuelLevelCommand(); ///????
 		commands.run(inStream, outStream);
 //		medicao.carregarElemento(commands.getFormattedResult());
 		return commands.getFormattedResult();

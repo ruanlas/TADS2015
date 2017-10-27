@@ -2,9 +2,9 @@ INDEX VERSION 1.130+C:\Users\Ruan\Desktop\TADS2015 (GitHub)\TCC\.metadata\.plugi
 2102983965.index
 1995363533.index
 3057554561.index
-3501630183.index
 1544817389.index
 455560408.index
+3501630183.index
 1728642882.index
 3411179785.index
 3508997439.index
@@ -18,8 +18,8 @@ INDEX VERSION 1.130+C:\Users\Ruan\Desktop\TADS2015 (GitHub)\TCC\.metadata\.plugi
 2841450437.index
 1294244358.index
 4101312681.index
-1117689111.index
 1280305850.index
+1117689111.index
 2932496756.index
 4231043314.index
 2477846846.index

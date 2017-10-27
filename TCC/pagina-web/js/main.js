@@ -4,8 +4,9 @@ $(function(){
     $('#btn-monitorar').click(function(event){
         event.preventDefault();
         
-
-        $.get("http://localhost:5000/collection",function(dataReceived){
+        //$('#corpo-monitoramento').children().remove();
+        $('#corpo-monitoramento tr').remove();
+        $.get('http://localhost:5000/collection',function(dataReceived){
             
             $(dataReceived).each(function(){
                 tbody.append(criaTr(this.rpm, this.tipo_combustivel, this.pressao_motor));

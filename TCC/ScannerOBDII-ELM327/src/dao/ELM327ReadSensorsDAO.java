@@ -20,6 +20,12 @@ public class ELM327ReadSensorsDAO {
 		Document bson = new Document();
 //		inserir os dados aquiiii
 //		bson.append("key", "value").append("key", "value");
+		bson.append("chassi", readSensors.getChassiCarro())
+			.append("modelo", readSensors.getModeloCarro())
+			.append("rpm", readSensors.getRpm())
+			.append("pressao_motor", readSensors.getPressaoMotor())
+			.append("tipo_combustivel", readSensors.getTipoCombustivel())
+			.append("velocidade", readSensors.getVelocidade());
 		
 		collection.insertOne(bson);
 	}
