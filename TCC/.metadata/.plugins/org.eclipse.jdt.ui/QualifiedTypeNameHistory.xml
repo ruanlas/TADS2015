@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.bluetooth.RemoteDevice"/>
-<fullyQualifiedTypeName name="java.util.UUID"/>
-<fullyQualifiedTypeName name="javax.bluetooth.UUID"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-<fullyQualifiedTypeName name="bluetooth_connect.ConnectionBluetoothFactory"/>
-<fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.application.Application"/>
@@ -22,17 +16,11 @@
 <fullyQualifiedTypeName name="utils.LabelStatusConnect"/>
 <fullyQualifiedTypeName name="utils.LabelMedicao"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.engine.RPMCommand"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.SpeedCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.protocol.ObdResetCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.protocol.EchoOffCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.protocol.HeadersOffCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.commands.protocol.SelectProtocolCommand"/>
 <fullyQualifiedTypeName name="com.github.pires.obd.enums.ObdProtocols"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.pressure.FuelPressureCommand"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.engine.OilTempCommand"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FindFuelTypeCommand"/>
-<fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FuelLevelCommand"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
 <fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -50,14 +38,26 @@
 <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-<fullyQualifiedTypeName name="controller.ScreenMonitorController"/>
 <fullyQualifiedTypeName name="scanner.ConnectToDevice"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
 <fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
 <fullyQualifiedTypeName name="database.DBConnection"/>
 <fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
 <fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.engine.RPMCommand"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.SpeedCommand"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.engine.OilTempCommand"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FindFuelTypeCommand"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.pressure.FuelPressureCommand"/>
+<fullyQualifiedTypeName name="com.github.pires.obd.commands.fuel.FuelLevelCommand"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="view.VeicheSetting"/>
+<fullyQualifiedTypeName name="javax.swing.JDialog"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="view.Teste"/>
+<fullyQualifiedTypeName name="controller.ScreenMonitorController"/>
 <fullyQualifiedTypeName name="models.ELM327ReadSensors"/>
+<fullyQualifiedTypeName name="dao.ELM327ReadSensorsDAO"/>
 </qualifiedTypeNameHistroy>

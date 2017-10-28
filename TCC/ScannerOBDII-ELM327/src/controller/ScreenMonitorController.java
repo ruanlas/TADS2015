@@ -42,18 +42,21 @@ public class ScreenMonitorController {
 	}
 	
 	public void btnConnectar(int index, JLabel lblStatus) throws IOException {
-		try {
-			VeicheSetting dialog = new VeicheSetting();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setParameters(this, elm327ReadSensors);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
+		if(index != -1){
+			try {
+				VeicheSetting dialog = new VeicheSetting();
+				dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+				dialog.setParameters(this, elm327ReadSensors);
+				dialog.setVisible(true);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			ConnectToDevice connectToDevice = new ConnectToDevice(discoveryDevices);
+			elm327 = connectToDevice.connectToDevice(index);
+			lblStatus.setText(connectToDevice.getStatus());
 		}
 		
-		ConnectToDevice connectToDevice = new ConnectToDevice(discoveryDevices);
-		elm327 = connectToDevice.connectToDevice(index);
-		lblStatus.setText(connectToDevice.getStatus());
 //		System.out.println(index); //retorna -1 quando não há seleção
 		
 	}
