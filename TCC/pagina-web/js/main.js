@@ -1,38 +1,39 @@
 
 $(function(){
     var tbody = $('#corpo-monitoramento');
-
-    var opcao_filtro;
-    $('#rb-chassi').click(function() {
-        opcao_filtro = 'chassi';
-    });
-    $('#rb-modelo').click(function() {
-        opcao_filtro = 'modelo';
-    });
-
+    
+    var filtro_select;
+    $( "#select-filtro" ).change(function() {
+        $( "#select-filtro option:selected" ).each(function() {
+            filtro_select = $( this ).val();
+        });
+        //alert(filtro_select);
+        $( "#label-input" ).text( filtro_select );
+        if(filtro_select == "chassi"){
+            $("#modelo_chassi").text( "Modelo" );
+        }
+        if(filtro_select == "modelo"){
+            $("#modelo_chassi").text( "Chassi" );
+        }
+    }).trigger( "change" );
+    
     $('#btn-monitorar').click(function(event){
         event.preventDefault();
-        
-        var chassi = $('#chassi').val();
- 
-        //alert(chassi.val());
-        //alert(opcao_filtro);
+    
+        var input_filtro = $('#input-filtro').val();
+
         //$('#corpo-monitoramento').children().remove();
         $('#corpo-monitoramento tr').remove();
         $.get('http://18.231.62.135:5000/collection',function(dataReceived){
             
             $(dataReceived).each(function(){
 
-                //if(opcao_filtro == 'chassi' && chassi == this.chassi){
-                    tbody.append(criaTr(this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.modelo));
-                //}
-                //if(opcao_filtro == 'modelo' && modelo == this.modelo){
-                    tbody.append(criaTr(this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.chassi));
-                //}
-                //if(opcao_filtro == null){
-                //    alert("Selecione um filtro de resultados");
-                //}
-                
+                if(filtro_select == 'chassi' && input_filtro == this.chassi){
+                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.modelo));
+                }
+                if(filtro_select == 'modelo' && input_filtro == this.modelo){
+                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.chassi));
+                }
             });
         });
 
@@ -40,12 +41,15 @@ $(function(){
     });
 });
 
-function criaTr(rpm, velocidade, fuel_type, pressure_engine) {
+function criaTr(data, hora, rpm, velocidade, fuel_type, pressure_engine, modelo_chassi) {
     var tr = $('<tr>');
+    tr.append($('<td>').text(data));
+    tr.append($('<td>').text(hora));
     tr.append($('<td>').text(rpm));
     tr.append($('<td>').text(velocidade));
     tr.append($('<td>').text(fuel_type));
     tr.append($('<td>').text(pressure_engine));
+    tr.append($('<td>').text(modelo_chassi));
     return tr;
 }
 

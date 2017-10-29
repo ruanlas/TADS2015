@@ -8,7 +8,7 @@ public class ELM327ReadSensors {
 	}
 
 	
-	public ELM327ReadSensors(String modeloCarro, String chassiCarro) {
+	public ELM327ReadSensors(String chassiCarro, String modeloCarro) {
 		this.modeloCarro = modeloCarro;
 		this.chassiCarro = chassiCarro;
 	}

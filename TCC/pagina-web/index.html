@@ -12,18 +12,16 @@
             <div class="container">
                 <h1 class="text-center">Monitoramento veicular</h1>
                 <form name="pesquisa" class="form-group container">
-                    <div class="row text-center">
-                        <label for="chassi">Informe o chassi do veículo: </label>
-                        <input type="text" class="form-control" id="chassi">
-                    </div>
-                    <div class="row text-center">
-                        <label for="modelo">Informe o modelo do veículo: </label>
-                        <input type="text" class="form-control" id="modelo">
-                    </div>
-                    <div class="row text-center">
+                    <div class="row form-group text-center">
                         <label>Filtrar resultados por: </label>
-                        <label id="rb-modelo"><input type="radio" name="filtro" value="modelo"> Modelo</label>
-                        <label id="rb-chassi"><input type="radio" name="filtro" value="chassi"> Chassi</label>
+                        <select id="select-filtro" class="form-control">
+                            <option value="chassi">Chassi</option>
+                            <option value="modelo">Modelo</option>
+                        </select>
+                    </div>
+                    <div class="row form-group text-center">
+                        <label for="chassi">Informe o <span id="label-input"></span> do veículo: </label>
+                        <input type="text" class="form-control" id="input-filtro">
                     </div>
                     <button class="btn btn-primary btn-lg btn-block" id="btn-monitorar">Monitorar</button>
                 </form>
@@ -31,6 +29,11 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
+                            <th colspan="2">Dados da Medição</th>
+                        </tr>
+                        <tr>
+                            <th>Data</th>
+                            <th>Hora</th>
                             <th>RPM</th>
                             <th>Velocidade</th>
                             <th>Tipo de Combustivel</th>

@@ -1,5 +1,9 @@
 package dao;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
 import org.bson.Document;
 
 import com.mongodb.client.MongoCollection;
@@ -25,7 +29,9 @@ public class ELM327ReadSensorsDAO {
 			.append("rpm", readSensors.getRpm())
 			.append("pressao_motor", readSensors.getPressaoMotor())
 			.append("tipo_combustivel", readSensors.getTipoCombustivel())
-			.append("velocidade", readSensors.getVelocidade());
+			.append("velocidade", readSensors.getVelocidade())
+			.append("data", LocalDate.now().toString())
+			.append("hora", LocalTime.now().toString());
 		
 		collection.insertOne(bson);
 	}
