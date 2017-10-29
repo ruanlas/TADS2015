@@ -1,7 +1,7 @@
 package models;
 
 public class ELM327ReadSensors {
-	private String modeloCarro, chassiCarro, rpm, velocidade, pressaoCombustivel, tipoCombustivel;
+	private String modeloCarro, chassiCarro, rpm, velocidade, pressaoMotor, tipoCombustivel;
 
 	public ELM327ReadSensors() {
 
@@ -14,13 +14,13 @@ public class ELM327ReadSensors {
 	}
 
 
-	public ELM327ReadSensors(String modeloCarro, String chassiCarro, String rpm, String velocidade, String pressaoCombustivel,
+	public ELM327ReadSensors(String modeloCarro, String chassiCarro, String rpm, String velocidade, String pressaoMotor,
 			String tipoCombustivel) {
 		this.modeloCarro = modeloCarro;
 		this.chassiCarro = chassiCarro;
 		this.rpm = rpm;
 		this.velocidade = velocidade;
-		this.pressaoCombustivel = pressaoCombustivel;
+		this.pressaoMotor = pressaoMotor;
 		this.tipoCombustivel = tipoCombustivel;
 	}
 
@@ -56,12 +56,12 @@ public class ELM327ReadSensors {
 		this.velocidade = velocidade;
 	}
 
-	public String getPressaoCombustivel() {
-		return pressaoCombustivel;
+	public String getPressaoMotor() {
+		return pressaoMotor;
 	}
 
-	public void setPressaoCombustivel(String pressaoCombustivel) {
-		this.pressaoCombustivel = pressaoCombustivel;
+	public void setPressaoMotor(String pressaoMotor) {
+		this.pressaoMotor = pressaoMotor;
 	}
 
 	public String getTipoCombustivel() {

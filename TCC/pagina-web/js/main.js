@@ -29,10 +29,10 @@ $(function(){
             $(dataReceived).each(function(){
 
                 if(filtro_select == 'chassi' && input_filtro == this.chassi){
-                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.modelo));
+                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_combustivel, this.modelo));
                 }
                 if(filtro_select == 'modelo' && input_filtro == this.modelo){
-                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_motor, this.chassi));
+                    tbody.append(criaTr(this.data, this.hora, this.rpm, this.velocidade, this.tipo_combustivel, this.pressao_combustivel, this.chassi));
                 }
             });
         });
@@ -41,14 +41,14 @@ $(function(){
     });
 });
 
-function criaTr(data, hora, rpm, velocidade, fuel_type, pressure_engine, modelo_chassi) {
+function criaTr(data, hora, rpm, velocidade, fuel_type, fuel_pressure, modelo_chassi) {
     var tr = $('<tr>');
     tr.append($('<td>').text(data));
     tr.append($('<td>').text(hora));
     tr.append($('<td>').text(rpm));
     tr.append($('<td>').text(velocidade));
     tr.append($('<td>').text(fuel_type));
-    tr.append($('<td>').text(pressure_engine));
+    tr.append($('<td>').text(fuel_pressure));
     tr.append($('<td>').text(modelo_chassi));
     return tr;
 }

@@ -63,13 +63,13 @@ public class ScreenMonitorController {
 	public void btnRealizarLeitura(JLabel lblRpm, JLabel lblTipoCumbustivel, 
 			JLabel lblPressaoMotor,JLabel lblVelocidade) throws IOException, InterruptedException {
 		this.elm327ReadSensors.setRpm(elm327.readRpm());
-		this.elm327ReadSensors.setPressaoCombustivel(elm327.readFuelPressure());
+		this.elm327ReadSensors.setPressaoMotor(elm327.readFuelPressure());
 		this.elm327ReadSensors.setTipoCombustivel(elm327.readFindFuelType());
 		this.elm327ReadSensors.setVelocidade(elm327.readSpeed());
 		
 		lblRpm.setText("RPM: " + elm327ReadSensors.getRpm());
 		lblTipoCumbustivel.setText("Tipo Combustível: " + elm327ReadSensors.getTipoCombustivel());
-		lblPressaoMotor.setText("Pressão do Combustível: " + elm327ReadSensors.getPressaoCombustivel());
+		lblPressaoMotor.setText("Pressão do Motor: " + elm327ReadSensors.getPressaoMotor());
 		lblVelocidade.setText("Velocidade: " + elm327ReadSensors.getVelocidade());
 		
 		dao.insertDB(elm327ReadSensors);

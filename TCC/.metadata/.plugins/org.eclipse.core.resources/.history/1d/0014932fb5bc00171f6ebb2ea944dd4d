@@ -27,7 +27,7 @@ public class ELM327ReadSensorsDAO {
 		bson.append("chassi", readSensors.getChassiCarro())
 			.append("modelo", readSensors.getModeloCarro())
 			.append("rpm", readSensors.getRpm())
-			.append("pressao_combustivel", readSensors.getPressaoCombustivel())
+			.append("pressao_motor", readSensors.getPressaoMotor())
 			.append("tipo_combustivel", readSensors.getTipoCombustivel())
 			.append("velocidade", readSensors.getVelocidade())
 			.append("data", LocalDate.now().toString())

@@ -53,10 +53,11 @@
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\Ruan\Desktop\TADS2015 (GitHub)\TCC" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="AppStart - ScannerOBDII-ELM327" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="D:\_\obdScanner_arm.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="C:\Users\Ruan\Desktop\obdScanner_arm.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Ruan\Desktop\obdScanner_arm.jar"/>
 			<item value="D:\_\obdScanner_arm.jar"/>
 			<item value="D:\_\appX86Swt.jar"/>
 			<item value="C:\Users\Ruan\Desktop\appX86Swt.jar"/>
