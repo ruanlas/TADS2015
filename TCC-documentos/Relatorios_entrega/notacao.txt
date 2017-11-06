@@ -1,0 +1,44 @@
+﻿***Arquitetura p.19 (automotive Emb. Sys. hand.)
+The hardware architecture includes the description of the ECUs and, more precisely, those for themicrocontroller used, the sensors and actuators, the communication links (serial links, networks), and their connections. The platform model defines the operating system and/or middleware application programming interface (API) and, in particular, the services provided (schedulers, frame packing, memory management, I/O drivers, diagnosis software, download software, etc.). Finally, the allocation model is used at the operational level. It models the tasks that are managed by the operating systems and frames, which are in turn managed by the protocol.
+
+*** (inteligence control applications) Atuadores  p. 61
+Traditional actuators carry out the driver’s commands in a direct manner, whereas electronic control units (ECUs) can enhance them beyond human reach.The human actuation bandwidth, for which Hz can be considered as an upper bound, is easily outdone by electromechanical devices. The next example shows how "intelligent control” can greatly enhance the output of braking systems.
+
+***** ECU p. 77 - AUtomotive communication sistems
+
+***** CAN p. 82
+
+****** Possivel justificativa tbm (automotive emb. sys.) p. 77
+
+***** importante p. 221
+
+
+*****
+Demands for vehicles ensuring the safety of driver and passengers are increasing, and are both customer-driven as well as regulatory-based. Asmentioned in Section ., the challenge to the automotive industry is to design cars whose embedded systems are able to reach the required safety level at minimal costs. In fact, automotive embedded safety systems target two objectives: “active safety” and “passive safety,” the former letting off a warning before a crash and the latter acting after a crash. Seat belts and airbags are examples of systems that help to reduce the effects of an accident, and so they contribute to passive safety. Nowadays, the passive safety domain has reached a good maturity level. An airbag is controlled by a complex algorithm embedded on
+an ECU and consumes information provided by other systems. Alerted by signals coming from various sensors
+
+*****
+on the other hand, a support for the specification of how a function instance model is distributed onto a platform. This is done thanks to three other artifacts. The hardware architecture includes the description of the ECUs and, more precisely, those for themicrocontroller used, the sensors and actuators, the communication links (serial links, networks), and their connections
+
+****** IMPORTANTE ***
+The main functionality that is shown in the demonstrator is cruise control. This is a function that needs data from several sensors coming from different domains, has a central (domain independent) responsibility to process the data, and uses several output devices. With that, this function has a lot of aspects that are suitable for showing several of the main objectives of AUTOSAR. But to show the interaction with other functionalities, additional applications are realized. These include air conditioning, wiper washer, and central door locking. In this section, though, we will concentrate on cruise control.
+The driver can activate the cruise control function by pressing a button to set the speed. The cruise control starts to maintain the speed based on the actual vehicle speed. To inform the driver about the actual status, a cruise control light symbol is activated within the instrument cluster. The driver can revert to manual control by pressing a cancel button or the brake pedal. Once having activated the cruise control functionality, the speed is memorized. The last active value can be resumed by pressing a resume button. At any time, the driver can override the actual set speed by pushing the acceleration pedal. If the driver releases the pedal, the previously set speed is resumed and maintained again.
+
+**** 
+Key technologies to meet these challenges will be presented in this chapter and will include new developments on sensors, actuators, and control technologies. However, a key factor for the introduction of these technologies, which tend to take the control of the vehicle away from the driver, will be their reliability, their acceptance by the users, and the regulations that will allow or impose them on the road.
+
+*****
+In the early days of automotive electronics, each new function was implemented as a stand-alone electronic control unit (ECU), which is a subsystem composed of a microcontroller and a set of sensors and actuators. This approach quickly proved to be insufficient with the need for functions to be distributed over several ECUs and the need for information exchanges among functions. For example, the vehicle speed estimated by the engine controller or by wheel rotation sensors has to be known in order to adapt the steering effort, to control the suspension, or simply to choose the right wiping speed. In today’s luxury cars, up to 2500 signals (i.e., elementary information such as the speed of the vehicle) are exchanged by up to 70 ECUs. Until the beginning of the 1990s, data were exchanged through point-to-point links between ECUs. However this strategy, which required an amount of communication channels of the order of n2 where n is the number of ECUs (i.e., if each node is interconnected with all the others, the number of links grows in the square of n), was unable to cope with the increasing use of ECUs due to the problems of weight, cost, complexity, and reliability induced by the wires and the connectors.
+
+****
+Antilock braking system (ABS) for automotive applications was introduced by Teldix in the s, before Bosch bought the patent and enhanced it through successive generations of ABSs. The system can activate and release each brake up to  times/s. This fine control enables each tire to get optimal longitudinal and satisfactory lateral frictions, so that braking distance is minimized while maneuverability stays acceptable. Nearly optimal emergency braking is obtained by staying close to the maximum friction force possible, without going beyond it since that means entering an unstable region that leads to a blocked wheel state. ABS control algorithms guarantee that the functioning point stays between boundaries
+
+#################
+A sensor is a device that measures a physical quantity. An actuator is a device that alters a physical quantity. In electronic systems, sensors often produce a voltage that is proportional to the physical quantity being measured. The voltage may then be converted to a number by an analog-to-digital converter (ADC). A sensor that is packaged with an ADC is called a digital sensor, whereas a sensor without an ADC is called an analog sensor. A digital sensor will have a limited precision, determined by the number of bits used to represent the number (this can be as few as one!). Conversely, an actuator is commonly driven by a voltage that may be converted from a number by a digital-toanalog converter (DAC). An actuator that is packaged with a DAC is called a digital actuator.
+
+#################
+Today, sensors and actuators are often packaged with microprocessors and network interfaces, enabling them to appear on the Internet as services. The trend is towards a technology that deeply connects our physical world with our information world through such smart sensors and actuators. This integrated world is variously called the Internet of Things (IoT), Industry 4.0, the Industrial Internet, Machine-to-Machine (M2M), the Internet of Everything, the Smarter Planet, TSensors (Trillion Sensors), or The Fog (like The Cloud, but closer to the ground).
+
+################
+Some technologies for interfacing to sensors and actuators have emerged that leverage established mechanisms originally developed for ordinary Internet usage. For example, a sensor or actuator may be accessible via a web server using the so-called Representational State Transfer (REST) architectural style (Fielding and Taylor, 2002). In this style, data may be retrieved from a sensor or commands may be issued to an actuator by constructing a URL (uniform resource locator), as if you were accessing an ordinary web page from a browser, and then transmitting the URL directly to the sensor or actuator device, or to a web server that serves as an intermediary
+

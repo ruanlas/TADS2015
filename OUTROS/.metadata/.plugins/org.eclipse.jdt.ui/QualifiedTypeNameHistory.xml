@@ -21,4 +21,10 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Usuario"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Pagamento"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.repository.PagamentoRepository"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.enuns.StatusDoPagamento"/>
 </qualifiedTypeNameHistroy>
