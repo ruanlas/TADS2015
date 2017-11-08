@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;paynow/src/main/webapp/WEB-INF/jsp/pagador&apos; to &apos;usuario&apos;" description="Rename resource &apos;pagador&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/jsp/pagador" name="usuario" stamp="1509406278812" updateReferences="true"/>
-</session>
