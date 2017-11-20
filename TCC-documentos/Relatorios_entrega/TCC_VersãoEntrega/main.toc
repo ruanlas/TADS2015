@@ -1,0 +1,63 @@
+\changetocdepth {4}
+\vspace {\cftbeforepartskip }
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\bfseries SUM\'ARIO}{16}{section*.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{18}{chapter.14}
+\contentsline {section}{\numberline {1.1}CONTEXTUALIZA\IeC {\c C}\IeC {\~A}O}{18}{section.15}
+\contentsline {section}{\numberline {1.2}JUSTIFICATIVA}{19}{section.16}
+\contentsline {section}{\numberline {1.3}DEFINI\IeC {\c C}\IeC {\~A}O DO PROBLEMA}{19}{section.17}
+\contentsline {section}{\numberline {1.4}OBJETIVOS}{19}{section.18}
+\contentsline {section}{\numberline {1.5}AVALIA\IeC {\c C}\IeC {\~A}O DOS RESULTADOS}{20}{section.19}
+\contentsline {section}{\numberline {1.6}TRABALHOS RELACIONADOS}{20}{section.20}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}JUSTIFICATIVA}{21}{chapter.21}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}OBJETIVOS}{22}{chapter.22}
+\contentsline {section}{\numberline {3.1}OBJETIVO GERAL}{22}{section.23}
+\contentsline {section}{\numberline {3.2}OBJETIVOS ESPEC\IeC {\'I}FICOS}{22}{section.24}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}{24}{chapter.25}
+\contentsline {section}{\numberline {4.1}SISTEMAS E SOFTWARES EMBARCADOS}{24}{section.26}
+\contentsline {section}{\numberline {4.2}ARQUITETURA DO SISTEMA AUTOMOTIVO}{24}{section.27}
+\contentsline {subsection}{\numberline {4.2.1}CATEGORIAS FUNCIONAIS DOS SISTEMAS EMBARCADOS AUTOMOTIVOS}{25}{subsection.28}
+\contentsline {subsection}{\numberline {4.2.2}\textit {ECU (ELETRONIC CONTROL UNIT)}}{28}{subsection.32}
+\contentsline {subsection}{\numberline {4.2.3}PROTOCOLOS AUTOMOTIVOS}{29}{subsection.35}
+\contentsline {subsubsection}{\numberline {4.2.3.1}PROTOCOLO \textit {CAN} \textit {(CONTROLLER AREA NETWORK)}}{31}{subsubsection.38}
+\contentsline {subsubsection}{\numberline {4.2.3.2}PROTOCOLO SAE J1850}{32}{subsubsection.40}
+\contentsline {subsection}{\numberline {4.2.4}CONECTOR \textit {OBD-II (ONBOARD DIAGNOSTICS)}}{33}{subsection.42}
+\contentsline {section}{\numberline {4.3}ELM327}{34}{section.46}
+\contentsline {subsection}{\numberline {4.3.1}COMANDOS AT}{36}{subsection.49}
+\contentsline {subsection}{\numberline {4.3.2}COMANDOS \textit {OBD}}{37}{subsection.50}
+\contentsline {subsubsection}{\numberline {4.3.2.1}COMUNICA\IeC {\c C}\IeC {\~A}O COM O VE\IeC {\'I}CULO - PADR\IeC {\~O}ES DE SOLICITA\IeC {\c C}\IeC {\~A}O}{37}{subsubsection.51}
+\contentsline {section}{\numberline {4.4}\textit {RASPBERRY PI}}{37}{section.52}
+\contentsline {section}{\numberline {4.5}COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{39}{section.54}
+\contentsline {section}{\numberline {4.6}INTERNET DAS COISAS \textit {(INTERNET OF THINGS - IOT)}}{39}{section.55}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}METODOLOGIA}{42}{chapter.57}
+\contentsline {section}{\numberline {5.1}DESENVOLVIMENTO DO SOFTWARE DE LEITURA}{42}{section.58}
+\contentsline {subsection}{\numberline {5.1.1}ARQUITETURA DO SOFTWARE}{43}{subsection.60}
+\contentsline {section}{\numberline {5.2}CONFIGURA\IeC {\c C}\IeC {\~A}O DO \textit {RASPBERRY PI} E INSTALA\IeC {\c C}\IeC {\~A}O DO SOFTWARE}{49}{section.81}
+\contentsline {section}{\numberline {5.3}INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM SERVI\IeC {\c C}O DE COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{52}{section.85}
+\contentsline {subsection}{\numberline {5.3.1}INSTALA\IeC {\c C}\IeC {\~A}O E CONFIGURA\IeC {\c C}\IeC {\~A}O DA BASE DE DADOS NA NUVEM}{53}{subsection.86}
+\contentsline {subsection}{\numberline {5.3.2}INTEGRA\IeC {\c C}\IeC {\~A}O DO SOFTWARE COM A BASE DE DADOS}{53}{subsection.88}
+\contentsline {subsection}{\numberline {5.3.3}INSTALA\IeC {\c C}\IeC {\~A}O E CRIA\IeC {\c C}\IeC {\~A}O DO \textit {WEB SERVICE}}{56}{subsection.94}
+\contentsline {subsection}{\numberline {5.3.4}INSTALA\IeC {\c C}\IeC {\~A}O E CONFIGURA\IeC {\c C}\IeC {\~A}O DO SERVIDOR WEB E CRIA\IeC {\c C}\IeC {\~A}O DA P\IeC {\'A}GINA}{57}{subsection.96}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}TESTES E AVALIA\IeC {\c C}\IeC {\~A}O DOS RESULTADOS}{59}{chapter.100}
+\contentsline {section}{\numberline {6.1}TESTE DO SOFTWARE DE LEITURA}{59}{section.101}
+\contentsline {section}{\numberline {6.2}TESTE DE INTEGRA\IeC {\c C}\IeC {\~A}O DO SOFTWARE COM O \textit {RASPBERRY PI}}{60}{section.102}
+\contentsline {section}{\numberline {6.3}TESTES DE INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM A COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{60}{section.103}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}CONCLUS\IeC {\~O}ES}{63}{chapter.106}
+\contentsline {section}{\numberline {7.1}PROPOSTA PARA TRABALHOS FUTUROS}{63}{section.107}
+\vspace {\cftbeforepartskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\bfseries REFER\^ENCIAS}{65}{section*.110}
