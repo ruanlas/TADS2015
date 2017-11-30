@@ -1,0 +1,123 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: folhadeaprovacao.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: cap2.aux
+A level-1 auxiliary file: cap3.aux
+A level-1 auxiliary file: cap4.aux
+A level-1 auxiliary file: cap5.aux
+A level-1 auxiliary file: cap6.aux
+A level-1 auxiliary file: cap7.aux
+The style file: abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: bibliografia.bib
+Warning--entry type for "amazonebs" isn't style-file defined
+--line 117 of file bibliografia.bib
+Warning--entry type for "amazonec2" isn't style-file defined
+--line 125 of file bibliografia.bib
+Warning--entry type for "amazoncloudcomputing" isn't style-file defined
+--line 133 of file bibliografia.bib
+Warning--entry type for "charette" isn't style-file defined
+--line 141 of file bibliografia.bib
+Warning--entry type for "gill" isn't style-file defined
+--line 149 of file bibliografia.bib
+You're missing a field name---line 153 of file bibliografia.bib
+ :   
+ :   % publisher = {National Science Foundation},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "chede" isn't style-file defined
+--line 159 of file bibliografia.bib
+Warning--entry type for "raspberrypifoundation" isn't style-file defined
+--line 167 of file bibliografia.bib
+Warning--entry type for "long" isn't style-file defined
+--line 174 of file bibliografia.bib
+Warning--entry type for "ashton" isn't style-file defined
+--line 182 of file bibliografia.bib
+Warning--entry type for "microsoft" isn't style-file defined
+--line 190 of file bibliografia.bib
+Warning--entry type for "mongodbwhatis" isn't style-file defined
+--line 198 of file bibliografia.bib
+Warning--entry type for "mongodbjsonbson" isn't style-file defined
+--line 206 of file bibliografia.bib
+Warning--entry type for "mongodbdatamodeling" isn't style-file defined
+--line 214 of file bibliografia.bib
+Warning--entry type for "bluecove" isn't style-file defined
+--line 222 of file bibliografia.bib
+Warning--entry type for "bluecovedoc" isn't style-file defined
+--line 230 of file bibliografia.bib
+Warning--entry type for "w3schools" isn't style-file defined
+--line 238 of file bibliografia.bib
+Warning--entry type for "pawlan" isn't style-file defined
+--line 246 of file bibliografia.bib
+Warning--entry type for "oracle" isn't style-file defined
+--line 254 of file bibliografia.bib
+Warning--entry type for "medeirosdao" isn't style-file defined
+--line 262 of file bibliografia.bib
+Warning--entry type for "medeirosmvc" isn't style-file defined
+--line 270 of file bibliografia.bib
+Warning--entry type for "torvalds" isn't style-file defined
+--line 278 of file bibliografia.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 42 entries,
+            6481 wiz_defined-function locations,
+            1331 strings with 14083 characters,
+and the built_in function-call counts, 62329 in all, are:
+= -- 9059
+> -- 673
+< -- 1337
++ -- 1617
+- -- 216
+* -- 2844
+:= -- 6119
+add.period$ -- 142
+call.type$ -- 45
+change.case$ -- 233
+chr.to.int$ -- 57
+cite$ -- 35
+duplicate$ -- 8064
+empty$ -- 2383
+format.name$ -- 995
+if$ -- 13134
+int.to.chr$ -- 10
+int.to.str$ -- 1
+missing$ -- 651
+newline$ -- 211
+num.names$ -- 175
+pop$ -- 957
+preamble$ -- 1
+purify$ -- 134
+quote$ -- 0
+skip$ -- 8677
+stack$ -- 1
+substring$ -- 2083
+swap$ -- 1696
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 238
+width$ -- 0
+write$ -- 514
+(There was 1 error message)

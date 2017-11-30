@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.4)  20 NOV 2017 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.4)  22 NOV 2017 07:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,9 +1401,9 @@ Package scrpage2 Warning: use of scrpage2 with unknown class.
 LaTeX Warning: Unused global option(s):
     [brazilabntfigtabnum].
 
-(./main.aux (./folhadeaprovacao.aux) (./dedicatoria.aux) (./agradecimentos.aux)
-(./epigrafe.aux) (./resumo.aux) (./abstract.aux) (./introducao.aux) (./cap2.aux
-) (./cap3.aux) (./cap4.aux) (./cap5.aux) (./cap6.aux) (./cap7.aux))
+(./main.aux (./folhadeaprovacao.aux) (./resumo.aux) (./abstract.aux)
+(./introducao.aux) (./cap2.aux) (./cap3.aux) (./cap4.aux) (./cap5.aux)
+(./cap6.aux) (./cap7.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -1566,75 +1566,38 @@ Overfull \hbox (2.86786pt too wide) in paragraph at lines 11--16
 
 
 ])
-\openout2 = `dedicatoria.aux'.
-
- (./dedicatoria.tex) [4
-
-
-
-]
-\openout2 = `agradecimentos.aux'.
-
- (./agradecimentos.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hsize' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 2.
-
-[5
-
-
-
-])
-\openout2 = `epigrafe.aux'.
-
- (./epigrafe.tex) [6
-
-
-
-]
 \openout2 = `resumo.aux'.
 
- (./resumo.tex [7
+ (./resumo.tex [4
+
 
 
 ])
 \openout2 = `abstract.aux'.
 
- (./abstract.tex [8
+ (./abstract.tex [5
 
 
 
-]) (./main.lof
-[9
+]) (./main.lof [6
 
 
-]) [10] (./main.lot) [11
+]) [7] (./main.lot)
+[8
 
-] [12
+] [9
 
 
-] [13] (./main.toc [14
+] [10] (./main.toc [11
 
-]) [15]
+]) [12]
 \openout2 = `introducao.aux'.
 
  (./introducao.tex
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[16
+[13
 
 
 
@@ -1642,18 +1605,18 @@ Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[17])
+[14])
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[18]
+[15]
 \openout2 = `cap2.aux'.
 
  (./cap2.tex)
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[19
+[16
 
 
 
@@ -1671,7 +1634,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[20
+[17
 
 
 
@@ -1679,20 +1642,20 @@ Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[21]
+[18]
 \openout2 = `cap4.aux'.
 
  (./cap4.tex
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[22
+[19
 
 
 
 ]
 * abntbibifspcampinas: Ilustrado.
-<imagens/categoriaFuncionalSistemasEmbarcados.png, id=376, 1204.5pt x 990.8217p
+<imagens/categoriaFuncionalSistemasEmbarcados.png, id=361, 1204.5pt x 990.8217p
 t>
 File: imagens/categoriaFuncionalSistemasEmbarcados.png Graphic file (type png)
 <use imagens/categoriaFuncionalSistemasEmbarcados.png>
@@ -1704,12 +1667,12 @@ e 21.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[23 <./imagens/categoriaFuncionalSistemasEmbarcados.png>]
+[20 <./imagens/categoriaFuncionalSistemasEmbarcados.png>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[24]
-<imagens/intercomunicacaoEntreCategorias.png, id=399, 1204.2591pt x 512.8761pt>
+[21]
+<imagens/intercomunicacaoEntreCategorias.png, id=383, 1204.2591pt x 512.8761pt>
 
 File: imagens/intercomunicacaoEntreCategorias.png Graphic file (type png)
 <use imagens/intercomunicacaoEntreCategorias.png>
@@ -1717,7 +1680,7 @@ Package pdftex.def Info: imagens/intercomunicacaoEntreCategorias.png  used on i
 nput line 48. on input line 48.
 Package pdftex.def Info: Requested size: 445.5689pt x 189.76118pt on input line
  48.
-<imagens/relacaoSensorAtuador.png, id=408, 831.105pt x 258.4857pt>
+<imagens/relacaoSensorAtuador.png, id=392, 831.105pt x 258.4857pt>
 File: imagens/relacaoSensorAtuador.png Graphic file (type png)
 <use imagens/relacaoSensorAtuador.png>
 Package pdftex.def Info: imagens/relacaoSensorAtuador.png  used on input line 5
@@ -1728,8 +1691,8 @@ Package pdftex.def Info: Requested size: 241.01427pt x 74.95892pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[25 <./imagens/intercomunicacaoEntreCategorias.png>]
-<imagens/ecu1.jpg, id=423, 165.18857pt x 128.02115pt>
+[22 <./imagens/intercomunicacaoEntreCategorias.png>]
+<imagens/ecu1.jpg, id=407, 165.18857pt x 128.02115pt>
 File: imagens/ecu1.jpg Graphic file (type jpg)
 <use imagens/ecu1.jpg>
 Package pdftex.def Info: imagens/ecu1.jpg  used on input line 69. on input line
@@ -1745,8 +1708,8 @@ Overfull \hbox (7.31918pt too wide) in paragraph at lines 70--71
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[26 <./imagens/relacaoSensorAtuador.png> <./imagens/ecu1.jpg>]
-<imagens/ecuSensorAtuador.png, id=431, 712.8231pt x 573.342pt>
+[23 <./imagens/relacaoSensorAtuador.png> <./imagens/ecu1.jpg>]
+<imagens/ecuSensorAtuador.png, id=415, 712.8231pt x 573.342pt>
 File: imagens/ecuSensorAtuador.png Graphic file (type png)
 <use imagens/ecuSensorAtuador.png>
 Package pdftex.def Info: imagens/ecuSensorAtuador.png  used on input line 78. o
@@ -1757,8 +1720,8 @@ Package pdftex.def Info: Requested size: 242.35664pt x 194.9337pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[27 <./imagens/ecuSensorAtuador.png>]
-<imagens/redesGateway.png, id=452, 889.6437pt x 340.3917pt>
+[24 <./imagens/ecuSensorAtuador.png>]
+<imagens/redesGateway.png, id=436, 889.6437pt x 340.3917pt>
 File: imagens/redesGateway.png Graphic file (type png)
 <use imagens/redesGateway.png>
 Package pdftex.def Info: imagens/redesGateway.png  used on input line 110. on i
@@ -1769,19 +1732,19 @@ e 110.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[28]
+[25]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[29 <./imagens/redesGateway.png>]
-<imagens/protocoloCanEVariacoes.png, id=480, 710.4141pt x 297.9933pt>
+[26 <./imagens/redesGateway.png>]
+<imagens/protocoloCanEVariacoes.png, id=465, 710.4141pt x 297.9933pt>
 File: imagens/protocoloCanEVariacoes.png Graphic file (type png)
 <use imagens/protocoloCanEVariacoes.png>
 Package pdftex.def Info: imagens/protocoloCanEVariacoes.png  used on input line
  126. on input line 126.
 Package pdftex.def Info: Requested size: 177.60309pt x 74.49814pt on input line
  126.
-<imagens/protocoloSaeJ1850.png, id=492, 880.2486pt x 236.082pt>
+<imagens/protocoloSaeJ1850.png, id=477, 880.2486pt x 236.082pt>
 File: imagens/protocoloSaeJ1850.png Graphic file (type png)
 <use imagens/protocoloSaeJ1850.png>
 Package pdftex.def Info: imagens/protocoloSaeJ1850.png  used on input line 138.
@@ -1792,8 +1755,8 @@ Package pdftex.def Info: Requested size: 220.06161pt x 59.02034pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[30 <./imagens/protocoloCanEVariacoes.png> <./imagens/protocoloSaeJ1850.png>]
-<imagens/obdII.png, id=519, 1438.37375pt x 958.58125pt>
+[27 <./imagens/protocoloCanEVariacoes.png> <./imagens/protocoloSaeJ1850.png>]
+<imagens/obdII.png, id=503, 1438.37375pt x 958.58125pt>
 File: imagens/obdII.png Graphic file (type png)
 <use imagens/obdII.png>
 Package pdftex.def Info: imagens/obdII.png  used on input line 154. on input li
@@ -1804,15 +1767,15 @@ e 154.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[31 <./imagens/obdII.png>]
-<imagens/luzMil.jpg, id=532, 642.4pt x 481.8pt>
+[28 <./imagens/obdII.png>]
+<imagens/luzMil.jpg, id=516, 642.4pt x 481.8pt>
 File: imagens/luzMil.jpg Graphic file (type jpg)
 <use imagens/luzMil.jpg>
 Package pdftex.def Info: imagens/luzMil.jpg  used on input line 163. on input l
 ine 163.
 Package pdftex.def Info: Requested size: 96.35583pt x 72.26688pt on input line 
 163.
-<imagens/arquiteturaRedeVeicular.png, id=536, 1204.2591pt x 655.0071pt>
+<imagens/arquiteturaRedeVeicular.png, id=520, 1204.2591pt x 655.0071pt>
 File: imagens/arquiteturaRedeVeicular.png Graphic file (type png)
 <use imagens/arquiteturaRedeVeicular.png>
 Package pdftex.def Info: imagens/arquiteturaRedeVeicular.png  used on input lin
@@ -1823,15 +1786,15 @@ e 174.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[32 <./imagens/luzMil.jpg> <./imagens/arquiteturaRedeVeicular.png>]
-<imagens/elm327-min.png, id=558, 2190.1825pt x 1174.3875pt>
+[29 <./imagens/luzMil.jpg> <./imagens/arquiteturaRedeVeicular.png>]
+<imagens/elm327-min.png, id=541, 2190.1825pt x 1174.3875pt>
 File: imagens/elm327-min.png Graphic file (type png)
 <use imagens/elm327-min.png>
 Package pdftex.def Info: imagens/elm327-min.png  used on input line 186. on inp
 ut line 186.
 Package pdftex.def Info: Requested size: 350.43636pt x 187.90584pt on input lin
 e 186.
-<imagens/arquiteturaRedeVeicularELM327.png, id=559, 1204.2591pt x 481.8pt>
+<imagens/arquiteturaRedeVeicularELM327.png, id=542, 1204.2591pt x 481.8pt>
 File: imagens/arquiteturaRedeVeicularELM327.png Graphic file (type png)
 <use imagens/arquiteturaRedeVeicularELM327.png>
 Package pdftex.def Info: imagens/arquiteturaRedeVeicularELM327.png  used on inp
@@ -1842,12 +1805,12 @@ Package pdftex.def Info: Requested size: 421.497pt x 168.63252pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[33 <./imagens/elm327-min.png>]
+[30 <./imagens/elm327-min.png>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[34 <./imagens/arquiteturaRedeVeicularELM327.png>]
-<imagens/raspberry-min.png, id=591, 1541.76pt x 986.68625pt>
+[31 <./imagens/arquiteturaRedeVeicularELM327.png>]
+<imagens/raspberry-min.png, id=576, 1541.76pt x 986.68625pt>
 File: imagens/raspberry-min.png Graphic file (type png)
 <use imagens/raspberry-min.png>
 Package pdftex.def Info: imagens/raspberry-min.png  used on input line 220. on 
@@ -1858,12 +1821,12 @@ e 220.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[35]
+[32]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[36 <./imagens/raspberry-min.png>]
-<imagens/diagramaIOT.png, id=627, 953.2413pt x 983.5947pt>
+[33 <./imagens/raspberry-min.png>]
+<imagens/diagramaIOT.png, id=611, 953.2413pt x 983.5947pt>
 File: imagens/diagramaIOT.png Graphic file (type png)
 <use imagens/diagramaIOT.png>
 Package pdftex.def Info: imagens/diagramaIOT.png  used on input line 243. on in
@@ -1874,15 +1837,15 @@ e 243.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[37]
+[34]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[38 <./imagens/diagramaIOT.png>]
+[35 <./imagens/diagramaIOT.png>]
 \openout2 = `cap5.aux'.
 
  (./cap5.tex
-<imagens/telaLeituraJavaFx.PNG, id=651, 370.38374pt x 245.41687pt>
+<imagens/telaLeituraJavaFx.PNG, id=635, 370.38374pt x 245.41687pt>
 File: imagens/telaLeituraJavaFx.PNG Graphic file (type png)
 <use imagens/telaLeituraJavaFx.PNG>
 Package pdftex.def Info: imagens/telaLeituraJavaFx.PNG  used on input line 13. 
@@ -1893,12 +1856,12 @@ Package pdftex.def Info: Requested size: 277.78711pt x 184.0622pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[39
+[36
 
 
 
  <./imagens/telaLeituraJavaFx.PNG>]
-<imagens/estruturacaoPacotes.PNG, id=660, 1076.52188pt x 617.30624pt>
+<imagens/estruturacaoPacotes.PNG, id=645, 1076.52188pt x 617.30624pt>
 File: imagens/estruturacaoPacotes.PNG Graphic file (type png)
 <use imagens/estruturacaoPacotes.PNG>
 Package pdftex.def Info: imagens/estruturacaoPacotes.PNG  used on input line 25
@@ -1909,8 +1872,8 @@ e 25.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[40 <./imagens/estruturacaoPacotes.PNG>]
-<imagens/pacoteBluetooth-BluetoothConnection.PNG, id=676, 579.66562pt x 195.731
+[37 <./imagens/estruturacaoPacotes.PNG>]
+<imagens/pacoteBluetooth-BluetoothConnection.PNG, id=660, 579.66562pt x 195.731
 25pt>
 File: imagens/pacoteBluetooth-BluetoothConnection.PNG Graphic file (type png)
 <use imagens/pacoteBluetooth-BluetoothConnection.PNG>
@@ -1923,7 +1886,7 @@ Overfull \hbox (8.73312pt too wide) in paragraph at lines 34--34
  [][] 
  []
 
-<imagens/pacoteBluetooth-DiscoveryDevices_DiscoveryListener.PNG, id=677, 546.54
+<imagens/pacoteBluetooth-DiscoveryDevices_DiscoveryListener.PNG, id=661, 546.54
 187pt x 232.61906pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_DiscoveryListener.PNG Graphic fi
 le (type png)
@@ -1937,7 +1900,7 @@ Overfull \hbox (58.74942pt too wide) in paragraph at lines 41--41
  [][] 
  []
 
-<imagens/pacoteBluetooth-DiscoveryDevices_deviceDiscovered.PNG, id=678, 584.182
+<imagens/pacoteBluetooth-DiscoveryDevices_deviceDiscovered.PNG, id=662, 584.182
 5pt x 122.70844pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_deviceDiscovered.PNG Graphic fil
 e (type png)
@@ -1951,7 +1914,7 @@ Overfull \hbox (0.6605pt too wide) in paragraph at lines 48--48
  [][] 
  []
 
-<imagens/pacoteBluetooth-DiscoveryDevices_inquiryCompleted.PNG, id=679, 450.934
+<imagens/pacoteBluetooth-DiscoveryDevices_inquiryCompleted.PNG, id=663, 450.934
 7pt x 426.09187pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_inquiryCompleted.PNG Graphic fil
 e (type png)
@@ -1960,7 +1923,7 @@ Package pdftex.def Info: imagens/pacoteBluetooth-DiscoveryDevices_inquiryComple
 ted.PNG  used on input line 55. on input line 55.
 Package pdftex.def Info: Requested size: 360.74825pt x 340.87395pt on input lin
 e 55.
-<imagens/pacoteBluetooth-DiscoveryDevices_servicesDiscovered.PNG, id=680, 610.5
+<imagens/pacoteBluetooth-DiscoveryDevices_servicesDiscovered.PNG, id=664, 610.5
 3094pt x 121.20282pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_servicesDiscovered.PNG Graphic f
 ile (type png)
@@ -1974,7 +1937,7 @@ Overfull \hbox (21.21222pt too wide) in paragraph at lines 62--62
  [][] 
  []
 
-<imagens/pacoteBluetooth-DiscoveryDevices_serviceSearchCompleted.PNG, id=681, 5
+<imagens/pacoteBluetooth-DiscoveryDevices_serviceSearchCompleted.PNG, id=665, 5
 13.41812pt x 123.46124pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_serviceSearchCompleted.PNG Graph
 ic file (type png)
@@ -1983,7 +1946,7 @@ Package pdftex.def Info: imagens/pacoteBluetooth-DiscoveryDevices_serviceSearch
 Completed.PNG  used on input line 69. on input line 69.
 Package pdftex.def Info: Requested size: 400.46451pt x 96.29936pt on input line
  69.
-<imagens/pacoteBluetooth-DiscoveryDevices_discovery.PNG, id=682, 647.41875pt x 
+<imagens/pacoteBluetooth-DiscoveryDevices_discovery.PNG, id=666, 647.41875pt x 
 536.75531pt>
 File: imagens/pacoteBluetooth-DiscoveryDevices_discovery.PNG Graphic file (type
  png)
@@ -1996,52 +1959,47 @@ e 76.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[41 <./imagens/pacoteBluetooth-BluetoothConnection.PNG> <./imagens/pacoteBlueto
+[38 <./imagens/pacoteBluetooth-BluetoothConnection.PNG> <./imagens/pacoteBlueto
 oth-DiscoveryDevices_DiscoveryListener.PNG>]
 
-LaTeX Warning: Text page 42 contains only floats.
+LaTeX Warning: Text page 39 contains only floats.
 
 
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[42 <./imagens/pacoteBluetooth-DiscoveryDevices_deviceDiscovered.PNG> <./imagen
+[39 <./imagens/pacoteBluetooth-DiscoveryDevices_deviceDiscovered.PNG> <./imagen
 s/pacoteBluetooth-DiscoveryDevices_inquiryCompleted.PNG> <./imagens/pacoteBluet
 ooth-DiscoveryDevices_servicesDiscovered.PNG>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[43 <./imagens/pacoteBluetooth-DiscoveryDevices_serviceSearchCompleted.PNG> <./
+[40 <./imagens/pacoteBluetooth-DiscoveryDevices_serviceSearchCompleted.PNG> <./
 imagens/pacoteBluetooth-DiscoveryDevices_discovery.PNG>]
-<imagens/pacoteScanner-ConnectToDevice.PNG, id=715, 525.46312pt x 247.67531pt>
+<imagens/pacoteScanner-ConnectToDevice.PNG, id=699, 525.46312pt x 247.67531pt>
 File: imagens/pacoteScanner-ConnectToDevice.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ConnectToDevice.PNG>
 Package pdftex.def Info: imagens/pacoteScanner-ConnectToDevice.PNG  used on inp
 ut line 85. on input line 85.
 Package pdftex.def Info: Requested size: 420.37106pt x 198.1405pt on input line
  85.
-<imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG, id=716, 757.32938pt
- x 514.17094pt>
+<imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG, id=700, 605.26125pt
+ x 526.96875pt>
 File: imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG Graphic file (t
 ype png)
 <use imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG>
 Package pdftex.def Info: imagens/pacoteScanner-ConnectToDevice_connectToDevice.
 PNG  used on input line 92. on input line 92.
-Package pdftex.def Info: Requested size: 530.12695pt x 359.9172pt on input line
+Package pdftex.def Info: Requested size: 423.67998pt x 368.8756pt on input line
  92.
-
-Overfull \hbox (75.12695pt too wide) in paragraph at lines 92--92
- [][] 
- []
-
-<imagens/pacoteScanner-ELM327.PNG, id=717, 494.59781pt x 140.02313pt>
+<imagens/pacoteScanner-ELM327.PNG, id=701, 494.59781pt x 140.02313pt>
 File: imagens/pacoteScanner-ELM327.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327.PNG>
 Package pdftex.def Info: imagens/pacoteScanner-ELM327.PNG  used on input line 9
 9. on input line 99.
 Package pdftex.def Info: Requested size: 346.2161pt x 98.01552pt on input line 
 99.
-<imagens/pacoteScanner-ELM327_disconnect.PNG, id=718, 438.13687pt x 65.49469pt>
+<imagens/pacoteScanner-ELM327_disconnect.PNG, id=702, 438.13687pt x 65.49469pt>
 
 File: imagens/pacoteScanner-ELM327_disconnect.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_disconnect.PNG>
@@ -2049,7 +2007,7 @@ Package pdftex.def Info: imagens/pacoteScanner-ELM327_disconnect.PNG  used on i
 nput line 106. on input line 106.
 Package pdftex.def Info: Requested size: 306.69371pt x 45.84595pt on input line
  106.
-<imagens/pacoteScanner-ELM327_readRpm.PNG, id=719, 536.75531pt x 82.05656pt>
+<imagens/pacoteScanner-ELM327_readRpm.PNG, id=703, 536.75531pt x 82.05656pt>
 File: imagens/pacoteScanner-ELM327_readRpm.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_readRpm.PNG>
 Package pdftex.def Info: imagens/pacoteScanner-ELM327_readRpm.PNG  used on inpu
@@ -2061,7 +2019,7 @@ Overfull \hbox (1.24416pt too wide) in paragraph at lines 113--113
  [][] 
  []
 
-<imagens/pacoteScanner-ELM327_readSpeed.PNG, id=720, 545.78906pt x 85.82062pt>
+<imagens/pacoteScanner-ELM327_readSpeed.PNG, id=704, 545.78906pt x 85.82062pt>
 File: imagens/pacoteScanner-ELM327_readSpeed.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_readSpeed.PNG>
 Package pdftex.def Info: imagens/pacoteScanner-ELM327_readSpeed.PNG  used on in
@@ -2073,7 +2031,7 @@ Overfull \hbox (8.92288pt too wide) in paragraph at lines 120--120
  [][] 
  []
 
-<imagens/pacoteScanner-ELM327_readFuelPressure.PNG, id=721, 592.46344pt x 104.6
+<imagens/pacoteScanner-ELM327_readFuelPressure.PNG, id=705, 592.46344pt x 104.6
 4093pt>
 File: imagens/pacoteScanner-ELM327_readFuelPressure.PNG Graphic file (type png)
 
@@ -2087,7 +2045,7 @@ Overfull \hbox (18.97139pt too wide) in paragraph at lines 127--127
  [][] 
  []
 
-<imagens/pacoteScanner-ELM327_readOilTemp.PNG, id=722, 573.64313pt x 102.3825pt
+<imagens/pacoteScanner-ELM327_readOilTemp.PNG, id=706, 573.64313pt x 102.3825pt
 >
 File: imagens/pacoteScanner-ELM327_readOilTemp.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_readOilTemp.PNG>
@@ -2100,7 +2058,7 @@ Overfull \hbox (32.59895pt too wide) in paragraph at lines 134--134
  [][] 
  []
 
-<imagens/pacoteScanner-ELM327_readFindFuelType.PNG, id=723, 596.2275pt x 106.14
+<imagens/pacoteScanner-ELM327_readFindFuelType.PNG, id=707, 596.2275pt x 106.14
 656pt>
 File: imagens/pacoteScanner-ELM327_readFindFuelType.PNG Graphic file (type png)
 
@@ -2114,7 +2072,7 @@ Overfull \hbox (21.98265pt too wide) in paragraph at lines 141--141
  [][] 
  []
 
-<imagens/pacoteScanner-ELM327_readFuelLevel.PNG, id=724, 557.83406pt x 97.86563
+<imagens/pacoteScanner-ELM327_readFuelLevel.PNG, id=708, 557.83406pt x 97.86563
 pt>
 File: imagens/pacoteScanner-ELM327_readFuelLevel.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_readFuelLevel.PNG>
@@ -2122,7 +2080,7 @@ Package pdftex.def Info: imagens/pacoteScanner-ELM327_readFuelLevel.PNG  used o
 n input line 148. on input line 148.
 Package pdftex.def Info: Requested size: 390.48117pt x 68.50545pt on input line
  148.
-<imagens/pacoteScanner-ELM327_clearBuffer.PNG, id=725, 575.14874pt x 95.6072pt>
+<imagens/pacoteScanner-ELM327_clearBuffer.PNG, id=709, 575.14874pt x 95.6072pt>
 
 File: imagens/pacoteScanner-ELM327_clearBuffer.PNG Graphic file (type png)
 <use imagens/pacoteScanner-ELM327_clearBuffer.PNG>
@@ -2130,7 +2088,7 @@ Package pdftex.def Info: imagens/pacoteScanner-ELM327_clearBuffer.PNG  used on
 input line 155. on input line 155.
 Package pdftex.def Info: Requested size: 402.60138pt x 66.92456pt on input line
  155.
-<imagens/diagramaMvc.png, id=729, 1105.0083pt x 671.3883pt>
+<imagens/diagramaMvc.png, id=713, 1105.0083pt x 671.3883pt>
 File: imagens/diagramaMvc.png Graphic file (type png)
 <use imagens/diagramaMvc.png>
 Package pdftex.def Info: imagens/diagramaMvc.png  used on input line 164. on in
@@ -2141,11 +2099,11 @@ e 164.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[44 <./imagens/pacoteScanner-ConnectToDevice.PNG>]
+[41 <./imagens/pacoteScanner-ConnectToDevice.PNG>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[45 <./imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG> <./imagens/pa
+[42 <./imagens/pacoteScanner-ConnectToDevice_connectToDevice.PNG> <./imagens/pa
 coteScanner-ELM327.PNG> <./imagens/pacoteScanner-ELM327_disconnect.PNG>]
 Overfull \vbox (6.52776pt too high) has occurred while \output is active []
 
@@ -2153,11 +2111,11 @@ Overfull \vbox (6.52776pt too high) has occurred while \output is active []
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[46 <./imagens/pacoteScanner-ELM327_readRpm.PNG> <./imagens/pacoteScanner-ELM32
+[43 <./imagens/pacoteScanner-ELM327_readRpm.PNG> <./imagens/pacoteScanner-ELM32
 7_readSpeed.PNG> <./imagens/pacoteScanner-ELM327_readFuelPressure.PNG> <./image
 ns/pacoteScanner-ELM327_readOilTemp.PNG> <./imagens/pacoteScanner-ELM327_readFi
 ndFuelType.PNG>]
-<imagens/displayRaspberry-min.png, id=757, 2316.655pt x 1963.335pt>
+<imagens/displayRaspberry-min.png, id=742, 2316.655pt x 1963.335pt>
 File: imagens/displayRaspberry-min.png Graphic file (type png)
 <use imagens/displayRaspberry-min.png>
 Package pdftex.def Info: imagens/displayRaspberry-min.png  used on input line 1
@@ -2168,9 +2126,9 @@ Package pdftex.def Info: Requested size: 277.9866pt x 235.59003pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[47 <./imagens/pacoteScanner-ELM327_readFuelLevel.PNG> <./imagens/pacoteScanner
+[44 <./imagens/pacoteScanner-ELM327_readFuelLevel.PNG> <./imagens/pacoteScanner
 -ELM327_clearBuffer.PNG> <./imagens/diagramaMvc.png>]
-<imagens/raspberryGPIO-min.png, id=767, 2289.55376pt x 2080.77374pt>
+<imagens/raspberryGPIO-min.png, id=752, 2289.55376pt x 2080.77374pt>
 File: imagens/raspberryGPIO-min.png Graphic file (type png)
 <use imagens/raspberryGPIO-min.png>
 Package pdftex.def Info: imagens/raspberryGPIO-min.png  used on input line 181.
@@ -2181,8 +2139,8 @@ Package pdftex.def Info: Requested size: 274.7346pt x 249.68207pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[48 <./imagens/displayRaspberry-min.png> <./imagens/raspberryGPIO-min.png>]
-<imagens/sistemaRodandoRaspberry-min.png, id=778, 2117.9125pt x 1415.2875pt>
+[45 <./imagens/displayRaspberry-min.png> <./imagens/raspberryGPIO-min.png>]
+<imagens/sistemaRodandoRaspberry-min.png, id=762, 2117.9125pt x 1415.2875pt>
 File: imagens/sistemaRodandoRaspberry-min.png Graphic file (type png)
 <use imagens/sistemaRodandoRaspberry-min.png>
 Package pdftex.def Info: imagens/sistemaRodandoRaspberry-min.png  used on input
@@ -2193,22 +2151,22 @@ e 192.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[49 <./imagens/sistemaRodandoRaspberry-min.png>]
-<imagens/baseDadosBanco.png, id=791, 191.21437pt x 119.69719pt>
+[46 <./imagens/sistemaRodandoRaspberry-min.png>]
+<imagens/baseDadosBanco.png, id=775, 191.21437pt x 119.69719pt>
 File: imagens/baseDadosBanco.png Graphic file (type png)
 <use imagens/baseDadosBanco.png>
 Package pdftex.def Info: imagens/baseDadosBanco.png  used on input line 205. on
  input line 205.
 Package pdftex.def Info: Requested size: 286.82085pt x 179.54532pt on input lin
 e 205.
-<imagens/estruturacaoPacotesNovo.png, id=797, 788.9475pt x 589.4522pt>
+<imagens/estruturacaoPacotesNovo.png, id=781, 788.9475pt x 589.4522pt>
 File: imagens/estruturacaoPacotesNovo.png Graphic file (type png)
 <use imagens/estruturacaoPacotesNovo.png>
 Package pdftex.def Info: imagens/estruturacaoPacotesNovo.png  used on input lin
 e 215. on input line 215.
 Package pdftex.def Info: Requested size: 347.13797pt x 259.35977pt on input lin
 e 215.
-<imagens/diagramaMvcDao.png, id=798, 1204.2591pt x 483.4863pt>
+<imagens/diagramaMvcDao.png, id=782, 1204.2591pt x 483.4863pt>
 File: imagens/diagramaMvcDao.png Graphic file (type png)
 <use imagens/diagramaMvcDao.png>
 Package pdftex.def Info: imagens/diagramaMvcDao.png  used on input line 222. on
@@ -2220,7 +2178,7 @@ Overfull \hbox (2.62321pt too wide) in paragraph at lines 222--222
  [][] 
  []
 
-<imagens/pacoteModel-ELM327ReadSensors.png, id=800, 530.73282pt x 344.03531pt>
+<imagens/pacoteModel-ELM327ReadSensors.png, id=784, 530.73282pt x 344.03531pt>
 File: imagens/pacoteModel-ELM327ReadSensors.png Graphic file (type png)
 <use imagens/pacoteModel-ELM327ReadSensors.png>
 Package pdftex.def Info: imagens/pacoteModel-ELM327ReadSensors.png  used on inp
@@ -2231,8 +2189,8 @@ Package pdftex.def Info: Requested size: 350.28474pt x 227.064pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[50 <./imagens/baseDadosBanco.png>]
-<imagens/pacoteDatabase-DBConnection.png, id=811, 529.22719pt x 145.29282pt>
+[47 <./imagens/baseDadosBanco.png>]
+<imagens/pacoteDatabase-DBConnection.png, id=794, 529.22719pt x 145.29282pt>
 File: imagens/pacoteDatabase-DBConnection.png Graphic file (type png)
 <use imagens/pacoteDatabase-DBConnection.png>
 Package pdftex.def Info: imagens/pacoteDatabase-DBConnection.png  used on input
@@ -2243,8 +2201,8 @@ Package pdftex.def Info: Requested size: 349.29102pt x 95.89354pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[51 <./imagens/estruturacaoPacotesNovo.png> <./imagens/diagramaMvcDao.png>]
-<imagens/pacoteDao-ELM327ReadSensorsDAO.png, id=821, 577.40718pt x 370.38374pt>
+[48 <./imagens/estruturacaoPacotesNovo.png> <./imagens/diagramaMvcDao.png>]
+<imagens/pacoteDao-ELM327ReadSensorsDAO.png, id=805, 577.40718pt x 370.38374pt>
 
 File: imagens/pacoteDao-ELM327ReadSensorsDAO.png Graphic file (type png)
 <use imagens/pacoteDao-ELM327ReadSensorsDAO.png>
@@ -2256,9 +2214,9 @@ e 249.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[52 <./imagens/pacoteModel-ELM327ReadSensors.png> <./imagens/pacoteDatabase-DBC
+[49 <./imagens/pacoteModel-ELM327ReadSensors.png> <./imagens/pacoteDatabase-DBC
 onnection.png>]
-<imagens/GET-collection_webservice.png, id=833, 508.90125pt x 160.34906pt>
+<imagens/GET-collection_webservice.png, id=818, 508.90125pt x 160.34906pt>
 File: imagens/GET-collection_webservice.png Graphic file (type png)
 <use imagens/GET-collection_webservice.png>
 Package pdftex.def Info: imagens/GET-collection_webservice.png  used on input l
@@ -2269,23 +2227,23 @@ Package pdftex.def Info: Requested size: 335.87585pt x 105.8307pt on input line
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[53 <./imagens/pacoteDao-ELM327ReadSensorsDAO.png> <./imagens/GET-collection_we
+[50 <./imagens/pacoteDao-ELM327ReadSensorsDAO.png> <./imagens/GET-collection_we
 bservice.png>]
-<imagens/paginaweb_inputs.png, id=841, 691.83469pt x 227.34938pt>
+<imagens/paginaweb_inputs.png, id=826, 691.83469pt x 227.34938pt>
 File: imagens/paginaweb_inputs.png Graphic file (type png)
 <use imagens/paginaweb_inputs.png>
 Package pdftex.def Info: imagens/paginaweb_inputs.png  used on input line 275. 
 on input line 275.
 Package pdftex.def Info: Requested size: 428.93307pt x 140.95515pt on input lin
 e 275.
-<imagens/requisicaoAjax.png, id=844, 605.26125pt x 345.54094pt>
+<imagens/requisicaoAjax.png, id=829, 605.26125pt x 345.54094pt>
 File: imagens/requisicaoAjax.png Graphic file (type png)
 <use imagens/requisicaoAjax.png>
 Package pdftex.def Info: imagens/requisicaoAjax.png  used on input line 285. on
  input line 285.
 Package pdftex.def Info: Requested size: 387.36586pt x 221.14543pt on input lin
 e 285.
-<imagens/arquiteturaRedeVeicularELM327Nuvem.png, id=845, 1204.2591pt x 804.1242
+<imagens/arquiteturaRedeVeicularELM327Nuvem.png, id=830, 1204.2591pt x 804.1242
 pt>
 File: imagens/arquiteturaRedeVeicularELM327Nuvem.png Graphic file (type png)
 <use imagens/arquiteturaRedeVeicularELM327Nuvem.png>
@@ -2302,11 +2260,11 @@ Overfull \hbox (2.62321pt too wide) in paragraph at lines 292--292
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[54 <./imagens/paginaweb_inputs.png>]
+[51 <./imagens/paginaweb_inputs.png>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[55 <./imagens/requisicaoAjax.png> <./imagens/arquiteturaRedeVeicularELM327Nuve
+[52 <./imagens/requisicaoAjax.png> <./imagens/arquiteturaRedeVeicularELM327Nuve
 m.png>]
 \openout2 = `cap6.aux'.
 
@@ -2314,7 +2272,7 @@ m.png>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[56
+[53
 
 
 
@@ -2322,15 +2280,15 @@ Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[57]
-<imagens/JSON_retornoWebservice.png, id=869, 525.46312pt x 327.47343pt>
+[54]
+<imagens/JSON_retornoWebservice.png, id=854, 525.46312pt x 327.47343pt>
 File: imagens/JSON_retornoWebservice.png Graphic file (type png)
 <use imagens/JSON_retornoWebservice.png>
 Package pdftex.def Info: imagens/JSON_retornoWebservice.png  used on input line
  24. on input line 24.
 Package pdftex.def Info: Requested size: 357.3102pt x 222.67899pt on input line
  24.
-<imagens/paginaweb_tabelaDados.png, id=871, 612.78937pt x 511.15968pt>
+<imagens/paginaweb_tabelaDados.png, id=856, 612.78937pt x 511.15968pt>
 File: imagens/paginaweb_tabelaDados.png Graphic file (type png)
 <use imagens/paginaweb_tabelaDados.png>
 Package pdftex.def Info: imagens/paginaweb_tabelaDados.png  used on input line 
@@ -2341,18 +2299,18 @@ e 33.
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[58 <./imagens/JSON_retornoWebservice.png>]
+[55 <./imagens/JSON_retornoWebservice.png>]
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[59 <./imagens/paginaweb_tabelaDados.png>]
+[56 <./imagens/paginaweb_tabelaDados.png>]
 \openout2 = `cap7.aux'.
 
  (./cap7.tex
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[60
+[57
 
 
 
@@ -2360,9 +2318,9 @@ Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[61] (./main.bbl
+[58] (./main.bbl
 bibitemlist
-[62
+[59
 
 
 ]
@@ -2374,7 +2332,7 @@ AED: lastpage setting LastPage
 Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 
-[63]
+[60]
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -2386,8 +2344,7 @@ Overfull \vbox (5.11996pt too high) has occurred while \output is active []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
- (./main.aux (./folhadeaprovacao.aux) (./dedicatoria.aux)
-(./agradecimentos.aux) (./epigrafe.aux) (./resumo.aux) (./abstract.aux)
+ (./main.aux (./folhadeaprovacao.aux) (./resumo.aux) (./abstract.aux)
 (./introducao.aux) (./cap2.aux) (./cap3.aux) (./cap4.aux) (./cap5.aux)
 (./cap6.aux) (./cap7.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
@@ -2399,11 +2356,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 24473 strings out of 492990
- 432076 string characters out of 6136334
- 579786 words of memory out of 5000000
- 26930 multiletter control sequences out of 15000+600000
- 54917 words of font info for 244 fonts, out of 8000000 for 9000
+ 24435 strings out of 492990
+ 431529 string characters out of 6136334
+ 576265 words of memory out of 5000000
+ 26920 multiletter control sequences out of 15000+600000
+ 53053 words of font info for 241 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,56p,2642b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texm
@@ -2411,10 +2368,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (64 pages, 13278616 bytes).
+Output written on main.pdf (61 pages, 13276115 bytes).
 PDF statistics:
- 1137 PDF objects out of 1200 (max. 8388607)
- 956 compressed objects within 10 object streams
- 213 named destinations out of 1000 (max. 500000)
- 30388 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1118 PDF objects out of 1200 (max. 8388607)
+ 940 compressed objects within 10 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 30380 words of extra memory for PDF output out of 35830 (max. 10000000)
 
