@@ -72,7 +72,7 @@ public class ScreenMonitorController {
 		lblPressaoMotor.setText("Pressão do Combustível: " + elm327ReadSensors.getPressaoCombustivel());
 		lblVelocidade.setText("Velocidade: " + elm327ReadSensors.getVelocidade());
 		
-		dao.insertDB(elm327ReadSensors);
+//		dao.insertDB(elm327ReadSensors);
 	}
 	public void setELM327ReadSensors(ELM327ReadSensors elm327ReadSensors) {
 		this.elm327ReadSensors = elm327ReadSensors;

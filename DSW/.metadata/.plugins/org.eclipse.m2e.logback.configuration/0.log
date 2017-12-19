@@ -641,3 +641,8 @@
 2017-11-06 19:27:31,030 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2017-11-06 19:27:31,039 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-06 19:27:31,039 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-27 20:43:05,406 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-27 20:44:23,697 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 20:44:23,741 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-11-27 20:44:23,816 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 20:44:23,816 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

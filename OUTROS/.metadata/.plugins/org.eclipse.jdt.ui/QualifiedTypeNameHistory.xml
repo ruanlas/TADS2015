@@ -21,10 +21,19 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Usuario"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Pagamento"/>
 <fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.repository.PagamentoRepository"/>
 <fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.enuns.StatusDoPagamento"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.repository.GerenteRespository"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Gerente"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.web.controller.GerenteController"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Usuario"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.repository.MensalidadesRepository"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.web.controller.MensalidadeController"/>
+<fullyQualifiedTypeName name="br.edu.ifsp.PayNow.model.entity.Mensalidade"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
