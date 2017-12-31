@@ -1,9 +1,0 @@
-package stat
-
-import javafx.scene.layout.AnchorPane
-
-component teste {
-	AnchorPane {
-		//TODO Add Nodes
-	}
-}
