@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 4 packages to &apos;ScannerOBDII-ELM327/src&apos;&#x0D;&#x0A;- Original project: &apos;LeitorOBDII_ELM327_Swing&apos;&#x0D;&#x0A;- Destination element: &apos;ScannerOBDII-ELM327/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LeitorOBDII_ELM327_Swing/src/app&#x0D;&#x0A;     LeitorOBDII_ELM327_Swing/src/device&#x0D;&#x0A;     LeitorOBDII_ELM327_Swing/src/utils&#x0D;&#x0A;     LeitorOBDII_ELM327_Swing/src/connect" description="Copy packages" destination="=ScannerOBDII-ELM327/src" element1="/src&lt;app" element2="/src&lt;device" element3="/src&lt;utils" element4="/src&lt;connect" flags="589830" fragments="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1508635336077" version="1.0"/>
-</session>
