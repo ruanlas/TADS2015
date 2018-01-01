@@ -1,0 +1,6 @@
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\bin\Debug\Exercicio_4.exe.config
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\obj\Debug\Exercicio_4.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\bin\Debug\Exercicio_4.exe
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\bin\Debug\Exercicio_4.pdb
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\obj\Debug\Exercicio_4.exe
+C:\Users\Ruan\Desktop\Prova LP2\Exercicio_4\obj\Debug\Exercicio_4.pdb
