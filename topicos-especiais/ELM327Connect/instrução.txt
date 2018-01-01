@@ -1,0 +1,5 @@
+sudo pip install obd
+sudo apt-get install blueman bluez:i386 bluetooth
+
+
+https://www.youtube.com/watch?v=ZAm1NJeLqpw

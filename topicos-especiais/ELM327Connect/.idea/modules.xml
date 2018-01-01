@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ELM327Connect.iml" filepath="$PROJECT_DIR$/.idea/ELM327Connect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ExemplosAula08/.idea/ExemplosAula08.iml" filepath="$PROJECT_DIR$/../ExemplosAula08/.idea/ExemplosAula08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ExemplosAula7/.idea/ExemplosAula7.iml" filepath="$PROJECT_DIR$/../ExemplosAula7/.idea/ExemplosAula7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../L1/.idea/L1.iml" filepath="$PROJECT_DIR$/../L1/.idea/L1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../L2/.idea/L2.iml" filepath="$PROJECT_DIR$/../L2/.idea/L2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../L3/.idea/L3.iml" filepath="$PROJECT_DIR$/../L3/.idea/L3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Teste/.idea/Teste.iml" filepath="$PROJECT_DIR$/../Teste/.idea/Teste.iml" />
+    </modules>
+  </component>
+</project>
