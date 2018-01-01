@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnTocar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="100dp"
+        android:onClick="tocar"
+        android:text="@string/btn_tocar" />
+
+    <Button
+        android:id="@+id/btnPausar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnTocar"
+        android:layout_below="@+id/btnTocar"
+        android:layout_marginTop="13dp"
+        android:onClick="pausar"
+        android:text="@string/btn_pausar" />
+
+    <Button
+        android:id="@+id/btnParar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPausar"
+        android:layout_below="@+id/btnPausar"
+        android:layout_marginTop="11dp"
+        android:onClick="parar"
+        android:text="@string/btn_parar" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAlerta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="alerta1"
+        android:text="@string/btn_alerta1" />
+
+    <Button
+        android:id="@+id/btnAlerta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnAlerta1"
+        android:layout_below="@+id/btnAlerta1"
+        android:layout_marginTop="19dp"
+        android:onClick="alerta2"
+        android:text="@string/btn_alerta2" />
+
+    <Button
+        android:id="@+id/btnAlerta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnAlerta2"
+        android:layout_below="@+id/btnAlerta2"
+        android:layout_marginTop="15dp"
+        android:onClick="alerta3"
+        android:text="@string/btn_alerta3" />
+
+    <EditText
+        android:id="@+id/edtTxtCaixaTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAlerta3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edt_vazio" />
+</RelativeLayout>

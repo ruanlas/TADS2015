@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppJogoDados</string>
+    <string name="lbl_resultado">Resultado: </string>
+    <string name="lbl_titulo">Jogo dos Dados</string>
+    <string name="btn_sortear">Sortear</string>
+    <string name="lbl_seu_numero">Seu número: </string>
+    <string name="lbl_branco"></string>
+</resources>

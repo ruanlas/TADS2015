@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppFinanciamento</string>
+    <string name="lbl_titulo">Sistema de Financiamento</string>
+    <string name="lbl_financiamento_veiculo">Financiamento de Veículo</string>
+    <string name="lbl_financiamento_imovel">Financiamento de Imóvel</string>
+    <string name="btn_simular">Simular</string>
+    <string name="lbl_valor_entrada">Valor de Entrada: </string>
+    <string name="lbl_valor_veiculo">Valor do Veículo: </string>
+    <string name="lbl_valor_imovel">Valor do Imóvel: </string>
+    <string name="lbl_quantidade_parcelas">Quantidade de Parcelas: </string>
+    <string name="lbl_renda_liquida_mensal">Renda Líquida Mensal: </string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="lbl_resultado_final">Resultado do Financiamento</string>
+    <string name="lbl_valor_parcela">Valor da parcela: </string>
+    <string name="lbl_valor_final">Valor final do financiamento: </string>
+    <string name="lbl_obs">Obs: </string>
+    <string name="lbl_vazio"></string>
+    <string name="btn_nova_simulacao">Nova Simulação</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="cbox_novo">Novo</string>
+    <string name="lbl_banco">MeuBanco.com</string>
+    <string name="btn_sair">Sair</string>
+    <string name="btn_juros">Juros:</string>
+</resources>

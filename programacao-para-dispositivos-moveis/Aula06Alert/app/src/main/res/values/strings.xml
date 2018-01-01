@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aula06Alert</string>
+    <string name="btn_alerta1">Alerta 1</string>
+    <string name="btn_alerta2">Alerta 2</string>
+    <string name="btn_alerta3">Alerta 3</string>
+    <string name="edt_vazio"></string>
+</resources>

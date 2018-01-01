@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="estiloBtnVoltar">
+        <item name="android:background">#6959CD</item>
+        <item name="android:textColor">#FFFAFA</item>
+    </style>
+    <style name="estiloBtnsalvar">
+        <item name="android:background">#00CD66</item>
+        <item name="android:textColor">#FFFAFA</item>
+    </style>
+    <style name="estiloBtnBuscar">
+        <item name="android:background">#1E90FF</item>
+        <item name="android:textColor">#FFFAFA</item>
+    </style>
+    <style name="estiloBtnMenus">
+        <item name="android:background">#00CED1</item>
+        <item name="android:textColor">#FFFAFA</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+    <style name="estiloBtnSair">
+        <item name="android:background">#EE2C2C</item>
+        <item name="android:textColor">#FFFAFA</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+</resources>

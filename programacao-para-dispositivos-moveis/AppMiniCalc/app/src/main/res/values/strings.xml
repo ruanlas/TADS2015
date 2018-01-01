@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppMiniCalc</string>
+    <string name="lbl_titulo">Mini Calculadora</string>
+    <string name="lbl_numero_1">Número 1: </string>
+    <string name="lbl_numero_2">Número 2: </string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="lbl_resultado">Resultado: </string>
+</resources>

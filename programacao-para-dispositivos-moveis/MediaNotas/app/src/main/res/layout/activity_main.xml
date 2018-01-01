@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/lbl_aluno"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edtTxtP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/edtTxtP3"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/lbl_em_branco" />
+
+    <EditText
+        android:id="@+id/edtTxtP3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/lbl_em_branco" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="40dp"
+        android:text="@string/lbl_nota3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="41dp"
+        android:text="@string/lbl_nota2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtTxtP1"
+        android:layout_alignBottom="@+id/edtTxtP1"
+        android:layout_alignStart="@+id/textView5"
+        android:text="@string/lbl_nota1" />
+
+    <EditText
+        android:id="@+id/edtTxtP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtTxtNomeAluno"
+        android:layout_below="@+id/edtTxtNomeAluno"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/lbl_em_branco" />
+
+    <EditText
+        android:id="@+id/edtTxtNomeAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lbl_em_branco"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/edtTxtP2" />
+
+    <Button
+        android:id="@+id/btnCalcularMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="calcularMedia"
+        android:text="@string/btn_calcular_media"
+        android:layout_below="@+id/edtTxtP3"
+        android:layout_alignStart="@+id/edtTxtP3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/lbl_aluno"
+        android:layout_below="@+id/btnCalcularMedia"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtViewNomeAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnCalcularMedia"
+        android:layout_alignTop="@+id/textView7"
+        android:text="@string/lbl_em_branco" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="24dp"
+        android:text="@string/lbl_media" />
+
+    <TextView
+        android:id="@+id/txtViewMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/txtViewNomeAluno"
+        android:text="@string/lbl_em_branco" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="20dp"
+        android:text="@string/lbl_situacao" />
+
+    <TextView
+        android:id="@+id/txtViewSituacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignStart="@+id/txtViewMedia"
+        android:text="@string/lbl_em_branco" />
+
+</RelativeLayout>

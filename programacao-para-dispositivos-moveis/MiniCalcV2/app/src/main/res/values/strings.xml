@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiniCalcV2</string>
+    <string name="lbl_titulo">Mini Calculadora</string>
+    <string name="lbl_numero_1">Número 1: </string>
+    <string name="lbl_numero_2">Número 2: </string>
+    <string name="btn_somar">Somar</string>
+    <string name="btn_subtrair">Subtrair</string>
+    <string name="btn_multiplicar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+    <string name="lbl_resultado">Resultado: </string>
+</resources>

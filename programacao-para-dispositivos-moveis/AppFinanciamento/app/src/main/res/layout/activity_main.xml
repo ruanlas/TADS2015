@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="@string/lbl_titulo"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp">
+
+        <RadioButton
+            android:id="@+id/rb_financiamento_imovel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rb_financiamento_veiculo"
+            android:layout_below="@+id/rb_financiamento_veiculo"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/lbl_financiamento_imovel"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_financiamento_veiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/lbl_financiamento_veiculo"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_simular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSimular"
+        android:text="@string/btn_simular"
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_marginTop="96dp"
+        android:layout_alignEnd="@+id/radioGroup" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/banco2"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_simular"
+        android:layout_alignStart="@+id/btn_simular"
+        android:layout_below="@+id/btn_simular"
+        android:onClick="btnSair"
+        android:text="@string/btn_sair" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MediaNotas</string>
+    <string name="lbl_aluno">Aluno: </string>
+    <string name="lbl_nota1">Prova 1: </string>
+    <string name="lbl_nota2">Prova 2:</string>
+    <string name="lbl_nota3">Prova 3:</string>
+    <string name="lbl_media">Média: </string>
+    <string name="lbl_situacao">Situação: </string>
+    <string name="lbl_em_branco"></string>
+    <string name="btn_calcular_media">Calcular Média</string>
+
+</resources>

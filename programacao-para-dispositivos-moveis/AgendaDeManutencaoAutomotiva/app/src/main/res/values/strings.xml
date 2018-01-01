@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Agenda de Manutencao</string>
+    <string name="title_name">Agenda de manutenção Automotiva</string>
+    <string name="btn_listar_manutencao">Listar manutenção</string>
+    <string name="btn_agendar_manutencao">Agendar manutenção</string>
+    <string name="lbl_agendar_manutencao">Agendar manutenção: </string>
+    <string name="lbl_editar_manutencao">Editar manutenção: </string>
+    <string name="lbl_data_agendamento">Data de agendamento: </string>
+    <string name="lbl_horario_agendamento">Horário de agendamento: </string>
+    <string name="lbl_notas_obs">Notas e Observações: </string>
+    <string name="lbl_manutencoes">Manutenções: </string>
+    <string name="rb_manutencao_realizada">Manutenções Realizadas</string>
+    <string name="rb_manutencao_agendadas">Manutenções Agendadas</string>
+    <string name="lbl_confirmar_realizacao_manutencao">Confirmar a realização de manutenção: </string>
+    <string name="lbl_valor">Valor: </string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_salvar_edicao">Salvar Edição</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_sair">Sair</string>
+    <string name="lbl_selecione_uma_manutenao">Selecione uma manutenção para edição:</string>
+    <string name="lbl_branco"></string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="lbl_status">Insira o número do chassi:</string>
+</resources>

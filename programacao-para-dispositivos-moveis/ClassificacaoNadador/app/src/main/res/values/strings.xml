@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ClassificacaoNadador</string>
+    <string name="btn_classificar">Classificar</string>
+    <string name="lbl_titulo">Informe a idade do nadador abaixo:</string>
+    <string name="txt_em_branco"></string>
+</resources>
