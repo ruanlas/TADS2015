@@ -1,0 +1,29 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 31/03/2015
+// Seção de Declarações 
+var
+   a,b,c,d,maior: inteiro
+inicio
+   leia(a)
+   leia(b)
+   leia(c)
+   leia(d)
+
+   se a >= b entao
+      maior <- a
+   senao
+      maior <- b
+   fimse
+   
+   se maior < c entao
+      maior <- c
+   fimse
+
+   se maior < d entao
+      maior <- d
+   fimse
+   
+   escreva(maior)
+fimalgoritmo

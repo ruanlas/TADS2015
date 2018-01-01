@@ -1,0 +1,27 @@
+algoritmo "exerc2"
+
+var
+   irmao_nome1, irmao_nome2: caractere
+   irmao_idade1, irmao_idade2: inteiro
+inicio
+   escreval("Digite nome e idade do irmão 1")
+   escreva("Nome:")
+   leia(irmao_nome1)
+   escreva("Idade:")
+   leia(irmao_idade1)
+   escreval("Digite nome e idade do irmão 2")
+   escreva("Nome:")
+   leia(irmao_nome2)
+   escreva("Idade:")
+   leia(irmao_idade2)
+   
+   escreval
+
+   se irmao_idade1 <= irmao_idade2 entao
+      escreval(irmao_nome1,irmao_idade1)
+      escreval(irmao_nome2,irmao_idade2)
+   senao
+      escreval(irmao_nome2,irmao_idade2)
+      escreval(irmao_nome1,irmao_idade1)
+   fimse
+fimalgoritmo

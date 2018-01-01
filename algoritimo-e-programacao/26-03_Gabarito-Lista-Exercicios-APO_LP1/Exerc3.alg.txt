@@ -1,0 +1,49 @@
+algoritmo "Exerc3"
+var
+   prod_nome1, prod_nome2, prod_nome3, prod_nome4, prod_nome5: caractere
+   prod_preco1, prod_preco2, prod_preco3, prod_preco4, prod_preco5: real
+   reajuste: real
+inicio
+   escreval("Digite o nome e preço de seus principais produtos")
+
+   escreva("Nome: ")
+   leia(prod_nome1)
+   escreva("Preço: ")
+   leia(prod_preco1)
+   escreval
+
+   escreva("Nome: ")
+   leia(prod_nome2)
+   escreva("Preço: ")
+   leia(prod_preco2)
+   escreval
+
+   escreva("Nome: ")
+   leia(prod_nome3)
+   escreva("Preço: ")
+   leia(prod_preco3)
+   escreval
+
+   escreva("Nome: ")
+   leia(prod_nome4)
+   escreva("Preço: ")
+   leia(prod_preco4)
+   escreval
+
+   escreva("Nome: ")
+   leia(prod_nome5)
+   escreva("Preço: ")
+   leia(prod_preco5)
+   escreval
+
+   escreva("Agora informe o reajuste desejado: ")
+   leia(reajuste)
+
+   escreval
+   
+   escreval("Produto: ", prod_nome1, " Preço: ", prod_preco1 + (prod_preco1 * (reajuste/100)))
+   escreval("Produto: ", prod_nome2, " Preço: ", prod_preco2 + (prod_preco2 * (reajuste/100)))
+   escreval("Produto: ", prod_nome3, " Preço: ", prod_preco3 + (prod_preco3 * (reajuste/100)))
+   escreval("Produto: ", prod_nome4, " Preço: ", prod_preco4 + (prod_preco4 * (reajuste/100)))
+   escreval("Produto: ", prod_nome5, " Preço: ", prod_preco5 + (prod_preco5 * (reajuste/100)))
+fimalgoritmo

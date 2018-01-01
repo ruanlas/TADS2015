@@ -1,0 +1,86 @@
+algoritmo "Exerc4"
+
+var
+   carro_modelo1, carro_modelo2, carro_modelo3, carro_modelo4, carro_modelo5: caractere
+   carro_preco1, carro_preco2, carro_preco3, carro_preco4, carro_preco5: real
+   carro_precomin1, carro_precomin2, carro_precomin3, carro_precomin4, carro_precomin5: real
+   desconto: real
+
+inicio
+
+   escreval("Digite o mode, preço e preço mínimos de seus carros")
+
+   escreva("Modelo: ")
+   leia(carro_modelo1)
+   escreva("Preço: ")
+   leia(carro_preco1)
+   escreva("Preço mínimo: ")
+   leia(carro_precomin1)
+   escreval
+   
+   escreva("Modelo: ")
+   leia(carro_modelo2)
+   escreva("Preço: ")
+   leia(carro_preco2)
+   escreva("Preço mínimo: ")
+   leia(carro_precomin2)
+   escreval
+
+   escreva("Modelo: ")
+   leia(carro_modelo3)
+   escreva("Preço: ")
+   leia(carro_preco3)
+   escreva("Preço mínimo: ")
+   leia(carro_precomin3)
+   escreval
+
+   escreva("Modelo: ")
+   leia(carro_modelo4)
+   escreva("Preço: ")
+   leia(carro_preco4)
+   escreva("Preço mínimo: ")
+   leia(carro_precomin4)
+   escreval
+
+   escreva("Modelo: ")
+   leia(carro_modelo5)
+   escreva("Preço: ")
+   leia(carro_preco5)
+   escreva("Preço mínimo: ")
+   leia(carro_precomin5)
+   escreval
+
+   escreva("Agora informe o desconto desejado: ")
+   leia(desconto)
+   
+   se (carro_preco1 - (carro_preco1 * (desconto/100))) < carro_precomin1 entao
+      escreval("Modelo: ", carro_modelo1, " Preço com desconto: ", carro_precomin1)
+   senao
+      escreval("Modelo: ", carro_modelo1, " Preço com desconto: ", (carro_preco1 - (carro_preco1 * (desconto/100)))
+   fimse
+
+   se (carro_preco2 - (carro_preco2 * (desconto/100))) < carro_precomin2 entao
+      escreval("Modelo: ", carro_modelo2, " Preço com desconto: ", carro_precomin2)
+   senao
+      escreval("Modelo: ", carro_modelo2, " Preço com desconto: ", (carro_preco2 - (carro_preco2 * (desconto/100)))
+   fimse
+
+   se (carro_preco3 - (carro_preco3 * (desconto/100))) < carro_precomin3 entao
+      escreval("Modelo: ", carro_modelo3, " Preço com desconto: ", carro_precomin3)
+   senao
+      escreval("Modelo: ", carro_modelo3, " Preço com desconto: ", (carro_preco3 - (carro_preco3 * (desconto/100)))
+   fimse
+
+   se (carro_preco4 - (carro_preco4 * (desconto/100))) < carro_precomin4 entao
+      escreval("Modelo: ", carro_modelo4, " Preço com desconto: ", carro_precomin4)
+   senao
+      escreval("Modelo: ", carro_modelo4, " Preço com desconto: ", (carro_preco4 - (carro_preco4 * (desconto/100)))
+   fimse
+
+   se (carro_preco5 - (carro_preco5 * (desconto/100))) < carro_precomin5 entao
+      escreval("Modelo: ", carro_modelo5, " Preço com desconto: ", carro_precomin5)
+   senao
+      escreval("Modelo: ", carro_modelo5, " Preço com desconto: ", (carro_preco5 - (carro_preco5 * (desconto/100)))
+   fimse
+
+fimalgoritmo
