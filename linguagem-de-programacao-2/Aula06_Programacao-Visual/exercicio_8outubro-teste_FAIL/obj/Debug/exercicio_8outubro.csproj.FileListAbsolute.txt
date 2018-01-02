@@ -1,0 +1,14 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\bin\Debug\exercicio_8outubro.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\bin\Debug\exercicio_8outubro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\bin\Debug\exercicio_8outubro.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.Form2.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro\obj\Debug\exercicio_8outubro.Form3.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro - teste\bin\Debug\exercicio_8outubro.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro - teste\obj\Debug\exercicio_8outubro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio_8outubro - teste\obj\Debug\exercicio_8outubro.pdb

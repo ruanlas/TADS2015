@@ -1,0 +1,6 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\bin\Debug\Desvio_medio.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\bin\Debug\Desvio_medio.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\bin\Debug\Desvio_medio.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\obj\Debug\Desvio_medio.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\obj\Debug\Desvio_medio.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 05\Desvio_medio\Desvio_medio\obj\Debug\Desvio_medio.pdb

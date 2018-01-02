@@ -1,0 +1,6 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\bin\Debug\Aula_4_array.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\bin\Debug\Aula_4_array.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\bin\Debug\Aula_4_array.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\obj\Debug\Aula_4_array.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\obj\Debug\Aula_4_array.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 04\Teste_array\Aula_4_array\Aula_4_array\obj\Debug\Aula_4_array.pdb

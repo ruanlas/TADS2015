@@ -1,0 +1,2 @@
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\ArrayDentado\ArrayDentado\bin\Debug\ArrayDentado.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\ArrayDentado\ArrayDentado\bin\Debug\ArrayDentado.exe.config

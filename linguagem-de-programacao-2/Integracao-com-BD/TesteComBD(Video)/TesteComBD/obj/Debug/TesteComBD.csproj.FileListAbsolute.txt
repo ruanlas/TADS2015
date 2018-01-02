@@ -1,0 +1,13 @@
+E:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD\TesteComBD\bin\Debug\TesteComBD.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD\TesteComBD\bin\Debug\TesteComBD.exe.config
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\bin\Debug\TesteComBD.exe.config
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.csprojResolveAssemblyReference.cache
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.Form1.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.Properties.Resources.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.csproj.GenerateResource.Cache
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\bin\Debug\TesteComBD.exe
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\bin\Debug\TesteComBD.pdb
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.exe
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.pdb
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.Form2.resources
+I:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Integração com BD\TesteComBD (Video)\TesteComBD\obj\Debug\TesteComBD.Form3.resources

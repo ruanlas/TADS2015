@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Data.OleDb;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // Coloque aqui o caminho para seu arquivo de banco de dados do Access
+                string caminhoArquivo = @"C:\Users\Aluno\Documents\Frutas.accdb";
+
+                OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + caminhoArquivo + ";Persist Security Info=False;");
+                con.Open();
+
+                OleDbCommand cmd = con.CreateCommand();
+                cmd.CommandText = "SELECT * FROM Fruta";
+                OleDbDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Console.WriteLine("Nome: {0}, preco: {1}", reader.GetString(1), reader.GetDecimal(2));
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ocorreu um erro: {0}", e);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

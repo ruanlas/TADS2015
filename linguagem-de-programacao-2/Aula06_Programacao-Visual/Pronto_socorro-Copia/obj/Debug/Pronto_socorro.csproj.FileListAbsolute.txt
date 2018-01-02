@@ -1,0 +1,27 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.pdb
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.exe.config
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.exe
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.pdb
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.exe
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\bin\Debug\Pronto_socorro.pdb
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.csprojResolveAssemblyReference.cache
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.Form1.resources
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.Properties.Resources.resources
+F:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro\obj\Debug\Pronto_socorro.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\bin\Debug\Pronto_socorro.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\bin\Debug\Pronto_socorro.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\bin\Debug\Pronto_socorro.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Pronto_socorro - Cópia\obj\Debug\Pronto_socorro.csproj.GenerateResource.Cache

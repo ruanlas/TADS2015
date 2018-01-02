@@ -1,0 +1,6 @@
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\bin\Debug\Exercicio2_aula_1.exe.config
+C:\Users\Ruan\Documents\Visual Studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\obj\Debug\Exercicio2_aula_1.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\Documents\Visual Studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\bin\Debug\Exercicio2_aula_1.exe
+C:\Users\Ruan\Documents\Visual Studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\bin\Debug\Exercicio2_aula_1.pdb
+C:\Users\Ruan\Documents\Visual Studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\obj\Debug\Exercicio2_aula_1.exe
+C:\Users\Ruan\Documents\Visual Studio 2015\Projects\Exercicio2_aula_1\Exercicio2_aula_1\obj\Debug\Exercicio2_aula_1.pdb

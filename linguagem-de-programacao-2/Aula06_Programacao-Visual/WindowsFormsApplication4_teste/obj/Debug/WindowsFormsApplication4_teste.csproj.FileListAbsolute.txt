@@ -1,0 +1,4 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication4_teste\bin\Debug\WindowsFormsApplication4_teste.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication4_teste\obj\Debug\WindowsFormsApplication4_teste.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication4_teste\obj\Debug\WindowsFormsApplication4_teste.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\WindowsFormsApplication4_teste\obj\Debug\WindowsFormsApplication4_teste.csproj.GenerateResource.Cache

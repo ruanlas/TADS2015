@@ -1,0 +1,14 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\bin\Debug\teste-exercicio1_8-10.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\bin\Debug\teste-exercicio1_8-10.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\bin\Debug\teste-exercicio1_8-10.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste-exercicio1_8-10.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste_exercicio1_8_10.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste_exercicio1_8_10.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste-exercicio1_8-10.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste-exercicio1_8-10.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste-exercicio1_8-10.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste_exercicio1_8_10.Form2.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\teste-exercicio1_8-10\obj\Debug\teste_exercicio1_8_10.Form3.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio1_8-10_teste\bin\Debug\teste-exercicio1_8-10.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio1_8-10_teste\obj\Debug\teste-exercicio1_8-10.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\exercicio1_8-10_teste\obj\Debug\teste-exercicio1_8-10.pdb

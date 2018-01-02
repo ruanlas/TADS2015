@@ -1,0 +1,9 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\bin\Debug\Projeto_Sorveteria.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\bin\Debug\Projeto_Sorveteria.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\bin\Debug\Projeto_Sorveteria.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\Projeto_Sorveteria\obj\Debug\Projeto_Sorveteria.pdb

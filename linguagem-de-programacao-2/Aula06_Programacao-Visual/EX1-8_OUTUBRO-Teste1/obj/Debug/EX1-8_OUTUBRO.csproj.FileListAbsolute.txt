@@ -1,0 +1,22 @@
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\bin\Debug\EX1-8_OUTUBRO.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\bin\Debug\EX1-8_OUTUBRO.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\bin\Debug\EX1-8_OUTUBRO.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1-8_OUTUBRO.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1_8_OUTUBRO.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1_8_OUTUBRO.Form2.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1_8_OUTUBRO.Form3.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1_8_OUTUBRO.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1-8_OUTUBRO.csproj.GenerateResource.Cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1-8_OUTUBRO.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO\obj\Debug\EX1-8_OUTUBRO.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\bin\Debug\EX1-8_OUTUBRO.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1-8_OUTUBRO.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1-8_OUTUBRO.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\bin\Debug\EX1-8_OUTUBRO.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\bin\Debug\EX1-8_OUTUBRO.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1-8_OUTUBRO.csprojResolveAssemblyReference.cache
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1_8_OUTUBRO.Form1.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1_8_OUTUBRO.Form2.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1_8_OUTUBRO.Form3.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1_8_OUTUBRO.Properties.Resources.resources
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 06 - Programação Visual\EX1-8_OUTUBRO - Teste\obj\Debug\EX1-8_OUTUBRO.csproj.GenerateResource.Cache

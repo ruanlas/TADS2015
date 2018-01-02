@@ -1,0 +1,6 @@
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\bin\Debug\Aula2.exe.config
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\bin\Debug\Aula2.exe
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\bin\Debug\Aula2.pdb
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\obj\Debug\Aula2.csprojResolveAssemblyReference.cache
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\obj\Debug\Aula2.exe
+c:\users\ruan\documents\visual studio 2015\Projects\Aula2\Aula2\obj\Debug\Aula2.pdb

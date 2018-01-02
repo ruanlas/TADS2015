@@ -1,0 +1,9 @@
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\bin\Debug\Exercicio1_aula2.exe.config
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\obj\Debug\Exercicio1_aula2.csprojResolveAssemblyReference.cache
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\bin\Debug\Exercicio1_aula2.exe
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\bin\Debug\Exercicio1_aula2.pdb
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\obj\Debug\Exercicio1_aula2.exe
+c:\users\ruan\documents\visual studio 2015\Projects\Exercicio1_aula2\Exercicio1_aula2\obj\Debug\Exercicio1_aula2.pdb
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 03\Exercicio1_aula2\Exercicio1_aula2\bin\Debug\Exercicio1_aula2.exe.config
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 03\Exercicio1_aula2\Exercicio1_aula2\obj\Debug\Exercicio1_aula2.exe
+H:\IFSP\Materias 2º Semestre\Linguagem de Programação 2\Exemplos - Atividades de Aula\Aula 03\Exercicio1_aula2\Exercicio1_aula2\obj\Debug\Exercicio1_aula2.pdb
