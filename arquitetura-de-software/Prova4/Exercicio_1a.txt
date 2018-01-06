@@ -1,0 +1,4 @@
+Exercício 1)
+a) DAO é objeto de acesso aos dados. É uma classe que é criada para facilitar a manipulação entre os objetos criados
+com o banco de dados. O objeto do tipo DAO permite manipular o banco de dados a fim de armazenar, consultar,
+excluir ou alterar os dados do banco de maneira simples.
