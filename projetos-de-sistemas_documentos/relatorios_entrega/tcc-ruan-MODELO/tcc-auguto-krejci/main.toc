@@ -1,0 +1,60 @@
+\changetocdepth {4}
+\vspace {\cftbeforepartskip }
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\bfseries SUM\'ARIO}{7}{section*.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{8}{chapter.5}
+\contentsline {section}{\numberline {1.1}CONTEXTUALIZA\IeC {\c C}\IeC {\~A}O}{8}{section.6}
+\contentsline {section}{\numberline {1.2}MOTIVA\IeC {\c C}\IeC {\~A}O}{9}{section.7}
+\contentsline {section}{\numberline {1.3}DEFINI\IeC {\c C}\IeC {\~A}O DO PROBLEMA}{9}{section.8}
+\contentsline {section}{\numberline {1.4}ABORDAGEM PROPOSTA}{9}{section.9}
+\contentsline {section}{\numberline {1.5}TRABALHOS RELACIONADOS}{10}{section.10}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}JUSTIFICATIVA}{11}{chapter.11}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}OBJETIVOS}{12}{chapter.12}
+\contentsline {section}{\numberline {3.1}OBJETIVO GERAL}{12}{section.13}
+\contentsline {section}{\numberline {3.2}OBJETIVOS ESPEC\IeC {\'I}FICOS}{12}{section.14}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}{14}{chapter.15}
+\contentsline {section}{\numberline {4.1}SISTEMAS E SOFTWARE EMBARCADOS}{14}{section.16}
+\contentsline {section}{\numberline {4.2}SISTEMAS DISTRIBU\IeC {\'I}DOS}{14}{section.17}
+\contentsline {section}{\numberline {4.3}ARQUITETURA DO SISTEMA AUTOMOTIVO}{15}{section.18}
+\contentsline {subsection}{\numberline {4.3.1}CATEGORIAS FUNCIONAIS DOS SISTEMAS EMBARCADOS AUTOMOTIVOS}{15}{subsection.19}
+\contentsline {subsection}{\numberline {4.3.2}\textit {ECU (ELETRONIC CONTROL UNIT)}}{19}{subsection.23}
+\contentsline {subsection}{\numberline {4.3.3}PROTOCOLOS AUTOMOTIVOS}{20}{subsection.26}
+\contentsline {subsubsection}{\numberline {4.3.3.1}PROTOCOLO \textit {CAN} \textit {(CONTROLLER AREA NETWORK)}}{21}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {4.3.3.2}PROTOCOLO SAE J1850}{23}{subsubsection.31}
+\contentsline {subsection}{\numberline {4.3.4}CONECTOR \textit {OBD-II (ONBOARD DIAGNOSTICS)}}{23}{subsection.33}
+\contentsline {section}{\numberline {4.4}ELM327}{25}{section.37}
+\contentsline {subsection}{\numberline {4.4.1}COMANDOS AT}{27}{subsection.40}
+\contentsline {subsection}{\numberline {4.4.2}COMANDOS \textit {OBD}}{27}{subsection.41}
+\contentsline {subsubsection}{\numberline {4.4.2.1}COMUNICA\IeC {\c C}\IeC {\~A}O COM O VE\IeC {\'I}CULO - PADR\IeC {\~O}ES DE SOLICITA\IeC {\c C}\IeC {\~A}O}{27}{subsubsection.42}
+\contentsline {section}{\numberline {4.5}\textit {RASPBERRY PI}}{28}{section.43}
+\contentsline {section}{\numberline {4.6}COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{29}{section.45}
+\contentsline {section}{\numberline {4.7}INTERNET DAS COISAS \textit {(INTERNET OF THINGS - IOT)}}{29}{section.46}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}METODOLOGIA}{31}{chapter.48}
+\contentsline {section}{\numberline {5.1}DESENVOLVIMENTO DO SOFTWARE DE LEITURA}{31}{section.49}
+\contentsline {subsection}{\numberline {5.1.1}ARQUITETURA DO SOFTWARE}{32}{subsection.51}
+\contentsline {section}{\numberline {5.2}CONFIGURA\IeC {\c C}\IeC {\~A}O DO \textit {RASPBERRY PI} E INSTALA\IeC {\c C}\IeC {\~A}O DO SOFTWARE}{35}{section.63}
+\contentsline {section}{\numberline {5.3}INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM SERVI\IeC {\c C}O DE COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{37}{section.67}
+\contentsline {subsection}{\numberline {5.3.1}INSTALA\IeC {\c C}\IeC {\~A}O E CONFIGURA\IeC {\c C}\IeC {\~A}O DA BASE DE DADOS NA NUVEM}{38}{subsection.68}
+\contentsline {subsection}{\numberline {5.3.2}INTEGRA\IeC {\c C}\IeC {\~A}O DO SOFTWARE COM A BASE DE DADOS}{38}{subsection.70}
+\contentsline {subsection}{\numberline {5.3.3}INSTALA\IeC {\c C}\IeC {\~A}O E CRIA\IeC {\c C}\IeC {\~A}O DO \textit {WEB SERVICE}}{41}{subsection.76}
+\contentsline {subsection}{\numberline {5.3.4}INSTALA\IeC {\c C}\IeC {\~A}O E CONFIGURA\IeC {\c C}\IeC {\~A}O DO SERVIDOR WEB E CRIA\IeC {\c C}\IeC {\~A}O DA P\IeC {\'A}GINA}{42}{subsection.78}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}TESTES E AVALIA\IeC {\c C}\IeC {\~A}O DOS RESULTADOS}{44}{chapter.82}
+\contentsline {section}{\numberline {6.1}TESTE DO SOFTWARE DE LEITURA}{44}{section.83}
+\contentsline {section}{\numberline {6.2}TESTE DE INTEGRA\IeC {\c C}\IeC {\~A}O DO SOFTWARE COM O \textit {RASPBERRY PI}}{45}{section.84}
+\contentsline {section}{\numberline {6.3}TESTES DE INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM A COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{45}{section.85}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}CONCLUS\IeC {\~O}ES}{48}{chapter.88}
+\contentsline {section}{\numberline {7.1}PROPOSTA PARA TRABALHOS FUTUROS}{48}{section.89}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}Ap\IeC {\^e}ndice A}{50}{chapter.91}
+\vspace {\cftbeforepartskip }

@@ -1,0 +1,118 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main-augusto.aux
+A level-1 auxiliary file: 1-pre-textuais/1-folhadeaprovacao.aux
+A level-1 auxiliary file: 1-pre-textuais/2-dedicatoria.aux
+A level-1 auxiliary file: 2-textuais/4-epigrafe.aux
+A level-1 auxiliary file: 2-textuais/resumo.aux
+A level-1 auxiliary file: 2-textuais/abstract.aux
+A level-1 auxiliary file: 2-textuais/introducao.aux
+A level-1 auxiliary file: 2-textuais/cap2.aux
+A level-1 auxiliary file: 2-textuais/cap3.aux
+A level-1 auxiliary file: 2-textuais/cap4.aux
+A level-1 auxiliary file: 2-textuais/cap5.aux
+A level-1 auxiliary file: 2-textuais/cap6.aux
+A level-1 auxiliary file: 2-textuais/cap7.aux
+The style file: abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: 2-textuais/bibliografia.bib
+Warning--entry type for "amazonebs" isn't style-file defined
+--line 117 of file 2-textuais/bibliografia.bib
+Warning--entry type for "amazonec2" isn't style-file defined
+--line 125 of file 2-textuais/bibliografia.bib
+Warning--entry type for "amazoncloudcomputing" isn't style-file defined
+--line 133 of file 2-textuais/bibliografia.bib
+Warning--entry type for "charette" isn't style-file defined
+--line 141 of file 2-textuais/bibliografia.bib
+Warning--entry type for "gill" isn't style-file defined
+--line 149 of file 2-textuais/bibliografia.bib
+Warning--entry type for "chede" isn't style-file defined
+--line 159 of file 2-textuais/bibliografia.bib
+Warning--entry type for "raspberrypifoundation" isn't style-file defined
+--line 167 of file 2-textuais/bibliografia.bib
+Warning--entry type for "long" isn't style-file defined
+--line 174 of file 2-textuais/bibliografia.bib
+Warning--entry type for "ashton" isn't style-file defined
+--line 182 of file 2-textuais/bibliografia.bib
+Warning--entry type for "microsoft" isn't style-file defined
+--line 190 of file 2-textuais/bibliografia.bib
+Warning--entry type for "mongodbwhatis" isn't style-file defined
+--line 198 of file 2-textuais/bibliografia.bib
+Warning--entry type for "mongodbjsonbson" isn't style-file defined
+--line 206 of file 2-textuais/bibliografia.bib
+Warning--entry type for "mongodbdatamodeling" isn't style-file defined
+--line 214 of file 2-textuais/bibliografia.bib
+Warning--entry type for "bluecove" isn't style-file defined
+--line 222 of file 2-textuais/bibliografia.bib
+Warning--entry type for "w3schools" isn't style-file defined
+--line 238 of file 2-textuais/bibliografia.bib
+Warning--entry type for "pawlan" isn't style-file defined
+--line 246 of file 2-textuais/bibliografia.bib
+Warning--entry type for "oracle" isn't style-file defined
+--line 254 of file 2-textuais/bibliografia.bib
+Warning--entry type for "medeirosdao" isn't style-file defined
+--line 262 of file 2-textuais/bibliografia.bib
+Warning--entry type for "medeirosmvc" isn't style-file defined
+--line 270 of file 2-textuais/bibliografia.bib
+Warning--entry type for "torvalds" isn't style-file defined
+--line 278 of file 2-textuais/bibliografia.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 42 entries,
+            6481 wiz_defined-function locations,
+            1333 strings with 14251 characters,
+and the built_in function-call counts, 59980 in all, are:
+= -- 8681
+> -- 658
+< -- 1233
++ -- 1508
+- -- 211
+* -- 2726
+:= -- 5857
+add.period$ -- 140
+call.type$ -- 46
+change.case$ -- 273
+chr.to.int$ -- 57
+cite$ -- 34
+duplicate$ -- 7689
+empty$ -- 2404
+format.name$ -- 972
+if$ -- 12750
+int.to.chr$ -- 10
+int.to.str$ -- 1
+missing$ -- 648
+newline$ -- 205
+num.names$ -- 170
+pop$ -- 943
+preamble$ -- 1
+purify$ -- 134
+quote$ -- 0
+skip$ -- 8299
+stack$ -- 1
+substring$ -- 1980
+swap$ -- 1590
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 231
+width$ -- 0
+write$ -- 503
+(There were 20 warnings)

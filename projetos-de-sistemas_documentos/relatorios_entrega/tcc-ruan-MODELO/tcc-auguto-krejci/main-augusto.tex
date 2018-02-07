@@ -1,0 +1,236 @@
+\documentclass[
+        12pt,
+        openany, %openright,			
+        oneside, %twoside,			%% twoside: para frente e verso ao imprimir
+        a4paper,			
+        english,			
+%	french,				%% Idioma adicional 
+%	spanish,			%% Idioma adicional 
+        brazil			        %% Idioma principal
+        abntfigtabnum     
+        ]{abntbibifspcampinas}
+
+\usepackage{lmodern}						
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		%% Para converter automaticamente acentos como digitados. Mude utf8 para latin1 se precisar. 
+                                        %% Permite digitar os acentos no teclado normalmente, sem comandos (\'e \`a , etc.).
+\usepackage[brazil]{babel}
+\usepackage{lastpage}	
+\usepackage{indentfirst}	
+\usepackage{graphicx}			
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{color}
+\usepackage[abnt-etal-list=3,abnt-etal-text=default,abnt-and-type=&,abnt-emphasize=bf,abnt-full-initials=yes,alf,bibjustif,abnt-cite-style=AUTHORYEAR]{abntcite}
+%\usepackage{abntex2cite}
+\usepackage{multirow}
+\usepackage{pbox}
+\usepackage{etex}
+\usepackage{mathptmx}
+\usepackage{times}
+\usepackage{pdfpages}
+
+\makeatletter
+\let\c@lofdepth\relax
+\let\c@lotdepth\relax
+\makeatother 
+\usepackage{subfigure}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\etal}{et al.}
+\newcommand{\fig}{Figura}
+\newcommand{\tab}{Tabela}
+%\usepackage{fancyhdr}
+%\fancypagestyle{plain}{%redefining plain pagestyle
+%\fancyhf %clear all headers and footers fields
+%\fancyhead[R]{\thepage} %prints the page number on the right side of the header
+%}
+
+\usepackage{scrpage2}
+\ifoot[]{}
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+
+\pagestyle{scrplain} 
+
+%% -----------------------------------------------------------------------------
+
+%% Obs.: Alguns acentos foram omitidos.
+
+\autor{RUAN LUIZ ALVES DA SILVA}
+\autorR{da Silva, Ruan Luiz Alves} %%Colocar o sobrenome do autor antes do primeiro nome do autor, separados por ,
+\titulo{APLICAÇÃO DA IOT EM SISTEMAS EMBARCADOS AUTOMOTIVOS PARA MONITORAMENTO E DETECÇÃO DE FALHAS} %%Por exemplo, Titulo da tese
+% \subtitulo{: subt\'itulo do trabalho}  %% Retirar o primeiro ``%'' desta linha se for utilizar subtitulo. Deixar os dois pontos antes, em ``: subt\'itulo'' . 
+\local{CAMPINAS}
+\data{2017} %%Alterar o ano se precisar
+\orientador[Orientador:]{Ricardo Barz Sovat} %%Se precisar, troque [Orientador:] por [Orientadora:]
+% \coorientador[Coorientador:]{Nome do coorientador } %% Retirar o primeiro ``%'' desta linha se tiver coorientador. Se precisar, troque por [Cooorientadora:]. 
+\instituicao{INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SÃO PAULO}
+\faculdade{CÂMPUS CAMPINAS} %%Alterar, dentro de chaves {}, se precisar.
+\objeto{Trabalho Final de Curso}  %%Dissertacao (Mestrado) %%Tese (Doutorado)
+\natureza{Trabalho Final de Curso submetido à banca examinadora constituída de acordo com o Artigo 9$^o$ do Capítulo IV das Normas de Trabalho Final de Curso estabelecidas pelo Colegiado do Curso de \insereprograma,como parte dos requisitos necessários para a obtenção do grau de Engenheiro Civil} 
+
+
+%% Abaixo, prencher com os dados da parte final da ficha catalografica
+
+\finalcatalog{1. Machine Learning 2. Recurrent Neural Network } %% Aqui fica % escrito a palavra ``T\'itulo'' mesmo, nao o do trabalho. Se tiver coorientador, os dados ficam depois dos dados 
+%% do orientador (II. Sobrenome, Nome do coorientador, coorient.) e antes de ``II. T\'itulo'', o qual passa a ``III. T\'itulo''.
+
+%% ---
+
+\setlength{\parindent}{1.3cm}
+
+\setlength{\parskip}{0.2cm}  
+
+\setlength\afterchapskip{12pt}  
+
+\linespread{1.3}
+
+%% Iniciar o documento
+\begin{document}
+
+\pagestyle{empty}
+
+
+%% ELEMENTOS PRE-TEXTUAIS
+
+%% Capa
+\inserecapa
+%% Contra Capa
+% \inserecontracapa
+
+%% Folha de rosto
+%\inserefolhaderosto
+
+%% Ficha Catalografica
+%\inserecatalog
+\includepdf[pages=1-]{Ficha_catalog.pdf}
+
+%% Folha de aprovacao
+\include{1-pre-textuais/1-folhadeaprovacao}
+
+% Dedicatoria (opicional)
+\include{1-pre-textuais/2-dedicatoria}
+
+
+%% Agradecimentos. OPCIONAL. CASO SEJA BOLSISTA, INSERIR OS DEVIDOS AGRADECIMENTOS.
+%\include{1-pre-textuais/3-agradecimentos}
+\include{2-textuais/4-epigrafe}
+\include{2-textuais/resumo}
+\include{2-textuais/abstract} 
+ 
+
+%% Seguindo o mesmo modelo acima, pode-se inserir resumos em outras linguas. 
+
+%% Lista de ilustracoes. OPCIONAL.
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+
+%% Lista de tabelas. OPCIONAL. Retire o ``%'' de cada das 3 linhas seguintes, caso queira.
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\thispagestyle{empty}
+\cleardoublepage
+
+
+%% Lista de abreviaturas. OPCIONAL
+%\begin{abreviaturas} %%ALTERAR OS EXEMPLOS ABAIXO, CONFORME A NECESSIDADE
+%\item[{abr.}]\emph{abril}%
+%\item[{adapt.}]\emph{adaptação} %
+%\end{abreviaturas}
+
+
+
+
+\begin{siglas} %%ALTERAR OS EXEMPLOS ABAIXO, CONFORME A NECESSIDADE
+\item[{API}]\emph{Application Programming Interface}%
+\item[{AWS}]\emph{Amazon Web Service}%\\
+\item[{CAN}]\emph{Controller Area Network}%
+\item[{CASAGRAS}]\emph{Coordination And Support Action for Global RFID-related Activities and Standardisation}%
+\item[{CPS}]\emph{Cyber-Physical Systems}%
+\item[{DAO}]\emph{Data Access Object}%
+\item[{DLC}]\emph{Diagnostic Link Connector}%
+\item[{DTC}]\emph{Diagnostic Trouble Codes}%\\
+\item[{EBS}]\emph{Elastic Block Store}%
+\item[{EC2}]\emph{Elastic Compute Cloud}%
+\item[{ECU}]\emph{Eletronic Control Unit}%
+\item[{HMI}]\emph{Human-Machine Interface}%
+\item[{IaaS}]\emph{Infrastructure as a Service}%
+\item[{IOT}]\emph{Internet Of Things}%
+\item[{JDK}]\emph{Java Development Kit}%
+\item[{JRE}]\emph{Java Runtime Environment}%
+\item[{LIN}]\emph{Local Interconnect Protocol}%
+\item[{MIL}]\emph{malfunction indicator lamp}%\\
+\item[{MOST}]\emph{Media Oriented Systems Transport}%
+\item[{MVC}]\emph{Model View Controller}%
+\item[{OBD}]\emph{OnBoard Diagnostics}%
+\item[{PaaS}]\emph{Platform as a Service}%
+\item[{PCM}]\emph{powertrain control module}%
+\item[{PID}]\emph{parameter identification}%
+\item[{PWM}]\emph{pulse width modulation}%
+\item[{SaaS}]\emph{Software as a Service}%
+\item[{SAE}]\emph{Society for Automotive Engineers}%
+\item[{SBC}]\emph{Single-Board Computer}%
+\item[{SOC}]\emph{System on a Chip}%
+\item[{TCM}]\emph{Transmission Control Module}%
+\item[{TCU}]\emph{Transmission Control Unit}%
+\item[{VAN}]\emph{Vehicle Area Network}%
+\item[{VPW}]\emph{variable pulse width}%
+\end{siglas}
+
+%% Lista de simbolos. OPCIONAL
+%\begin{simbolos} %%ALTERAR OS EXEMPLOS ABAIXO, CONFORME A NECESSIDADE
+% \item[$Zt$] altura de um elemento%
+%\item[$Rp$] altura máxima do pico%
+%\item[$Zp$] altura de pico%
+%\item[$Rt$] amplitude do perfil%
+%\item[$R^2$] coeficiente de determinação
+%\item[$L$] comprimento de amostragem%
+%\item[$Rms$] desvio quadrático médio%
+%\item[$Rku$] fator de achatamento ou curtose%
+%\item[$LM$] linha média%
+%\item[$Md$] mediana%
+%\item[$Rv$] profundidade máxima do vale%
+%\item[$Zv$] profundidade de vale%
+%\item[$Ra$] rugosidade média ou amplitude média%
+%\item[$MPD$] textura média do perfil%
+% \end{simbolos}
+
+\pagestyle{empty}
+
+%% Sumario
+\pdfbookmark[0]{\contentsname}{toc}
+\begin{KeepFromToc}
+\tableofcontents
+\end{KeepFromToc}
+\cleardoublepage
+%% ----------------------------------------------------------
+
+%% ELEMENTOS TEXTUAIS
+
+\textual
+%\pagestyle{plain}
+\pagestyle{scrplain} 
+\clearscrheadfoot            %<---
+\rohead[\pagemark]{\pagemark}%<---
+\setcounter{page}{11}
+\include{2-textuais/introducao}
+\include{2-textuais/cap2}
+\include{2-textuais/cap3}
+\include{2-textuais/cap4}
+\include{2-textuais/cap5}
+\include{2-textuais/cap6}
+\include{2-textuais/cap7}
+%% ----------------------------------------------------------
+\pagestyle{scrplain} 
+
+%% ELEMENTOS POS-TEXTUAIS
+\pagestyle{scrplain} 
+
+\postextual
+
+\bibliographystyle{abnt-alf}
+\bibliography{2-textuais/bibliografia}
+
+\end{document}

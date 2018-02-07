@@ -1,0 +1,44 @@
+\chapter{INTRODUÇÃO}\label{CAP:introducao}
+%\thispagestyle{empty}
+Nesta seção será abordado a contextualização e a motivação que levou a realização e desenvolvimento deste trabalho.
+\section{CONTEXTUALIZAÇÃO}
+Existem na atualidade diversos tipos e modelos de automóveis possuindo diversas tecnologias integradas a eles. Entretanto, nem sempre foi assim. No início da história automotiva, surgem os primeiros carros a manivela em meados de 1880 e logo após chegam os carros a combustão interna. Depois de um tempo surgiram os carros carburados e depois de um certo período, chegaram os carros com injeção eletrônica. É observado que a cada período que se passa, o automóvel ganha alguns itens e tecnologias novas com a finalidade de melhorar o desempenho, combinando baixo consumo e baixa emissão de poluentes. Independente do ano ou modelo do veículo, ou até mesmo a tecnologia adotada por ele, o desgaste natural das peças é comum a qualquer modelo de automóvel. Vale ressaltar que estes desgastes podem ser agravados dependendo da forma com que o motorista utiliza seu veículo. Independentemente da causa do desgaste, quando há algum problema, geralmente o automóvel passa a apresentar um comportamento fora do comum, o que indica uma possível falha. Quando esses comportamentos são emitidos na forma de ruídos, há uma certa facilidade na percepção de que algo está errado, e uma possível manutenção ou revisão deve ser feita. Porém, quando esses comportamentos não fazem emissão de nenhum sinal ou ruído aparente, existe uma certa dificuldade na percepção de algum eventual defeito.
+
+Os veículos que circulam atualmente possuem diversos sensores e controladores que fazem parte de um sistema embarcado automotivo. Esses sensores são responsáveis basicamente por coletar algumas informações do veículo e automatizar algum funcionamento específico do automóvel. Um exemplo típico é o controle de injeção de combustível, que é feito de forma eletrônica na maioria dos carros que trafegam pelas cidades e estradas. Ele evita o consumo excessivo de combustível durante um trajeto percorrido. Outra situação comum se encontra no painel de instruções, onde são mostradas algumas informações limitadas que são monitorados pelos sensores e exibidas ao condutor, como a rotação do motor, indicador de velocidade, temperatura do motor, entre outros. 
+
+Analisando os veículos atuais, nota-se que parte de seu funcionamento está deixando de ser apenas mecânico, e passando a ser controlado por sistemas eletrônicos. Estes sistemas, segundo \citeonline{smith}, podem ser considerados também como dispositivos informatizados por possuírem capacidade de processamento. Ele ainda reforça que a tecnologia presente nos automóveis está tendendo mais à complexidade e à conectividade. Essa tendência atrelada à conectividade ressaltada pelo autor vai ao encontro do conceito de Internet das Coisas \textit{(Internet of Things – IoT)}, dando potencialidade a estudos de aplicações explorando o tema. Segundo o projeto \textit{Coordination And Support Action for Global RFID-related Activities and Standardisation \cite{casagras}}, o conceito de Internet das Coisas se refere a uma infraestrutura de rede global capaz de interligar objetos físicos e virtuais através da exploração da capacidade de capturar de dados e de se comunicarem entre si.
+
+\section{MOTIVAÇÃO}
+Existe uma complexidade nos sistemas presentes nos automóveis, e isso se justifica com a evolução tecnológica e a informatização automotiva. Devido a este fator dominante, a percepção de algum eventual defeito em qualquer um desses conjuntos eletrônicos do veículo é uma tarefa complexa e dificilmente visível ao condutor.
+
+Baseado nestas informações, é importante explorar estes conceitos para entender a relação desses sistemas embarcados automotivos com a informática, e como a tecnologia da informação pode contribuir para alavancar o crescimento desta área, podendo proporcionar conhecimento amplo destes sistemas, desde a arquitetura de operação, comunicação e processamento de dados veiculares, a fim de facilitar o entendimento de possíveis defeitos ou anomalias eletrônicas, além de estudar propostas de monitoramento e diagnóstico que podem facilitar o entendimento destes sistemas.
+
+\section{DEFINIÇÃO DO PROBLEMA}
+Analisando os fatos apresentados, identifica-se que o condutor está cada vez mais distante de entender o funcionamento do automóvel e consequentemente seus eventuais problemas eletrônicos que estão sujeitos a apresentarem. Esse distanciamento é justificado parcialmente devido ao sistema apresentar alta complexidade, e também pelo fato dos problemas não emitirem sinais aparentes sinalizando algum defeito. Essa distância é aumentada à medida que o gerenciamento do automóvel vai se imergindo na informática, automatizando parte de seu funcionamento com o uso de sensores e sistemas embarcados.
+
+\section{ABORDAGEM PROPOSTA}
+Este trabalho propõe a exploração e estudo direcionado ao funcionamento da arquitetura e comunicação dos sistemas embarcados presentes nos automóveis. A partir deste estudo, o objetivo será implementar um software embarcado que será responsável por interagir com a rede veicular interna utilizando um computador de baixo custo, seguindo a tendência de uma aplicação para \textit{IoT}.
+
+\section{TRABALHOS RELACIONADOS}
+Foram pesquisados alguns trabalhos com propostas semelhantes a fim de entender algumas dificuldades enfrentadas e propor algumas melhorias. De todos os trabalhos coletados, foram analisadas três propostas relacionadas ao tema deste.
+
+A primeira obra analisada foi proposta por \citeonline{marques}, que apresentava o desenvolvimento de um sistema composto por hardware e software em tempo real para a comunicação com a rede \textit{CAN} dos sistemas automotivos. O trabalho é voltado para análise e diagnóstico destes sistemas veiculares.
+
+O segundo trabalho foi apresentado por \citeonline{fagundesetall}, que se propuseram a coletar os dados da interface \textit{OBD-II} e trata-los utilizando um microcontrolador, para assim poder enviar essas informações utilizando uma rede GSM. Estas informações seriam lidas através de um browser de internet em um computador.
+
+O terceiro trabalho foi proposto por \citeonline{staroski}, cujo objetivo é estudar a viabilidade de desenvolvimento de um protótipo de software embarcado em uma placa de \textit{Raspberry Pi} para monitorar os sensores presentes em um automóvel. Com este protótipo seria possível o monitoramento via web em tempo real do veículo.
+
+O trabalho apresentado por \citeonline{staroski} apresenta alguns pontos que podem ser melhorados e que serão explorados durante a elaboração desta proposta.
+
+
+%\section{ORGANIZAÇÃO DO TRABALHO}
+
+%O Capítulo \ref{CAP2} traz uma revisão de literatura, abordando a definição de alguns conceitos essenciais para viabilizar o entendimento do método e a descrição de estudos anteriores pertinentes ao tema.
+
+%O Capítulo  \ref{CAP3} apresenta os materiais e métodos utilizados neste trabalho, são descritas as especificações técnicas dos equipamentos utilizados, além da descrição dos ensaios realizados; 
+
+%O Capítulo  \ref{CAP4} apresenta os resultados dos métodos experimental e computacional e realiza uma comparação entre eles. São calculadas as variações entre os resultados como forma de verificar sua precisão; 
+
+%O Capítulo \ref{CAP5} traz as conclusões inferidas a partir dos resultados obtidos e analisa possibilidades de expansão deste tema em futuros trabalhos.
+
+

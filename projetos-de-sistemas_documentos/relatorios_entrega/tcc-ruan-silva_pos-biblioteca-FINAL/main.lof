@@ -1,0 +1,52 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o das cinco categorias funcionais.}}{18}{figure.21}
+\contentsline {figure}{\numberline {2}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do monitoramento de RPM e a comunica\IeC {\c c}\IeC {\~a}o entre as categorias.}}{20}{figure.22}
+\contentsline {figure}{\numberline {3}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da atua\IeC {\c c}\IeC {\~a}o dos sensores e atuadores.}}{20}{figure.23}
+\contentsline {figure}{\numberline {4}{\ignorespaces Foto de uma \textit {ECU}.}}{21}{figure.25}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama da comunica\IeC {\c c}\IeC {\~a}o entre \textit {ECU}, sensor e atuador.}}{22}{figure.26}
+\contentsline {figure}{\numberline {6}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de redes distintas interligadas.}}{23}{figure.29}
+\contentsline {figure}{\numberline {7}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de outros protocolos implementados no padr\IeC {\~a}o \textit {CAN}.}}{25}{figure.31}
+\contentsline {figure}{\numberline {8}{\ignorespaces Varia\IeC {\c c}\IeC {\~o}es do protocolo SAE J1850.}}{25}{figure.33}
+\contentsline {figure}{\numberline {9}{\ignorespaces Foto do conector \textit {OBD-II}.}}{26}{figure.35}
+\contentsline {figure}{\numberline {10}{\ignorespaces Foto da luz \textit {MIL} do painel.}}{27}{figure.36}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagrama representando a arquitetura da rede veicular.}}{27}{figure.37}
+\contentsline {figure}{\numberline {12}{\ignorespaces Foto do ELM327 \textit {Bluetooth}.}}{28}{figure.39}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama representando a intera\IeC {\c c}\IeC {\~a}o do ELM327 com a rede automotiva.}}{29}{figure.40}
+\contentsline {figure}{\numberline {14}{\ignorespaces Foto do \textit {Raspberry Pi} 3.}}{31}{figure.45}
+\contentsline {figure}{\numberline {15}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da intera\IeC {\c c}\IeC {\~a}o das 'coisas' dentro do conceito de \textit {IoT}.}}{33}{figure.48}
+\contentsline {figure}{\numberline {16}{\ignorespaces Imagem da tela de leitura prototipada.}}{34}{figure.51}
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de pacote exibindo a estrutura de pacotes do projeto com as respectivas classes.}}{35}{figure.53}
+\contentsline {figure}{\numberline {18}{\ignorespaces Foto da classe ELM327.}}{36}{figure.54}
+\contentsline {figure}{\numberline {19}{\ignorespaces Foto do m\IeC {\'e}todo \textit {disconnect} da classe ELM327.}}{36}{figure.55}
+\contentsline {figure}{\numberline {20}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readRpm} da classe ELM327.}}{36}{figure.56}
+\contentsline {figure}{\numberline {21}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readSpeed} da classe ELM327.}}{37}{figure.57}
+\contentsline {figure}{\numberline {22}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readFuelPressure} da classe ELM327.}}{37}{figure.58}
+\contentsline {figure}{\numberline {23}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readOilTemp} da classe ELM327.}}{37}{figure.59}
+\contentsline {figure}{\numberline {24}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readFindFuelType} da classe ELM327.}}{37}{figure.60}
+\contentsline {figure}{\numberline {25}{\ignorespaces Foto do m\IeC {\'e}todo \textit {readFuelLevel} da classe ELM327.}}{37}{figure.61}
+\contentsline {figure}{\numberline {26}{\ignorespaces Foto do m\IeC {\'e}todo \textit {clearBuffer} da classe ELM327.}}{38}{figure.62}
+\contentsline {figure}{\numberline {27}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da arquitetura \textit {MVC} do projeto.}}{38}{figure.63}
+\contentsline {figure}{\numberline {28}{\ignorespaces Foto do display do \textit {Raspberry Pi}.}}{39}{figure.65}
+\contentsline {figure}{\numberline {29}{\ignorespaces Porta GPIO do \textit {Raspberry Pi}.}}{39}{figure.66}
+\contentsline {figure}{\numberline {30}{\ignorespaces Software sendo executado no \textit {Raspberry Pi}.}}{40}{figure.67}
+\contentsline {figure}{\numberline {31}{\ignorespaces Foto da estrutura do banco de dados.}}{41}{figure.70}
+\contentsline {figure}{\numberline {32}{\ignorespaces Diagrama de pacote exibindo a nova estrutura de pacotes do projeto com as respectivas classes.}}{42}{figure.72}
+\contentsline {figure}{\numberline {33}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da arquitetura \textit {MVC} com o padr\IeC {\~a}o \textit {DAO} do projeto.}}{42}{figure.73}
+\contentsline {figure}{\numberline {34}{\ignorespaces Foto da classe \textit {ELM327ReadSensors}.}}{43}{figure.74}
+\contentsline {figure}{\numberline {35}{\ignorespaces Foto da classe \textit {DBConnection}.}}{43}{figure.75}
+\contentsline {figure}{\numberline {36}{\ignorespaces Foto da classe \textit {ELM327ReadSensorsDAO}.}}{44}{figure.76}
+\contentsline {figure}{\numberline {37}{\ignorespaces Foto do m\IeC {\'e}todo js respons\IeC {\'a}vel por responder a solicita\IeC {\c c}\IeC {\~o}es \textit {GET} na rota \textit {'/collection'}.}}{45}{figure.78}
+\contentsline {figure}{\numberline {38}{\ignorespaces Foto dos elementos de filtro da p\IeC {\'a}gina.}}{45}{figure.80}
+\contentsline {figure}{\numberline {39}{\ignorespaces Foto do m\IeC {\'e}todo \textit {JQuery} respons\IeC {\'a}vel pelo \textit {AJAX}.}}{46}{figure.81}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama representando a comunica\IeC {\c c}\IeC {\~a}o do sistema com a nuvem.}}{46}{figure.82}
+\contentsline {figure}{\numberline {41}{\ignorespaces Foto dos objetos \textit {JSON} disponibilizados pelo \textit {web service}.}}{49}{figure.87}
+\contentsline {figure}{\numberline {42}{\ignorespaces Foto da p\IeC {\'a}gina web estruturando em uma tabela os dados \textit {JSON}.}}{50}{figure.88}
+\contentsline {figure}{\numberline {43}{\ignorespaces Foto do m\IeC {\'e}todo \textit {getConnectionBluetooth} da classe \textit {BluetoothConnection}.}}{56}{figure.95}
+\contentsline {figure}{\numberline {44}{\ignorespaces Foto da Classe \textit {DiscoveryDevices} implementando a interface \textit {DiscoveryListener}.}}{57}{figure.96}
+\contentsline {figure}{\numberline {45}{\ignorespaces Foto do m\IeC {\'e}todo \textit {deviceDiscovered} da classe \textit {DiscoveryDevices}.}}{57}{figure.97}
+\contentsline {figure}{\numberline {46}{\ignorespaces Foto do m\IeC {\'e}todo \textit {inquiryCompleted} da classe \textit {DiscoveryDevices}.}}{58}{figure.98}
+\contentsline {figure}{\numberline {47}{\ignorespaces Foto do m\IeC {\'e}todo \textit {servicesDiscovered} da classe \textit {DiscoveryDevices}.}}{58}{figure.99}
+\contentsline {figure}{\numberline {48}{\ignorespaces Foto do m\IeC {\'e}todo \textit {serviceSearchCompleted} da classe \textit {DiscoveryDevices}.}}{58}{figure.100}
+\contentsline {figure}{\numberline {49}{\ignorespaces Foto do m\IeC {\'e}todo \textit {discovery} da classe \textit {DiscoveryDevices}.}}{59}{figure.101}
+\contentsline {figure}{\numberline {50}{\ignorespaces Foto da classe \textit {ConnectToDevice}.}}{59}{figure.102}
+\contentsline {figure}{\numberline {51}{\ignorespaces Foto do m\IeC {\'e}todo \textit {connectToDevice} da classe \textit {ConnectToDevice}.}}{60}{figure.103}

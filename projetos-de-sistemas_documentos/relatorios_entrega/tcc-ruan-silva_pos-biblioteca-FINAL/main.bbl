@@ -1,0 +1,266 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Amazon 2017]{amazonec2}
+\abntrefinfo{Amazon}{AMAZON}{2017a}
+{AMAZON. \textbf{{Amazon Web Service}. Amazon EC2}. 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/aws\-.amazon\-.com\-/pt\-/ec2\-/?nc2=h\underline{\ }m1$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Amazon 2017]{amazonebs}
+\abntrefinfo{Amazon}{AMAZON}{2017b}
+{AMAZON. \textbf{{Amazon Web Service}. Amazon Elastic Block Store:
+  Armazenamento em blocos persistente para o Amazon EC2}. 2017.
+Dispon{\'\i}vel em: $<$https:\-/\-/aws\-.amazon\-.com\-/pt\-/ebs\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Amazon 2017]{amazoncloudcomputing}
+\abntrefinfo{Amazon}{AMAZON}{2017c}
+{AMAZON. \textbf{{Amazon Web Service}. O que é a computação em nuvem?} 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/aws\-.amazon\-.com\-/pt\-/what-is-cloud-computing\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Ashton 2009]{ashton}
+\abntrefinfo{Ashton}{ASHTON}{2009}
+{ASHTON, Kevin. \textbf{{RFID Journal}. That 'Internet of Things' Thing}. 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.rfidjournal\-.com\-/articles\-/view?4986$>$}{http://www.rfidjournal.com/articles/view?4986}. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[BlueCove{ }Team 2008]{bluecove}
+\abntrefinfo{BlueCove{ }Team}{BLUECOVE{ }TEAM}{2008}
+{BLUECOVE{ }TEAM. \textbf{{BlueCove Team}. BlueCove}. 2008.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.bluecove\-.org\-/$>$}{http://www.bluecove.org/}. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[BlueCove{ }Team 2008]{bluecovedoc}
+\abntrefinfo{BlueCove{ }Team}{BlueCove{ }Team}{2008b}
+{BLUECOVE{ }TEAM. \textbf{{BlueCove Team}. bluecove 2.1.0 API Documentation}.
+  2008.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.bluecove\-.org\-/bluecove\-/apidocs\-/index\-.html$>$}{http://www.bluecove.org/bluecove/apidocs/index.html}. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Carro \& Wagner 2003]{carrowagner}
+\abntrefinfo{Carro \& Wagner}{CARRO; WAGNER}{2003}
+{CARRO, Luigi; WAGNER, Flávio~Rech. Sistemas computacionais embarcados.
+\textbf{Jornadas de atualização em informática. Campinas: UNICAMP}, 2003.}
+
+
+\bibitem[Casagras 2011]{casagras}
+\abntrefinfo{Casagras}{CASAGRAS}{2011}
+{CASAGRAS, RFID. The inclusive model for the internet of things report.
+\textbf{EU Project}, n. 216803, p. 16--23, 2011.}
+
+
+\bibitem[Charette 2009]{charette}
+\abntrefinfo{Charette}{CHARETTE}{2009}
+{CHARETTE, Robert~N. \textbf{{IEEE Spectrum}. This Car Runs on Code}. 2009.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/spectrum\-.ieee\-.org\-/transportation\-/systems\-/this-car-runs-on-code$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Chede 2012]{chede}
+\abntrefinfo{Chede}{CHEDE}{2012}
+{CHEDE, Cezar. \textbf{{IBM Developer Works}. Você realmente sabe o que é Big
+  Data?} 2012.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.ibm\-.com\-/developerworks\-/community\-/blogs\-/ctaurion\-/entry\-/voce\underline{\
+  }realmente\underline{\ }sabe\underline{\ }o\underline{\ }que\underline{\
+  }e\underline{\ }big\underline{\ }data?lang=en$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Deepak, Dan \& John 2003]{deepak}
+\abntrefinfo{Deepak, Dan \& John}{DEEPAK; DAN; JOHN}{2003}
+{DEEPAK, A.; DAN, M.; JOHN, C. \textbf{Core J2EE Patterns: Best Practices and
+  Design Strategies}. 2. ed. [S.l.]: Prentice Hall, 2003.}
+
+
+\bibitem[Dias 2012]{carrosinfoco}
+\abntrefinfo{Dias}{DIAS}{2012}
+{DIAS, Anderson. \textbf{{Carros Infoco}. Injeção Eletrônica: UCE(ECU) – Unidade de comando eletrônico
+}. 2012.
+Dispon{\'\i}vel em:
+  $<$http://www.carrosinfoco.com.br/carros/2012/07/injecao-eletronica-uceecu-unidade-de-comando-eletronico/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Dias 2016]{dias}
+\abntrefinfo{Dias}{DIAS}{2016}
+{DIAS, Renata Rampim de~Freitas. \textbf{Internet das Coisas sem mistérios:
+  Uma nova inteligência para os negócios}. 1. ed. [S.l.]: São Paulo:
+  Netpress Books, 2016. 127~p.}
+
+
+\bibitem[ELM{ }Eletronics 2012]{elmeletronics}
+\abntrefinfo{ELM{ }Eletronics}{ELM{ }ELETRONICS}{2012}
+{ELM{ }ELETRONICS. \textbf{ELM327: OBD to RS232 Interpreter}.
+1. ed. [S.l.], 2012. 76~p.}
+
+
+\bibitem[Fagundes, Silva \& Assis 2015]{fagundesetall}
+\abntrefinfo{Fagundes, Silva \& Assis}{FAGUNDES; SILVA; ASSIS}{2015}
+{FAGUNDES, Felipe Augusto~Vieira; SILVA, Gustavo Luiz~da; ASSIS, Marco
+  Aurélio~Scomparim. \textbf{{Sistema de monitoramento automotivo remoto}}.
+  2015.
+Monografia (Tecnologia em Eletrônica Automotiva), FATEC Santo André
+  (Faculdade de Tecnologia de Santo André), Santo André, Brasil.}
+
+
+\bibitem[Gill 2009]{gill}
+\abntrefinfo{Gill}{GILL}{2009}
+{GILL, Hellen. \textbf{{National Science Foundation}. Cyber-Physical Systems
+  (CPS)}. National Science Foundation, 2009.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.nsf\-.gov\-/pubs\-/2008\-/nsf08611\-/nsf08611\-.htm$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Lee \& Seshia 2017]{leeseshia}
+\abntrefinfo{Lee \& Seshia}{LEE; SESHIA}{2017}
+{LEE, Edward~Ashford; SESHIA, Sanjit~Arunkumar. \textbf{Introduction to
+  Embedded Systems: A cyber-physical systems approach}. 2. ed. [S.l.]: MIT
+  Press, 2017. 585~p.}
+
+
+\bibitem[Long 2015]{long}
+\abntrefinfo{Long}{LONG}{2015}
+{LONG, Simon. \textbf{{Raspberry Pi Foundation}. Jessie is here}. 2015.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.raspberrypi\-.org\-/blog\-/raspbian-jessie-is-here\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Marques 2004]{marques}
+\abntrefinfo{Marques}{MARQUES}{2004}
+{MARQUES, Marco~Antonio. \textbf{{CAN Automotivo: Sistema de Monitoramento}}.
+  2004.
+Dissertação (Mestrado em Ciências em Engenharia Elétrica na área de
+  Concentração Automação e Sistemas Elétricos Industriais), UNIFEI
+  (Universidade Federal de Itajubá), Itajubá, Brasil.}
+
+
+\bibitem[Medeiros 2013]{medeirosmvc}
+\abntrefinfo{Medeiros}{MEDEIROS}{2013}
+{MEDEIROS, Higor. \textbf{{DevMedia}. Introdução ao Padrão MVC}. 2013.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.devmedia\-.com\-.br\-/introducao-ao-padrao-mvc\-/29308$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Medeiros 2016]{medeirosdao}
+\abntrefinfo{Medeiros}{MEDEIROS}{2016}
+{MEDEIROS, Higor. \textbf{{DevMedia}. Implementando o Data Access Object no
+  Java EE}. 2016.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.devmedia\-.com\-.br\-/implementando-o-data-access-object-no-java-ee\-/33339$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Microsoft 2017]{microsoft}
+\abntrefinfo{Microsoft}{MICROSOFT}{2017}
+{MICROSOFT. \textbf{{Microsoft Azure}. O que é computação em nuvem?} 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/azure\-.microsoft\-.com\-/pt-br\-/overview\-/what-is-cloud-computing\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[MongoDB 2008]{mongodbdatamodeling}
+\abntrefinfo{MongoDB}{MONGODB}{2008}
+{MONGODB. \textbf{{MongoDB}. Data Modeling Introduction}. 2008.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/docs\-.mongodb\-.com\-/manual\-/core\-/data-modeling-introduction\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[MongoDB 2017]{mongodbjsonbson}
+\abntrefinfo{MongoDB}{MONGODB}{2017a}
+{MONGODB. \textbf{{MongoDB}. JSON and BSON}. 2017.
+Dispon{\'\i}vel em: $<$https:\-/\-/www\-.mongodb\-.com\-/json-and-bson$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[MongoDB 2017]{mongodbwhatis}
+\abntrefinfo{MongoDB}{MONGODB}{2017b}
+{MONGODB. \textbf{{MongoDB}. What is MongoDB?} 2017.
+Dispon{\'\i}vel em: $<$https:\-/\-/www\-.mongodb\-.com\-/what-is-mongodb$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Navet \& Simonot-Lion 2008]{navetsimonotlion}
+\abntrefinfo{Navet \& Simonot-Lion}{NAVET; SIMONOT-LION}{2008}
+{NAVET, Nicolas; SIMONOT-LION, Françoise. \textbf{Automotive Embedded Systems
+  Handbook}. [S.l.]: CRC press, 2008. 490~p.}
+
+
+\bibitem[Oliveira 2013]{oliveira}
+\abntrefinfo{Oliveira}{OLIVEIRA}{2013}
+{OLIVEIRA, Ricardo Merces~de. \textbf{Raspberry Pi: Conceito \& Prática}.
+  [S.l.]: Rio de Janeiro: Editora Ciência Moderna Ltda., 2013.}
+
+
+\bibitem[Oracle 2017]{oracle}
+\abntrefinfo{Oracle}{ORACLE}{2017}
+{ORACLE. \textbf{{Oracle and/or its affiliates}. Swing (Java™ Foundation
+  Classes)}. 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/docs\-.oracle\-.com\-/javase\-/7\-/docs\-/technotes\-/guides\-/swing\-/index\-.html$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Pawlan 2013]{pawlan}
+\abntrefinfo{Pawlan}{PAWLAN}{2013}
+{PAWLAN, Monica. \textbf{{Oracle and/or its affiliates}. What Is JavaFX?} 2013.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/docs\-.oracle\-.com\-/javafx\-/2\-/overview\-/jfxpub-overview\-.htm$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Raspberry{ }Pi{ }Foundation]{raspberrypifoundation}
+\abntrefinfo{Raspberry{ }Pi{ }Foundation}{RASPBERRY{ }PI{ }FOUNDATION}{}
+{RASPBERRY{ }PI{ }FOUNDATION. \textbf{{Raspberry Pi Foundation}. NOOBS}.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.raspberrypi\-.org\-/downloads\-/noobs\-/$>$. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[Richardson \& Wallace 2013]{richardsonwallace}
+\abntrefinfo{Richardson \& Wallace}{RICHARDSON; WALLACE}{2013}
+{RICHARDSON, Matt; WALLACE, Shawn. \textbf{Getting Started with Raspberry Pi}.
+  1. ed. [S.l.]: Sebastopol, Califórnia, EUA: O’Reilly Media, 2013. 180~p.}
+
+
+\bibitem[Smith 2016]{smith}
+\abntrefinfo{Smith}{SMITH}{2016}
+{SMITH, Craig. \textbf{The car hacker's handbook: A guide for the penetration
+  tester}. 1. ed. [S.l.]: San Francisco, Califórnia, EUA: No Starch Press,
+  2016. 304~p.}
+
+
+\bibitem[Staroski 2016]{staroski}
+\abntrefinfo{Staroski}{STAROSKI}{2016}
+{STAROSKI, Ricardo~Artur. \textbf{{OBD-JRP: Monitoramento veicular com Java e
+  Raspberry Pi.}} 2016.
+Monografia (Bacharel em Ciência da Computação), Universidade Regional de
+  Blumenau, Blumenau, Brasil.}
+
+
+\bibitem[Tanenbaum 2007]{tanenbaum}
+\abntrefinfo{Tanenbaum}{TANENBAUM}{2007}
+{TANENBAUM, Andrew~S. \textbf{Sistemas Distribuídos: Princípios e
+  paradígmas}. 2. ed. [S.l.]: São Paulo: Pearson Prentice Hall, 2007. 402~p.}
+
+
+\bibitem[Torvalds 2012]{torvalds}
+\abntrefinfo{Torvalds}{TORVALDS}{2012}
+{TORVALDS, Linus. \textbf{Linus Torvalds: Linux succeeded thanks to selfishness
+  and trust. {Entrevista}}. BBC NEWS, 2012.
+Entrevista concedida a Leo Kelion (Repórter de Tecnologia).
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.bbc\-.com\-/news\-/technology-18419231$>$}{http://www.bbc.com/news/technology-18419231}. Acesso em: 07 fev. 2018.}
+
+
+\bibitem[W3Schools 2017]{w3schools}
+\abntrefinfo{W3Schools}{W3SCHOOLS}{2017}
+{W3SCHOOLS. \textbf{{W3Schools}. Node.js Introduction}. 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.w3schools\-.com\-/nodejs\-/nodejs\underline{\
+  }intro\-.asp$>$. Acesso em: 07 fev. 2018.}
+
+
+\end{thebibliography}

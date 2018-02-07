@@ -1,0 +1,60 @@
+\changetocdepth {4}
+\vspace {\cftbeforepartskip }
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{11}{chapter.7}
+\contentsline {section}{\numberline {1.1}CONTEXTUALIZA\IeC {\c C}\IeC {\~A}O}{11}{section.8}
+\contentsline {section}{\numberline {1.2}MOTIVA\IeC {\c C}\IeC {\~A}O}{12}{section.9}
+\contentsline {section}{\numberline {1.3}DEFINI\IeC {\c C}\IeC {\~A}O DO PROBLEMA}{12}{section.10}
+\contentsline {section}{\numberline {1.4}ABORDAGEM PROPOSTA}{12}{section.11}
+\contentsline {section}{\numberline {1.5}TRABALHOS RELACIONADOS}{13}{section.12}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}JUSTIFICATIVA}{14}{chapter.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}OBJETIVOS}{15}{chapter.14}
+\contentsline {section}{\numberline {3.1}OBJETIVOS ESPEC\IeC {\'I}FICOS}{15}{section.15}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}{16}{chapter.16}
+\contentsline {section}{\numberline {4.1}SISTEMAS E SOFTWARE EMBARCADOS}{16}{section.17}
+\contentsline {section}{\numberline {4.2}SISTEMAS DISTRIBU\IeC {\'I}DOS}{16}{section.18}
+\contentsline {section}{\numberline {4.3}ARQUITETURA DO SISTEMA AUTOMOTIVO}{17}{section.19}
+\contentsline {subsection}{\numberline {4.3.1}\textbf {Categorias funcionais dos sistemas embarcados automotivos}}{17}{subsection.20}
+\contentsline {subsection}{\numberline {4.3.2}\textbf {\textit {ECU (Eletronic Control Unit)}}}{21}{subsection.24}
+\contentsline {subsection}{\numberline {4.3.3}\textbf {Protocolos automotivos}}{22}{subsection.27}
+\contentsline {subsubsection}{\numberline {4.3.3.1}\relax $\@@underline {\hbox {\textbf {Protocolo \textit {CAN} \textit {(Controller Area Network)}}}}\mathsurround \z@ $\relax }{24}{subsubsection.30}
+\contentsline {subsubsection}{\numberline {4.3.3.2}\relax $\@@underline {\hbox {\textbf {Protocolo SAE J1850}}}\mathsurround \z@ $\relax }{25}{subsubsection.32}
+\contentsline {subsection}{\numberline {4.3.4}\textbf {Conector \textit {OBD-II (OnBoard Diagnostics)}}}{26}{subsection.34}
+\contentsline {section}{\numberline {4.4}ELM327}{27}{section.38}
+\contentsline {subsection}{\numberline {4.4.1}\textbf {Comandos AT}}{29}{subsection.41}
+\contentsline {subsection}{\numberline {4.4.2}\textbf {Comandos \textit {OBD}}}{29}{subsection.42}
+\contentsline {subsubsection}{\numberline {4.4.2.1}\relax $\@@underline {\hbox {\textbf {Comunica\IeC {\c c}\IeC {\~a}o com o ve\IeC {\'\i }culo - padr\IeC {\~o}es de solicita\IeC {\c c}\IeC {\~a}o}}}\mathsurround \z@ $\relax }{30}{subsubsection.43}
+\contentsline {section}{\numberline {4.5}\textit {RASPBERRY PI}}{30}{section.44}
+\contentsline {section}{\numberline {4.6}COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{31}{section.46}
+\contentsline {section}{\numberline {4.7}INTERNET DAS COISAS \textit {(INTERNET OF THINGS - IOT)}}{32}{section.47}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}METODOLOGIA}{34}{chapter.49}
+\contentsline {section}{\numberline {5.1}DESENVOLVIMENTO DO SOFTWARE DE LEITURA}{34}{section.50}
+\contentsline {subsection}{\numberline {5.1.1}\textbf {Arquitetura do software}}{35}{subsection.52}
+\contentsline {section}{\numberline {5.2}CONFIGURA\IeC {\c C}\IeC {\~A}O DO \textit {RASPBERRY PI} E INSTALA\IeC {\c C}\IeC {\~A}O DO SOFTWARE}{38}{section.64}
+\contentsline {section}{\numberline {5.3}INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM SERVI\IeC {\c C}O DE COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{40}{section.68}
+\contentsline {subsection}{\numberline {5.3.1}\textbf {Instala\IeC {\c c}\IeC {\~a}o e configura\IeC {\c c}\IeC {\~a}o da base de dados na nuvem}}{41}{subsection.69}
+\contentsline {subsection}{\numberline {5.3.2}\textbf {Integra\IeC {\c c}\IeC {\~a}o do software com a base de dados}}{41}{subsection.71}
+\contentsline {subsection}{\numberline {5.3.3}\textbf {Instala\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o do \textit {web service}}}{44}{subsection.77}
+\contentsline {subsection}{\numberline {5.3.4}\textbf {Instala\IeC {\c c}\IeC {\~a}o e configura\IeC {\c c}\IeC {\~a}o do servidor web e cria\IeC {\c c}\IeC {\~a}o da p\IeC {\'a}gina}}{45}{subsection.79}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}TESTES E AVALIA\IeC {\c C}\IeC {\~A}O DOS RESULTADOS}{47}{chapter.83}
+\contentsline {section}{\numberline {6.1}TESTE DO SOFTWARE DE LEITURA}{47}{section.84}
+\contentsline {section}{\numberline {6.2}TESTE DE INTEGRA\IeC {\c C}\IeC {\~A}O DO SOFTWARE COM O \textit {RASPBERRY PI}}{48}{section.85}
+\contentsline {section}{\numberline {6.3}TESTES DE INTEGRA\IeC {\c C}\IeC {\~A}O DA APLICA\IeC {\c C}\IeC {\~A}O COM A COMPUTA\IeC {\c C}\IeC {\~A}O EM NUVEM}{48}{section.86}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}CONCLUS\IeC {\~O}ES}{51}{chapter.89}
+\contentsline {section}{\numberline {7.1}PROPOSTA PARA TRABALHOS FUTUROS}{51}{section.90}
+\vspace {\cftbeforepartskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\bfseries REFER\^ENCIAS}{53}{section*.93}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {appendix}{\chapternumberline {A}Ap\IeC {\^e}ndice}{56}{appendix.94}
